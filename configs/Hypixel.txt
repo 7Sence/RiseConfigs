@@ -25,11 +25,11 @@ BooleanSetting_Sprint_Only In Air_false
 Toggle_Sneak_false
 ModeSetting_Sneak_Mode_Always
 Toggle_Fly_false
-ModeSetting_Fly_Fly Mode_Vanilla
+ModeSetting_Fly_Fly Mode_Hypixel
 ModeSetting_Fly_Mode_Stable
 NumberSetting_Fly_Mode_1.0
 BooleanSetting_Fly_Auto Rebow_false
-NumberSetting_Fly_Fly Speed_1.6
+NumberSetting_Fly_Fly Speed_1.8
 NumberSetting_Fly_Verus Speed_1.0
 NumberSetting_Fly_Up Amount_8.0
 NumberSetting_Fly_H Boost first tick_0.4
@@ -46,6 +46,7 @@ BooleanSetting_Fly_Smooth Camera_false
 NumberSetting_Fly_View Bobbing_0.0
 BooleanSetting_Fly_GroundSpoof_false
 BooleanSetting_Fly_Spammable_false
+BooleanSetting_Fly_Damage_false
 BooleanSetting_Fly_Sigma Fast Fly_false
 NumberSetting_Fly_Speed_3.0
 NumberSetting_Fly_Friction Divider_170.0
@@ -95,7 +96,7 @@ NumberSetting_Speed_How Often_22.805
 NumberSetting_Speed_Distance_62.39
 BooleanSetting_Speed_Disable on flag_true
 BooleanSetting_Speed_Stop on Disable_true
-BooleanSetting_Speed_Timer Option_true
+NumberSetting_Speed_Hypixel Timer_1.2
 NumberSetting_Speed_Mmc Speed_1.0
 Toggle_No0.03_false
 Toggle_Strafe_true
@@ -113,16 +114,16 @@ NumberSetting_PathTeleport_Ticks After Respawn_1.0
 NumberSetting_PathTeleport_Ticks After Teleport_1.0
 Toggle_LongJump_false
 ModeSetting_LongJump_Mode_Hypixel
-BooleanSetting_LongJump_Smooth Camera_false
+BooleanSetting_LongJump_Smooth Camera_true
 BooleanSetting_LongJump_Auto Disable_false
 NumberSetting_LongJump_On Ground Speed_0.4
 NumberSetting_LongJump_Off Ground Speed_1.4
 NumberSetting_LongJump_Timer_1.1
 NumberSetting_LongJump_View Bobbing_0.053000000000000005
 Toggle_InvMove_true
-NumberSetting_InvMove_Slow Down_1.0
+NumberSetting_InvMove_Slow Down_0.5
 BooleanSetting_InvMove_Slow on click_false
-BooleanSetting_InvMove_Legit_false
+BooleanSetting_InvMove_Packet_false
 Toggle_Step_false
 ModeSetting_Step_Mode_Hypixel
 NumberSetting_Step_Height_1.5
@@ -133,11 +134,11 @@ ModeSetting_Phase_Teleport Mode_Player
 ModeSetting_Phase_Direction_Up
 BooleanSetting_Phase_Sneak Only_true
 Toggle_Blink_false
-BooleanSetting_Blink_AllPackets_false
+BooleanSetting_Blink_All Packets_true
 BooleanSetting_Blink_Pulse_true
 NumberSetting_Blink_Pulse Delay_4.0
 Toggle_Spider_false
-ModeSetting_Spider_Mode_Jump
+ModeSetting_Spider_Mode_Normal
 NumberSetting_Spider_Speed_0.2
 Toggle_ClickTP_false
 ModeSetting_ClickTP_Mode_Karhu
@@ -154,7 +155,7 @@ Toggle_AutoHead_false
 NumberSetting_AutoHead_Health_16.0
 NumberSetting_AutoHead_Min Delay_300.0
 NumberSetting_AutoHead_Max Delay_500.0
-Toggle_Aura_false
+Toggle_Aura_true
 ModeSetting_Aura_Mode_Single
 ModeSetting_Aura_Rotation Mode_Smooth
 ModeSetting_Aura_Block Mode_Hypixel
@@ -178,6 +179,7 @@ NumberSetting_Aura_Sin Speed_180.0
 BooleanSetting_Aura_Pitch Fix_false
 NumberSetting_Aura_Min Pitch Fix_3.0
 NumberSetting_Aura_Max Pitch Fix_9.0
+NumberSetting_Aura_Derp Speed_30.0
 BooleanSetting_Aura_Raytrace_false
 BooleanSetting_Aura_Realistic Swings_false
 BooleanSetting_Aura_Through Walls_true
@@ -198,7 +200,7 @@ BooleanSetting_Aura_Disable On World Change_true
 BooleanSetting_Aura_Attack with Scaffold_false
 BooleanSetting_Aura_Attack in Interfaces_true
 Toggle_TPAura_false
-NumberSetting_TPAura_CPS_1.0
+NumberSetting_TPAura_CPS_2.0
 NumberSetting_TPAura_Range_54.5
 NumberSetting_TPAura_Max Targets_1.0
 NumberSetting_TPAura_Timer_1.0
@@ -247,16 +249,11 @@ BooleanSetting_FightBot_Target Strafe_true
 BooleanSetting_FightBot_Auto Block_true
 BooleanSetting_FightBot_Auto GG_true
 Toggle_Antibot_false
-Toggle_WTap_true
+Toggle_WTap_false
 BooleanSetting_WTap_Legit_false
 Toggle_Criticals_false
 ModeSetting_Criticals_Mode_Packet
 NumberSetting_Criticals_Delay_450.00001005828403
-Toggle_AutoPot_true
-NumberSetting_AutoPot_Health_15.0
-BooleanSetting_AutoPot_Randomise Rotations_true
-BooleanSetting_AutoPot_Extra Packet_false
-BooleanSetting_AutoPot_Jump_false
 Toggle_ComboOneHit_false
 NumberSetting_ComboOneHit_Packets_0.0
 Toggle_Regen_false
@@ -269,23 +266,12 @@ BooleanSetting_Derp_Headless_false
 BooleanSetting_Derp_Random_false
 NumberSetting_Derp_Constant Speed_92.5
 BooleanSetting_Derp_Twerk_false
-Toggle_InvManager_false
-NumberSetting_InvManager_Min Delay_5.9
-NumberSetting_InvManager_Max Delay_16.8
-NumberSetting_InvManager_Start Delay_4.5
-NumberSetting_InvManager_Maximum Block Stacks_4.0
-BooleanSetting_InvManager_Sort_true
-BooleanSetting_InvManager_Auto Armor_true
-BooleanSetting_InvManager_Random_true
-BooleanSetting_InvManager_Open Inv_false
-BooleanSetting_InvManager_Keep Armor_false
-BooleanSetting_InvManager_Only When Standing Still_false
 Toggle_ChestAura_false
 NumberSetting_ChestAura_Range_5.0
-Toggle_Stealer_false
-NumberSetting_Stealer_Min Delay_10.0
-NumberSetting_Stealer_Max Delay_30.0
-NumberSetting_Stealer_Start Delay_25.0
+Toggle_Stealer_true
+NumberSetting_Stealer_Min Delay_50.00000111758712
+NumberSetting_Stealer_Max Delay_100.00000223517424
+NumberSetting_Stealer_Start Delay_100.00000223517424
 BooleanSetting_Stealer_Auto Close_true
 BooleanSetting_Stealer_Hide Gui_true
 BooleanSetting_Stealer_Move head in chest_true
@@ -302,7 +288,7 @@ ModeSetting_NoVoid_Mode_Position
 NumberSetting_NoVoid_Fall Distance_3.0
 BooleanSetting_NoVoid_Void Check_true
 BooleanSetting_NoVoid_Show Notifications_false
-Toggle_NoFall_false
+Toggle_NoFall_true
 ModeSetting_NoFall_Mode_Hypixel
 BooleanSetting_NoFall_Offset_true
 Toggle_Scaffold_false
@@ -328,6 +314,17 @@ BooleanSetting_Scaffold_Ignore Speed_true
 BooleanSetting_Scaffold_Swing_false
 Toggle_FastBreak_true
 NumberSetting_FastBreak_Speed_0.3
+Toggle_Manager_true
+ModeSetting_Manager_Mode_None
+NumberSetting_Manager_Min Delay_50.00000111758712
+NumberSetting_Manager_Max Delay_100.00000223517424
+BooleanSetting_Manager_Throw Useless Items_true
+BooleanSetting_Manager_Equip Best Gear_true
+NumberSetting_Manager_Sword Slot_1.0
+NumberSetting_Manager_Pickaxe Slot_6.0
+NumberSetting_Manager_Axe Slot_10.0
+NumberSetting_Manager_Shovel Slot_10.0
+NumberSetting_Manager_Block Slot_2.0
 Toggle_LegitFightBot_false
 BooleanSetting_LegitFightBot_Players_true
 BooleanSetting_LegitFightBot_Non Players_true
@@ -366,7 +363,7 @@ BooleanSetting_Disabler_Hypixel Slime_false
 BooleanSetting_Disabler_Dynamic PvP_false
 BooleanSetting_Disabler_Ghostly Reach_false
 BooleanSetting_Disabler_Ghostly_false
-BooleanSetting_Disabler_Hide Old Disablers_true
+BooleanSetting_Disabler_Hide Old Disablers_false
 BooleanSetting_Disabler_Verus Old_false
 BooleanSetting_Disabler_Verus Combat_false
 BooleanSetting_Disabler_Latest Verus_false
@@ -388,7 +385,7 @@ BooleanSetting_Disabler_PacketResourcePacketStatus_false
 Toggle_Plugins_false
 Toggle_AutoAuthme_false
 Toggle_NoRot_false
-ModeSetting_NoRot_Mode_Legit
+ModeSetting_NoRot_Mode_Vanilla
 Toggle_Insults_false
 ModeSetting_Insults_Mode_Normal
 BooleanSetting_Insults_Chat Bypass_false
@@ -427,7 +424,7 @@ BooleanSetting_PopOutAnimation_ClickGui_true
 BooleanSetting_PopOutAnimation_Inventories_true
 NumberSetting_PopOutAnimation_Starting Size_0.1
 NumberSetting_PopOutAnimation_Speed_0.1
-Toggle_ChinaHat_true
+Toggle_ChinaHat_false
 ModeSetting_ChinaHat_Quality_Normal
 BooleanSetting_ChinaHat_Rainbow_false
 BooleanSetting_ChinaHat_Show in First Person_false
@@ -451,15 +448,15 @@ Toggle_ESP_false
 BooleanSetting_ESP_Tecnio's floyd esp_false
 Toggle_Animations_true
 ModeSetting_Animations_Animation_1.7
-NumberSetting_Animations_Slow_12.9
+NumberSetting_Animations_Slow_11.6
 NumberSetting_Animations_X_0.0
 NumberSetting_Animations_Y_0.1
 NumberSetting_Animations_Z_0.0
-NumberSetting_Animations_Scale_0.9
+NumberSetting_Animations_Scale_1.0
 BooleanSetting_Animations_Smooth Swing_false
 BooleanSetting_Animations_Reset Position_false
 BooleanSetting_Animations_Always Show_false
-Toggle_Ambiance_false
+Toggle_Ambiance_true
 NumberSetting_Ambiance_Time_0.0
 NumberSetting_Ambiance_Time Speed_0.0
 Toggle_AttackEffects_true
@@ -489,14 +486,14 @@ Toggle_NoWeather_false
 Toggle_Freecam_false
 Toggle_Tracers_false
 Toggle_NameProtect_false
-Toggle_Streamer_false
+Toggle_Streamer_true
 Toggle_NoScoreboard_false
 Toggle_Breadcrumbs_false
 BooleanSetting_Breadcrumbs_Timeout_true
 NumberSetting_Breadcrumbs_Time_150.0
 Toggle_Radar_true
-NumberSetting_Radar_Radar X_0.0
-NumberSetting_Radar_Radar Y_19.0
+NumberSetting_Radar_Radar X_2.0
+NumberSetting_Radar_Radar Y_17.0
 Toggle_Blur_true
 BooleanSetting_Blur_Interfaces_true
 BooleanSetting_Blur_Keystrokes_true
@@ -519,3 +516,8 @@ BooleanSetting_MotionGraph_Show Average_false
 Toggle_NoAchievements_false
 Toggle_FloydESP_false
 Toggle_Health_false
+Toggle_AutoPot_true
+NumberSetting_AutoPot_Health_15.0
+BooleanSetting_AutoPot_Randomise Rotations_false
+BooleanSetting_AutoPot_Extra Packet_false
+BooleanSetting_AutoPot_Jump_false
