@@ -124,7 +124,7 @@ Toggle_InvMove_false
 NumberSetting_InvMove_Slow Down_1.0
 BooleanSetting_InvMove_Slow on click_false
 BooleanSetting_InvMove_Packet_false
-Toggle_Step_true
+Toggle_Step_false
 ModeSetting_Step_Mode_Hypixel
 NumberSetting_Step_Height_1.5
 Toggle_Phase_false
@@ -284,7 +284,7 @@ ModeSetting_FastEat_Mode_Normal
 NumberSetting_FastEat_Speed_14.0
 Toggle_NoVoid_true
 ModeSetting_NoVoid_Mode_Position
-NumberSetting_NoVoid_Fall Distance_5.0
+NumberSetting_NoVoid_Fall Distance_2.6
 BooleanSetting_NoVoid_Void Check_true
 BooleanSetting_NoVoid_Show Notifications_false
 Toggle_NoFall_false
@@ -507,9 +507,9 @@ BooleanSetting_Blur_Radar_true
 BooleanSetting_Blur_TabGui_true
 Toggle_ChestESP_false
 ModeSetting_ChestESP_Mode_2D
-Toggle_NoHurtCam_false
-Toggle_CameraClip_false
-Toggle_ItemPhysics_false
+Toggle_NoHurtCam_true
+Toggle_CameraClip_true
+Toggle_ItemPhysics_true
 Toggle_MotionGraph_false
 NumberSetting_MotionGraph_Vertices_100.0
 NumberSetting_MotionGraph_Width_140.0
