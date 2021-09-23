@@ -114,7 +114,7 @@ NumberSetting_PathTeleport_Ticks After Respawn_1.0
 NumberSetting_PathTeleport_Ticks After Teleport_1.0
 Toggle_LongJump_false
 ModeSetting_LongJump_Mode_Hypixel
-BooleanSetting_LongJump_Smooth Camera_true
+BooleanSetting_LongJump_Smooth Camera_false
 BooleanSetting_LongJump_Auto Disable_true
 NumberSetting_LongJump_On Ground Speed_0.4
 NumberSetting_LongJump_Off Ground Speed_1.4
@@ -148,7 +148,6 @@ NumberSetting_BoatJump_Vertical Motion_0.72
 NumberSetting_BoatJump_Horizontal Motion_1.16
 Toggle_BedWalker_false
 Toggle_BowFly_false
-Toggle_PathFinding_false
 Toggle_AutoGap_false
 NumberSetting_AutoGap_Health_10.0
 BooleanSetting_AutoGap_Switch Slots_true
@@ -158,7 +157,7 @@ NumberSetting_AutoHead_Min Delay_300.0
 NumberSetting_AutoHead_Max Delay_500.0
 Toggle_Aura_false
 ModeSetting_Aura_Mode_Single
-ModeSetting_Aura_Rotation Mode_Derp
+ModeSetting_Aura_Rotation Mode_Smooth
 ModeSetting_Aura_Block Mode_Hypixel
 ModeSetting_Aura_Sorting Mode_Hurttime
 NumberSetting_Aura_Range_5.0
@@ -203,14 +202,13 @@ BooleanSetting_Aura_Attack in Interfaces_true
 Toggle_TPAura_false
 NumberSetting_TPAura_CPS_2.0
 NumberSetting_TPAura_Range_54.5
-NumberSetting_TPAura_Max Targets_1.0
 NumberSetting_TPAura_Timer_1.0
 BooleanSetting_TPAura_Players_true
 BooleanSetting_TPAura_Non Players_false
 BooleanSetting_TPAura_Ignore Teammates_false
 BooleanSetting_TPAura_Invisibles_false
 BooleanSetting_TPAura_Attack Dead_false
-BooleanSetting_TPAura_Only Sword_false
+BooleanSetting_TPAura_Render_true
 Toggle_BackTrack_false
 NumberSetting_BackTrack_Amount_15.354999999999999
 Toggle_Velocity_true
@@ -269,7 +267,7 @@ NumberSetting_Derp_Constant Speed_92.5
 BooleanSetting_Derp_Twerk_false
 Toggle_ChestAura_false
 NumberSetting_ChestAura_Range_5.0
-Toggle_Stealer_true
+Toggle_Stealer_false
 NumberSetting_Stealer_Min Delay_100.00000223517424
 NumberSetting_Stealer_Max Delay_200.00000447034847
 NumberSetting_Stealer_Start Delay_100.00000223517424
@@ -317,10 +315,10 @@ BooleanSetting_Scaffold_Ignore Speed_true
 BooleanSetting_Scaffold_Swing_false
 Toggle_FastBreak_true
 NumberSetting_FastBreak_Speed_0.3
-Toggle_Manager_true
+Toggle_Manager_false
 ModeSetting_Manager_Mode_Open Inventory
 NumberSetting_Manager_Min Delay_50.00000111758712
-NumberSetting_Manager_Max Delay_200.00000447034847
+NumberSetting_Manager_Max Delay_250.00000558793556
 BooleanSetting_Manager_Throw Useless Items_true
 BooleanSetting_Manager_Equip Best Gear_true
 NumberSetting_Manager_Sword Slot_1.0
