@@ -29,7 +29,7 @@ ModeSetting_Fly_Fly Mode_Hypixel
 ModeSetting_Fly_Mode_Stable
 NumberSetting_Fly_Mode_1.0
 BooleanSetting_Fly_Auto Rebow_false
-NumberSetting_Fly_Fly Speed_2.0
+NumberSetting_Fly_Fly Speed_1.5
 NumberSetting_Fly_Verus Speed_1.0
 NumberSetting_Fly_Up Amount_8.0
 NumberSetting_Fly_H Boost first tick_0.4
@@ -46,7 +46,7 @@ BooleanSetting_Fly_Smooth Camera_false
 NumberSetting_Fly_View Bobbing_0.0
 BooleanSetting_Fly_GroundSpoof_false
 BooleanSetting_Fly_Spammable_false
-BooleanSetting_Fly_Damage_true
+BooleanSetting_Fly_Damage_false
 BooleanSetting_Fly_Sigma Fast Fly_false
 NumberSetting_Fly_Speed_3.0
 NumberSetting_Fly_Friction Divider_170.0
@@ -108,19 +108,18 @@ Toggle_NoSlow_true
 ModeSetting_NoSlow_Mode_NCP
 Toggle_LongJump_false
 ModeSetting_LongJump_Mode_Hypixel
-ModeSetting_LongJump_NCP Mode_Damage
-BooleanSetting_LongJump_Blink_true
-BooleanSetting_LongJump_Smooth Camera_true
+BooleanSetting_LongJump_Blink_false
+BooleanSetting_LongJump_Smooth Camera_false
 BooleanSetting_LongJump_Auto Disable_true
 NumberSetting_LongJump_On Ground Speed_0.4
 NumberSetting_LongJump_Off Ground Speed_1.4
-NumberSetting_LongJump_Timer_2.0
+NumberSetting_LongJump_Timer_1.0
 NumberSetting_LongJump_View Bobbing_0.0
 Toggle_InvMove_true
 NumberSetting_InvMove_Slow Down_1.0
 BooleanSetting_InvMove_Slow on click_false
 BooleanSetting_InvMove_Packet_false
-Toggle_Step_true
+Toggle_Step_false
 ModeSetting_Step_Mode_Hypixel
 NumberSetting_Step_Height_1.5
 Toggle_Phase_true
@@ -129,8 +128,7 @@ NumberSetting_Phase_Fly Speed_1.0
 ModeSetting_Phase_Hypixel Mode_Auto
 ModeSetting_Phase_Teleport Mode_Player
 ModeSetting_Phase_Direction_Down
-NumberSetting_Phase_Hypixel Tick_35.0
-BooleanSetting_Phase_Sneak Only_false
+BooleanSetting_Phase_Sneak Only_true
 Toggle_Blink_false
 BooleanSetting_Blink_All Packets_true
 BooleanSetting_Blink_Pulse_true
@@ -197,7 +195,7 @@ BooleanSetting_Aura_Disable On World Change_true
 BooleanSetting_Aura_Attack with Scaffold_false
 BooleanSetting_Aura_Attack in Interfaces_true
 Toggle_TPAura_false
-NumberSetting_TPAura_CPS_2.0
+NumberSetting_TPAura_CPS_8.2
 NumberSetting_TPAura_Range_54.5
 NumberSetting_TPAura_Timer_1.0
 BooleanSetting_TPAura_Players_true
@@ -289,7 +287,7 @@ ModeSetting_NoFall_Mode_Hypixel
 BooleanSetting_NoFall_Offset_true
 Toggle_Scaffold_false
 ModeSetting_Scaffold_Tower_None
-ModeSetting_Scaffold_Rotations_Always
+ModeSetting_Scaffold_Rotations_Snap
 ModeSetting_Scaffold_Allow Sprint_Hypixel
 ModeSetting_Scaffold_Speed_None
 ModeSetting_Scaffold_SameY_None
@@ -303,10 +301,10 @@ NumberSetting_Scaffold_Expand_0.0
 BooleanSetting_Scaffold_Safe Walk_false
 ModeSetting_Scaffold_Sneak_Off
 BooleanSetting_Scaffold_Jitter_false
-BooleanSetting_Scaffold_Blink_false
+BooleanSetting_Scaffold_Blink_true
 BooleanSetting_Scaffold_Downwards_true
 BooleanSetting_Scaffold_Move Freely Whilst Towering_true
-BooleanSetting_Scaffold_Strafe_true
+BooleanSetting_Scaffold_Strafe_false
 BooleanSetting_Scaffold_Check if looking at block_false
 BooleanSetting_Scaffold_Ignore Speed_true
 BooleanSetting_Scaffold_Swing_false
@@ -383,12 +381,12 @@ BooleanSetting_Disabler_PacketSpectate_false
 BooleanSetting_Disabler_PacketResourcePacketStatus_false
 Toggle_Plugins_false
 Toggle_AutoAuthme_false
-Toggle_NoRot_true
-ModeSetting_NoRot_Mode_Delay
+Toggle_NoRot_false
+ModeSetting_NoRot_Mode_Vanilla
 Toggle_Insults_false
 ModeSetting_Insults_Mode_Sigma
 BooleanSetting_Insults_Chat Bypass_false
-Toggle_ChatBypass_false
+Toggle_ChatBypass_true
 Toggle_Breaker_false
 NumberSetting_Breaker_Range_4.0
 BooleanSetting_Breaker_Swing_true
@@ -406,7 +404,7 @@ NumberSetting_Nuker_Tick_1.0
 BooleanSetting_Nuker_Instant Only_false
 BooleanSetting_Nuker_Swing_true
 Toggle_Timer_false
-NumberSetting_Timer_Timer Speed_2.0
+NumberSetting_Timer_Timer Speed_1.9
 ModeSetting_Timer_Mode_Vanilla
 Toggle_Spammer_false
 NumberSetting_Spammer_Delay_0.0
@@ -421,6 +419,7 @@ Toggle_NoGuiClose_true
 Toggle_AntiCheat_true
 Toggle_ClientSpoofer_false
 ModeSetting_ClientSpoofer_Mode_Lunar
+Toggle_Test_false
 Toggle_PopOutAnimation_false
 BooleanSetting_PopOutAnimation_ClickGui_true
 BooleanSetting_PopOutAnimation_Inventories_true
@@ -523,5 +522,5 @@ Toggle_Health_false
 Toggle_AutoPot_true
 NumberSetting_AutoPot_Health_15.0
 BooleanSetting_AutoPot_Randomise Rotations_true
-BooleanSetting_AutoPot_Extra Packet_true
+BooleanSetting_AutoPot_Extra Packet_false
 BooleanSetting_AutoPot_Jump_false
