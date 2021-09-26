@@ -8,10 +8,10 @@ NumberSetting_Interface_Blue_255.0
 BooleanSetting_Interface_Show Render Modules on List_false
 BooleanSetting_Interface_Smooth Hotbar_true
 BooleanSetting_Interface_Restore Defaults_false
-BooleanSetting_Interface_Transparent Chat_true
-BooleanSetting_Interface_Custom Chat Font_false
-BooleanSetting_Interface_Custom Scoreboard Font_false
-BooleanSetting_Interface_Custom Scoreboard_false
+BooleanSetting_Interface_Transparent Chat_false
+BooleanSetting_Interface_Custom Chat Font_true
+BooleanSetting_Interface_Custom Scoreboard Font_true
+BooleanSetting_Interface_Custom Scoreboard_true
 BooleanSetting_Interface_Show Notifications on Toggle_false
 BooleanSetting_Interface_Blocks Per Second Counter_true
 BooleanSetting_Interface_Keystrokes_false
@@ -26,6 +26,7 @@ Toggle_Sneak_false
 ModeSetting_Sneak_Mode_Always
 Toggle_Fly_false
 ModeSetting_Fly_Fly Mode_Hypixel
+ModeSetting_Fly_Value_1
 ModeSetting_Fly_Mode_Stable
 NumberSetting_Fly_Mode_1.0
 BooleanSetting_Fly_Auto Rebow_false
@@ -55,6 +56,7 @@ NumberSetting_Fly_Timer_0.6
 ModeSetting_Fly_AfterDMGFly_Speed
 Toggle_Speed_false
 ModeSetting_Speed_Mode_Hypixel
+ModeSetting_Speed_Value_2
 ModeSetting_Speed_GroundSpoof_Off
 NumberSetting_Speed_Custom Speed_1.44
 NumberSetting_Speed_Custom MotionY_0.68
@@ -96,7 +98,7 @@ NumberSetting_Speed_How Often_22.805
 NumberSetting_Speed_Distance_62.39
 BooleanSetting_Speed_Disable on flag_true
 BooleanSetting_Speed_Stop on Disable_true
-NumberSetting_Speed_Hypixel Timer_1.4
+NumberSetting_Speed_Hypixel Timer_1.1
 NumberSetting_Speed_Mmc Speed_1.0
 Toggle_No0.03_false
 Toggle_Strafe_false
@@ -108,7 +110,8 @@ Toggle_NoSlow_true
 ModeSetting_NoSlow_Mode_NCP
 Toggle_LongJump_false
 ModeSetting_LongJump_Mode_Hypixel
-BooleanSetting_LongJump_Blink_false
+ModeSetting_LongJump_NCP Mode_Normal
+BooleanSetting_LongJump_Blink_true
 BooleanSetting_LongJump_Smooth Camera_false
 BooleanSetting_LongJump_Auto Disable_true
 NumberSetting_LongJump_On Ground Speed_0.4
@@ -128,6 +131,7 @@ NumberSetting_Phase_Fly Speed_1.0
 ModeSetting_Phase_Hypixel Mode_Auto
 ModeSetting_Phase_Teleport Mode_Player
 ModeSetting_Phase_Direction_Down
+NumberSetting_Phase_Hypixel Tick_30.0
 BooleanSetting_Phase_Sneak Only_true
 Toggle_Blink_false
 BooleanSetting_Blink_All Packets_true
@@ -152,7 +156,7 @@ NumberSetting_AutoHead_Min Delay_300.0
 NumberSetting_AutoHead_Max Delay_500.0
 Toggle_Aura_false
 ModeSetting_Aura_Mode_Single
-ModeSetting_Aura_Rotation Mode_Derp
+ModeSetting_Aura_Rotation Mode_Smooth
 ModeSetting_Aura_Block Mode_Hypixel
 ModeSetting_Aura_Sorting Mode_Hurttime
 NumberSetting_Aura_Range_5.0
@@ -168,7 +172,7 @@ NumberSetting_Aura_Max Rot_180.0
 NumberSetting_Aura_Min Rot_180.0
 NumberSetting_Aura_Min Yaw Rot_180.0
 NumberSetting_Aura_Max Yaw Rot_180.0
-NumberSetting_Aura_Max Pitch Rot_180.0
+NumberSetting_Aura_Min Pitch Rot_180.0
 NumberSetting_Aura_Max Pitch Rot_180.0
 NumberSetting_Aura_Sin Speed_180.0
 BooleanSetting_Aura_Pitch Fix_false
@@ -204,7 +208,7 @@ BooleanSetting_TPAura_Ignore Teammates_false
 BooleanSetting_TPAura_Invisibles_false
 BooleanSetting_TPAura_Attack Dead_false
 BooleanSetting_TPAura_Render_true
-Toggle_BackTrack_false
+Toggle_BackTrack_true
 NumberSetting_BackTrack_Amount_15.354999999999999
 Toggle_Velocity_true
 ModeSetting_Velocity_Mode_Custom
@@ -220,9 +224,9 @@ NumberSetting_Velocity_Vertical Attack_100.0
 NumberSetting_Velocity_Timer_1.0
 NumberSetting_Velocity_Timer Ticks_0.0
 NumberSetting_Velocity_Ticks_3.0
-Toggle_TargetStrafe_false
-NumberSetting_TargetStrafe_Range_1.8
-BooleanSetting_TargetStrafe_Jump Only_false
+Toggle_TargetStrafe_true
+NumberSetting_TargetStrafe_Range_2.0
+BooleanSetting_TargetStrafe_Jump Only_true
 Toggle_FastBow_false
 NumberSetting_FastBow_Power_20.0
 Toggle_AutoSoup_false
@@ -243,7 +247,7 @@ BooleanSetting_FightBot_Target Strafe_true
 BooleanSetting_FightBot_Auto Block_true
 BooleanSetting_FightBot_Auto GG_true
 Toggle_Antibot_false
-Toggle_WTap_false
+Toggle_WTap_true
 BooleanSetting_WTap_Legit_false
 Toggle_Criticals_false
 ModeSetting_Criticals_Mode_Down
@@ -287,7 +291,7 @@ ModeSetting_NoFall_Mode_Hypixel
 BooleanSetting_NoFall_Offset_true
 Toggle_Scaffold_false
 ModeSetting_Scaffold_Tower_None
-ModeSetting_Scaffold_Rotations_Snap
+ModeSetting_Scaffold_Rotations_Always
 ModeSetting_Scaffold_Allow Sprint_Hypixel
 ModeSetting_Scaffold_Speed_None
 ModeSetting_Scaffold_SameY_None
@@ -346,7 +350,7 @@ NumberSetting_AutoClicker_Max CPS_13.8
 BooleanSetting_AutoClicker_Disable on Blocks_true
 Toggle_Eagle_false
 Toggle_KeepSprint_true
-Toggle_AutoPlay_false
+Toggle_AutoPlay_true
 NumberSetting_AutoPlay_Delay_3000.0
 ModeSetting_AutoPlay_Mode_Skywars
 ModeSetting_AutoPlay_Skywars Mode_Solo
@@ -496,16 +500,16 @@ NumberSetting_Breadcrumbs_Time_150.0
 Toggle_Radar_false
 NumberSetting_Radar_Radar X_2.0
 NumberSetting_Radar_Radar Y_139.0
-Toggle_Blur_false
+Toggle_Blur_true
 BooleanSetting_Blur_Interfaces_true
 BooleanSetting_Blur_Keystrokes_true
 BooleanSetting_Blur_Radar_true
 BooleanSetting_Blur_TabGui_true
 Toggle_ChestESP_false
 ModeSetting_ChestESP_Mode_2D
-Toggle_NoHurtCam_false
-Toggle_CameraClip_false
-Toggle_ItemPhysics_false
+Toggle_NoHurtCam_true
+Toggle_CameraClip_true
+Toggle_ItemPhysics_true
 Toggle_MotionGraph_false
 NumberSetting_MotionGraph_Vertices_100.0
 NumberSetting_MotionGraph_Width_140.0
@@ -519,6 +523,7 @@ Toggle_NoAchievements_true
 Toggle_ImageESP_false
 ModeSetting_ImageESP_Image_Floyd
 Toggle_Health_false
+Toggle_XRay_false
 Toggle_AutoPot_true
 NumberSetting_AutoPot_Health_15.0
 BooleanSetting_AutoPot_Randomise Rotations_true
