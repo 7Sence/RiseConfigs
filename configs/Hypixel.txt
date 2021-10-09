@@ -3,15 +3,13 @@ Toggle_Interface_true
 ModeSetting_Interface_Theme_Never Lose
 ModeSetting_Interface_List Animation_Slide
 NumberSetting_Interface_Red_0.0
-NumberSetting_Interface_Green_255.0
-NumberSetting_Interface_Blue_0.0
+NumberSetting_Interface_Green_125.0
+NumberSetting_Interface_Blue_210.0
 BooleanSetting_Interface_Show Render Modules on List_false
 BooleanSetting_Interface_Smooth Hotbar_true
 BooleanSetting_Interface_Restore Defaults_false
 BooleanSetting_Interface_Transparent Chat_false
 BooleanSetting_Interface_Custom Chat Font_true
-BooleanSetting_Interface_Custom Scoreboard Font_true
-BooleanSetting_Interface_Custom Scoreboard_true
 BooleanSetting_Interface_Show Notifications on Toggle_false
 BooleanSetting_Interface_Blocks Per Second Counter_true
 BooleanSetting_Interface_Keystrokes_false
@@ -25,7 +23,7 @@ BooleanSetting_Sprint_Only In Air_false
 Toggle_Sneak_false
 ModeSetting_Sneak_Mode_Always
 Toggle_Fly_false
-ModeSetting_Fly_Fly Mode_Hypixel Blink
+ModeSetting_Fly_Fly Mode_Hypixel
 ModeSetting_Fly_Value_1
 ModeSetting_Fly_Mode_Stable
 NumberSetting_Fly_Mode_1.0
@@ -55,13 +53,13 @@ NumberSetting_Fly_Glide_0.03
 NumberSetting_Fly_Timer_0.6
 ModeSetting_Fly_AfterDMGFly_Speed
 Toggle_Speed_false
-ModeSetting_Speed_Mode_Hypixel
+ModeSetting_Speed_Mode_Hypixel Low
 ModeSetting_Speed_Value_1
 ModeSetting_Speed_GroundSpoof_Off
 NumberSetting_Speed_Custom Speed_1.44
 NumberSetting_Speed_Custom MotionY_0.68
 NumberSetting_Speed_Custom Fall Motion_0.2
-NumberSetting_Speed_Hypixel VL Abuse_0.025
+NumberSetting_Speed_Hypixel VL Abuse_0.05
 NumberSetting_Speed_Custom Fall Tick_10.0
 NumberSetting_Speed_Randomize Speed_0.0
 NumberSetting_Speed_Void TP Ticks_0.0
@@ -93,7 +91,7 @@ NumberSetting_Speed_General Timer_1.0
 NumberSetting_Speed_SpeedInAir No Speed_0.02
 NumberSetting_Speed_SpeedInAir Speed 1_0.025
 NumberSetting_Speed_SpeedInAir Speed 2_0.03
-BooleanSetting_Speed_Smart Timer_false
+BooleanSetting_Speed_Smart Timer_true
 BooleanSetting_Speed_Revert to fastest on default config_false
 NumberSetting_Speed_How Often_22.805
 NumberSetting_Speed_Distance_62.39
@@ -111,7 +109,7 @@ Toggle_NoSlow_true
 ModeSetting_NoSlow_Mode_NCP
 Toggle_JumpBoost_false
 ModeSetting_JumpBoost_Mode_Fireball
-NumberSetting_JumpBoost_Timer Speed_1.0
+NumberSetting_JumpBoost_Timer Speed_2.0
 NumberSetting_JumpBoost_Vertical Motion_0.25
 NumberSetting_JumpBoost_Horizontal Motion_0.25
 BooleanSetting_JumpBoost_Smooth Camera_false
@@ -119,7 +117,7 @@ BooleanSetting_JumpBoost_Auto Disable_true
 Toggle_LongJump_false
 ModeSetting_LongJump_Mode_Hypixel
 ModeSetting_LongJump_NCP Mode_Damage
-BooleanSetting_LongJump_Blink_true
+BooleanSetting_LongJump_Blink_false
 BooleanSetting_LongJump_Smooth Camera_false
 BooleanSetting_LongJump_Auto Disable_true
 NumberSetting_LongJump_On Ground Speed_0.4
@@ -159,9 +157,9 @@ Toggle_AutoHead_false
 NumberSetting_AutoHead_Health_16.0
 NumberSetting_AutoHead_Min Delay_300.0
 NumberSetting_AutoHead_Max Delay_500.0
-Toggle_Aura_true
+Toggle_Aura_false
 ModeSetting_Aura_Mode_Single
-ModeSetting_Aura_Rotation Mode_Smooth
+ModeSetting_Aura_Rotation Mode_Derp
 ModeSetting_Aura_Block Mode_Hypixel
 ModeSetting_Aura_Sorting Mode_Hurttime
 NumberSetting_Aura_Range_5.0
@@ -201,7 +199,7 @@ BooleanSetting_Aura_Ignore NPCs_true
 BooleanSetting_Aura_Target ESP_true
 BooleanSetting_Aura_Display Range_false
 BooleanSetting_Aura_Disable On World Change_true
-BooleanSetting_Aura_Attack with Scaffold_false
+BooleanSetting_Aura_Attack with Scaffold_true
 BooleanSetting_Aura_Attack in Interfaces_true
 Toggle_TPAura_false
 NumberSetting_TPAura_CPS_2.0
@@ -232,6 +230,7 @@ NumberSetting_Velocity_Ticks_3.0
 Toggle_TargetStrafe_true
 NumberSetting_TargetStrafe_Range_1.5
 BooleanSetting_TargetStrafe_Third Person_false
+BooleanSetting_TargetStrafe_Controllable_true
 BooleanSetting_TargetStrafe_Jump Only_true
 Toggle_FastBow_false
 NumberSetting_FastBow_Power_20.0
@@ -254,7 +253,7 @@ BooleanSetting_FightBot_Anti Fall_true
 BooleanSetting_FightBot_Target Strafe_true
 BooleanSetting_FightBot_Auto Block_true
 BooleanSetting_FightBot_Auto GG_true
-Toggle_AntiBot_false
+Toggle_AntiBot_true
 ModeSetting_AntiBot_Mode_Hypixel
 Toggle_WTap_false
 BooleanSetting_WTap_Legit_false
@@ -307,7 +306,7 @@ ModeSetting_Scaffold_Speed_NCP
 ModeSetting_Scaffold_SameY_None
 ModeSetting_Scaffold_Move Fix_None
 ModeSetting_Scaffold_Sneak_Off
-NumberSetting_Scaffold_Tower Timer_1.0
+NumberSetting_Scaffold_Tower Timer_2.0
 NumberSetting_Scaffold_Timer_1.0
 NumberSetting_Scaffold_Place Delay_0.0
 BooleanSetting_Scaffold_Randomise Place Delay_false
@@ -402,7 +401,7 @@ Toggle_Insults_false
 ModeSetting_Insults_Mode_Sigma
 BooleanSetting_Insults_Chat Bypass_false
 Toggle_ChatBypass_true
-ModeSetting_ChatBypass_Mode_Normal
+ModeSetting_ChatBypass_Mode_Hypixel
 Toggle_Breaker_false
 NumberSetting_Breaker_Range_4.0
 BooleanSetting_Breaker_Swing_true
@@ -433,10 +432,9 @@ BooleanSetting_PingSpoof_KeepAlives_true
 BooleanSetting_PingSpoof_Transations_true
 Toggle_NoGuiClose_true
 BooleanSetting_NoGuiClose_Chat Only_true
-Toggle_AntiCheat_false
+Toggle_AntiCheat_true
 Toggle_ClientSpoofer_false
 ModeSetting_ClientSpoofer_Mode_Lunar
-Toggle_Test_false
 Toggle_PopOutAnimation_false
 BooleanSetting_PopOutAnimation_ClickGui_true
 BooleanSetting_PopOutAnimation_Inventories_true
@@ -455,7 +453,7 @@ Toggle_SimsESP_false
 Toggle_ClickGui_false
 ModeSetting_ClickGui_Theme_Deep Blue Rise
 BooleanSetting_ClickGui_Transparency_false
-Toggle_Nametags_false
+Toggle_Nametags_true
 Toggle_Chams_false
 NumberSetting_Chams_Red_255.0
 NumberSetting_Chams_Green_0.0
@@ -463,9 +461,8 @@ NumberSetting_Chams_Blue_0.0
 NumberSetting_Chams_Alpha_50.0
 BooleanSetting_Chams_Rainbow_false
 Toggle_ESP_false
-BooleanSetting_ESP_Tecnio's floyd esp_false
 Toggle_Animations_true
-ModeSetting_Animations_Animation_Exhibition
+ModeSetting_Animations_Animation_1.7
 NumberSetting_Animations_Slow_13.5
 NumberSetting_Animations_X_0.0
 NumberSetting_Animations_Y_0.1
@@ -473,9 +470,9 @@ NumberSetting_Animations_Z_0.0
 NumberSetting_Animations_Scale_0.8
 BooleanSetting_Animations_Smooth Swing_false
 BooleanSetting_Animations_Reset Position_false
-BooleanSetting_Animations_Always Show_false
-Toggle_Ambiance_false
-NumberSetting_Ambiance_Time_15754.0
+BooleanSetting_Animations_Always Show_true
+Toggle_Ambiance_true
+NumberSetting_Ambiance_Time_0.0
 NumberSetting_Ambiance_Time Speed_0.0
 Toggle_AttackEffects_false
 ModeSetting_AttackEffects_Mode_Blood
@@ -484,8 +481,8 @@ BooleanSetting_AttackEffects_Sound_true
 Toggle_TargetHud_true
 ModeSetting_TargetHud_Mode_Normal
 Toggle_DamageColor_true
-NumberSetting_DamageColor_Red_120.0
-NumberSetting_DamageColor_Green_20.0
+NumberSetting_DamageColor_Red_0.0
+NumberSetting_DamageColor_Green_125.0
 NumberSetting_DamageColor_Blue_210.0
 NumberSetting_DamageColor_Alpha_75.0
 Toggle_2DESP_true
@@ -506,7 +503,11 @@ NumberSetting_Freecam_Fly Speed_1.0
 Toggle_Tracers_false
 Toggle_NameProtect_false
 Toggle_Streamer_false
-Toggle_NoScoreboard_false
+Toggle_Scoreboard_true
+BooleanSetting_Scoreboard_Hide Scoreboard_false
+BooleanSetting_Scoreboard_Hide Background_false
+BooleanSetting_Scoreboard_Custom Font_true
+BooleanSetting_Scoreboard_Custom Scoreboard_true
 Toggle_Breadcrumbs_false
 BooleanSetting_Breadcrumbs_Timeout_true
 NumberSetting_Breadcrumbs_Time_150.0
@@ -520,9 +521,9 @@ BooleanSetting_Blur_Radar_true
 BooleanSetting_Blur_TabGui_true
 Toggle_ChestESP_false
 ModeSetting_ChestESP_Mode_2D
-Toggle_NoHurtCam_false
-Toggle_CameraClip_false
-Toggle_ItemPhysics_false
+Toggle_NoHurtCam_true
+Toggle_CameraClip_true
+Toggle_ItemPhysics_true
 Toggle_MotionGraph_false
 NumberSetting_MotionGraph_Vertices_100.0
 NumberSetting_MotionGraph_Width_140.0
