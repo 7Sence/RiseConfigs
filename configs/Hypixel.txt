@@ -53,7 +53,7 @@ NumberSetting_Fly_Glide_0.03
 NumberSetting_Fly_Timer_0.6
 ModeSetting_Fly_AfterDMGFly_Speed
 Toggle_Speed_false
-ModeSetting_Speed_Mode_Hypixel Low
+ModeSetting_Speed_Mode_Hypixel
 ModeSetting_Speed_Value_1
 ModeSetting_Speed_GroundSpoof_Off
 NumberSetting_Speed_Custom Speed_1.44
@@ -91,13 +91,13 @@ NumberSetting_Speed_General Timer_1.0
 NumberSetting_Speed_SpeedInAir No Speed_0.02
 NumberSetting_Speed_SpeedInAir Speed 1_0.025
 NumberSetting_Speed_SpeedInAir Speed 2_0.03
-BooleanSetting_Speed_Smart Timer_true
+BooleanSetting_Speed_Smart Timer_false
 BooleanSetting_Speed_Revert to fastest on default config_false
 NumberSetting_Speed_How Often_22.805
 NumberSetting_Speed_Distance_62.39
 BooleanSetting_Speed_Disable on flag_true
 BooleanSetting_Speed_Stop on Disable_true
-NumberSetting_Speed_Hypixel Timer_1.1
+NumberSetting_Speed_Hypixel Timer_1.2
 NumberSetting_Speed_Mmc Speed_1.0
 Toggle_No0.03_false
 Toggle_Strafe_false
@@ -159,7 +159,7 @@ NumberSetting_AutoHead_Min Delay_300.0
 NumberSetting_AutoHead_Max Delay_500.0
 Toggle_Aura_false
 ModeSetting_Aura_Mode_Single
-ModeSetting_Aura_Rotation Mode_Derp
+ModeSetting_Aura_Rotation Mode_Smooth
 ModeSetting_Aura_Block Mode_Hypixel
 ModeSetting_Aura_Sorting Mode_Hurttime
 NumberSetting_Aura_Range_5.0
@@ -274,7 +274,7 @@ NumberSetting_Derp_Constant Speed_92.5
 BooleanSetting_Derp_Twerk_false
 Toggle_ChestAura_false
 NumberSetting_ChestAura_Range_5.0
-Toggle_Stealer_true
+Toggle_Stealer_false
 NumberSetting_Stealer_Min Delay_50.00000111758712
 NumberSetting_Stealer_Max Delay_100.00000223517424
 NumberSetting_Stealer_Start Delay_100.00000223517424
@@ -300,18 +300,18 @@ ModeSetting_NoFall_Mode_Hypixel
 BooleanSetting_NoFall_Offset_true
 Toggle_Scaffold_false
 ModeSetting_Scaffold_Tower_None
-ModeSetting_Scaffold_Rotations_Always
+ModeSetting_Scaffold_Rotations_Smooth
 ModeSetting_Scaffold_Allow Sprint_Hypixel
-ModeSetting_Scaffold_Speed_NCP
+ModeSetting_Scaffold_Speed_None
 ModeSetting_Scaffold_SameY_None
-ModeSetting_Scaffold_Move Fix_None
+ModeSetting_Scaffold_Move Fix_Normal
 ModeSetting_Scaffold_Sneak_Off
 NumberSetting_Scaffold_Tower Timer_1.0
 NumberSetting_Scaffold_Timer_1.0
 NumberSetting_Scaffold_Place Delay_0.0
 BooleanSetting_Scaffold_Randomise Place Delay_false
 NumberSetting_Scaffold_Speed Multiplier_1.0
-NumberSetting_Scaffold_Random_18.0
+NumberSetting_Scaffold_Random_1.0
 NumberSetting_Scaffold_Expand_0.0
 BooleanSetting_Scaffold_Safe Walk_false
 BooleanSetting_Scaffold_Jitter_false
@@ -324,7 +324,7 @@ BooleanSetting_Scaffold_Ignore Speed_true
 BooleanSetting_Scaffold_Swing_false
 Toggle_FastBreak_true
 NumberSetting_FastBreak_Speed_0.3
-Toggle_Manager_true
+Toggle_Manager_false
 ModeSetting_Manager_Mode_None
 NumberSetting_Manager_Min Delay_50.00000111758712
 NumberSetting_Manager_Max Delay_100.00000223517424
@@ -451,6 +451,7 @@ NumberSetting_Hitmarkers_Pitch_1.0
 BooleanSetting_Hitmarkers_Random Pitch_false
 Toggle_SimsESP_false
 Toggle_ClickGui_false
+ModeSetting_ClickGui_Type_Rise
 ModeSetting_ClickGui_Theme_Deep Blue Rise
 BooleanSetting_ClickGui_Transparency_false
 Toggle_Nametags_true
@@ -462,7 +463,7 @@ NumberSetting_Chams_Alpha_50.0
 BooleanSetting_Chams_Rainbow_false
 Toggle_ESP_false
 Toggle_Animations_true
-ModeSetting_Animations_Animation_1.7
+ModeSetting_Animations_Animation_Spin
 NumberSetting_Animations_Slow_13.5
 NumberSetting_Animations_X_0.0
 NumberSetting_Animations_Y_0.1
@@ -470,7 +471,7 @@ NumberSetting_Animations_Z_0.0
 NumberSetting_Animations_Scale_0.8
 BooleanSetting_Animations_Smooth Swing_false
 BooleanSetting_Animations_Reset Position_false
-BooleanSetting_Animations_Always Show_true
+BooleanSetting_Animations_Always Show_false
 Toggle_Ambiance_true
 NumberSetting_Ambiance_Time_0.0
 NumberSetting_Ambiance_Time Speed_0.0
