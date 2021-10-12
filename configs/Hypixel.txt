@@ -51,7 +51,7 @@ NumberSetting_Fly_Friction Divider_170.0
 NumberSetting_Fly_Glide_0.03
 NumberSetting_Fly_Timer_0.6
 ModeSetting_Fly_AfterDMGFly_Speed
-Toggle_Speed_true
+Toggle_Speed_false
 ModeSetting_Speed_Mode_Hypixel
 ModeSetting_Speed_Value_1
 ModeSetting_Speed_GroundSpoof_Off
@@ -90,7 +90,7 @@ NumberSetting_Speed_General Timer_1.0
 NumberSetting_Speed_SpeedInAir No Speed_0.02
 NumberSetting_Speed_SpeedInAir Speed 1_0.025
 NumberSetting_Speed_SpeedInAir Speed 2_0.03
-BooleanSetting_Speed_Smart Timer_false
+BooleanSetting_Speed_Smart Timer_true
 BooleanSetting_Speed_Revert to fastest on default config_false
 NumberSetting_Speed_How Often_22.805
 NumberSetting_Speed_Distance_62.39
@@ -273,7 +273,7 @@ NumberSetting_Derp_Constant Speed_92.5
 BooleanSetting_Derp_Twerk_false
 Toggle_ChestAura_false
 NumberSetting_ChestAura_Range_5.0
-Toggle_Stealer_false
+Toggle_Stealer_true
 NumberSetting_Stealer_Min Delay_50.00000111758712
 NumberSetting_Stealer_Max Delay_100.00000223517424
 NumberSetting_Stealer_Start Delay_100.00000223517424
@@ -298,14 +298,14 @@ Toggle_NoFall_true
 ModeSetting_NoFall_Mode_Hypixel
 BooleanSetting_NoFall_Offset_true
 Toggle_Scaffold_false
-ModeSetting_Scaffold_Tower_Hypixel
+ModeSetting_Scaffold_Tower_None
 ModeSetting_Scaffold_Rotations_Smooth
 ModeSetting_Scaffold_Allow Sprint_Hypixel
 ModeSetting_Scaffold_Speed_None
 ModeSetting_Scaffold_SameY_None
 ModeSetting_Scaffold_Move Fix_Normal
 ModeSetting_Scaffold_Sneak_Off
-NumberSetting_Scaffold_Tower Timer_2.0
+NumberSetting_Scaffold_Tower Timer_1.0
 NumberSetting_Scaffold_Timer_1.0
 NumberSetting_Scaffold_Place Delay_0.0
 BooleanSetting_Scaffold_Randomise Place Delay_false
@@ -323,7 +323,7 @@ BooleanSetting_Scaffold_Ignore Speed_true
 BooleanSetting_Scaffold_Swing_false
 Toggle_FastBreak_true
 NumberSetting_FastBreak_Speed_0.3
-Toggle_Manager_false
+Toggle_Manager_true
 ModeSetting_Manager_Mode_None
 NumberSetting_Manager_Min Delay_50.00000111758712
 NumberSetting_Manager_Max Delay_100.00000223517424
