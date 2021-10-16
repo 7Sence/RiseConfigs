@@ -312,7 +312,7 @@ NumberSetting_Scaffold_Place Delay_0.0
 BooleanSetting_Scaffold_Randomise Place Delay_false
 NumberSetting_Scaffold_Speed Multiplier_1.0
 NumberSetting_Scaffold_Random_0.0
-NumberSetting_Scaffold_Expand_0.2
+NumberSetting_Scaffold_Expand_0.0
 BooleanSetting_Scaffold_Jitter_false
 BooleanSetting_Scaffold_Blink_false
 BooleanSetting_Scaffold_Downwards_true
