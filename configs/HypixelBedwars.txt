@@ -1,4 +1,6 @@
-Rise_Version_5.5
+Rise_Version_5.51
+MainMenuTheme_LIGHTMODE
+ClientName_auth bedwars
 Toggle_Interface_true
 ModeSetting_Interface_Theme_Comfort
 ModeSetting_Interface_List Animation_Slide
@@ -11,6 +13,7 @@ BooleanSetting_Interface_Restore Defaults_false
 BooleanSetting_Interface_Transparent Chat_true
 BooleanSetting_Interface_Custom Chat Font_false
 BooleanSetting_Interface_Show Notifications on Toggle_false
+BooleanSetting_Interface_Blocks Per Second Counter_true
 BooleanSetting_Interface_Keystrokes_false
 NumberSetting_Interface_KeystrokesX_48.5
 NumberSetting_Interface_KeystrokesY_40.5
@@ -65,6 +68,7 @@ NumberSetting_Speed_Void TP Ticks_0.0
 NumberSetting_Speed_Timer_1.0
 NumberSetting_Speed_Timer Random_0.0
 NumberSetting_Speed_GroundSpoof Ticks_10.0
+NumberSetting_Speed_Teleport Distance_0.4
 BooleanSetting_Speed_Strafe_true
 BooleanSetting_Speed_MinemenClub Balance Timer_true
 BooleanSetting_Speed_Abide Friciton_false
@@ -116,6 +120,7 @@ BooleanSetting_JumpBoost_Auto Disable_true
 Toggle_LongJump_false
 ModeSetting_LongJump_Mode_Hypixel
 ModeSetting_LongJump_NCP Mode_Damage
+BooleanSetting_LongJump_High Jump_true
 BooleanSetting_LongJump_Blink_false
 BooleanSetting_LongJump_Smooth Camera_false
 BooleanSetting_LongJump_Auto Disable_true
@@ -276,7 +281,7 @@ NumberSetting_ChestAura_Range_5.0
 Toggle_Stealer_false
 NumberSetting_Stealer_Min Delay_50.00000111758712
 NumberSetting_Stealer_Max Delay_100.00000223517424
-NumberSetting_Stealer_Start Delay_100.00000223517424
+BooleanSetting_Stealer_Steal trash items_false
 BooleanSetting_Stealer_Auto Close_true
 BooleanSetting_Stealer_Hide Gui_false
 BooleanSetting_Stealer_Move head in chest_true
@@ -311,8 +316,8 @@ BooleanSetting_Scaffold_Safe Walk_false
 NumberSetting_Scaffold_Place Delay_0.0
 BooleanSetting_Scaffold_Randomise Place Delay_false
 NumberSetting_Scaffold_Speed Multiplier_1.0
-NumberSetting_Scaffold_Random_0.0
-NumberSetting_Scaffold_Expand_0.2
+NumberSetting_Scaffold_Random_1.0
+NumberSetting_Scaffold_Expand_0.0
 BooleanSetting_Scaffold_Jitter_false
 BooleanSetting_Scaffold_Blink_false
 BooleanSetting_Scaffold_Downwards_true
@@ -375,6 +380,8 @@ BooleanSetting_Disabler_Dynamic PvP_false
 BooleanSetting_Disabler_Ghostly Reach_false
 BooleanSetting_Disabler_Ghostly_false
 BooleanSetting_Disabler_Lunar_true
+BooleanSetting_Disabler_Verus Partial_false
+BooleanSetting_Disabler_Position Edit_false
 BooleanSetting_Disabler_Hide Old Disablers_false
 BooleanSetting_Disabler_Verus Old_false
 BooleanSetting_Disabler_Verus Combat_false
@@ -440,7 +447,7 @@ BooleanSetting_NoGuiClose_Chat Only_true
 Toggle_AntiSuffocation_true
 ModeSetting_AntiSuffocation_Mode_Mine
 BooleanSetting_AntiSuffocation_Swing_false
-Toggle_AntiCheat_true
+Toggle_AntiCheat_false
 ModeSetting_AntiCheat_Alerts_Client
 Toggle_StaffAlert_true
 NumberSetting_StaffAlert_Delay (Seconds)_5.0
