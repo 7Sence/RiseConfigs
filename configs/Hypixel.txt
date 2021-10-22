@@ -100,7 +100,7 @@ NumberSetting_Speed_How Often_22.805
 NumberSetting_Speed_Distance_62.39
 BooleanSetting_Speed_Disable on flag_true
 BooleanSetting_Speed_Stop on Disable_true
-NumberSetting_Speed_Hypixel Timer_1.5
+NumberSetting_Speed_Hypixel Timer_1.3
 NumberSetting_Speed_Mmc Speed_1.0
 Toggle_No0.03_false
 Toggle_Strafe_false
@@ -194,6 +194,7 @@ BooleanSetting_Aura_Keep Sprint_true
 BooleanSetting_Aura_Movement Fix_false
 BooleanSetting_Aura_1.9 Delay_false
 BooleanSetting_Aura_1.9 Swing_false
+BooleanSetting_Aura_Predicted Position_true
 BooleanSetting_Aura_Players_true
 BooleanSetting_Aura_Non Players_false
 BooleanSetting_Aura_Ignore Teammates_true
@@ -217,6 +218,7 @@ BooleanSetting_TPAura_Attack Dead_false
 BooleanSetting_TPAura_Render_true
 Toggle_BackTrack_false
 NumberSetting_BackTrack_Amount_15.354999999999999
+NumberSetting_BackTrack_Forward_18.0
 Toggle_Velocity_true
 ModeSetting_Velocity_Mode_Custom
 BooleanSetting_Velocity_Explosion_true
@@ -476,9 +478,9 @@ BooleanSetting_Hitmarkers_Random Pitch_false
 Toggle_SimsESP_false
 Toggle_ClickGui_false
 ModeSetting_ClickGui_Mode_Rise
-ModeSetting_ClickGui_Theme_Rustic Desert
+ModeSetting_ClickGui_Theme_Orchid Aqua
 BooleanSetting_ClickGui_Transparency_false
-NumberSetting_ClickGui_Scale_1.0
+NumberSetting_ClickGui_Scale_0.8
 Toggle_Nametags_true
 Toggle_Chams_false
 NumberSetting_Chams_Red_255.0
@@ -488,7 +490,7 @@ NumberSetting_Chams_Alpha_50.0
 BooleanSetting_Chams_Rainbow_false
 Toggle_ESP_false
 Toggle_Animations_true
-ModeSetting_Animations_Animation_1.7
+ModeSetting_Animations_Animation_Exhibition
 NumberSetting_Animations_Slow_13.5
 NumberSetting_Animations_X_0.0
 NumberSetting_Animations_Y_0.1
@@ -496,7 +498,7 @@ NumberSetting_Animations_Z_0.0
 NumberSetting_Animations_Scale_0.8
 BooleanSetting_Animations_Smooth Swing_false
 BooleanSetting_Animations_Reset Position_false
-BooleanSetting_Animations_Always Show_true
+BooleanSetting_Animations_Always Show_false
 Toggle_Ambiance_true
 NumberSetting_Ambiance_Time_18643.0
 NumberSetting_Ambiance_Time Speed_0.0
