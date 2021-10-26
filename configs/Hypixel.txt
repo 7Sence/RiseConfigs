@@ -301,7 +301,7 @@ ModeSetting_NoVoid_Mode_Hypixel
 NumberSetting_NoVoid_Fall Distance_5.0
 BooleanSetting_NoVoid_Void Check_true
 BooleanSetting_NoVoid_Show Notifications_false
-Toggle_NoFall_true
+Toggle_NoFall_false
 ModeSetting_NoFall_Mode_Hypixel
 BooleanSetting_NoFall_Offset_true
 Toggle_Scaffold_false
@@ -451,7 +451,7 @@ ModeSetting_AntiSuffocation_Mode_Mine
 BooleanSetting_AntiSuffocation_Swing_false
 Toggle_AntiCheat_false
 ModeSetting_AntiCheat_Alerts_Client
-Toggle_StaffAlert_true
+Toggle_StaffAlert_false
 NumberSetting_StaffAlert_Delay (Seconds)_5.0
 Toggle_Sniper_false
 ModeSetting_Sniper_Mode_Bedwars
