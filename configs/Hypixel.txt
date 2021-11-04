@@ -130,7 +130,7 @@ NumberSetting_LongJump_View Bobbing_0.0
 Toggle_InvMove_true
 NumberSetting_InvMove_Slow Down_1.0
 BooleanSetting_InvMove_Packet_false
-Toggle_Step_true
+Toggle_Step_false
 ModeSetting_Step_Mode_Hypixel
 NumberSetting_Step_Height_1.5
 NumberSetting_Step_Timer_0.5
