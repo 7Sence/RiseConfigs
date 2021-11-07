@@ -2,7 +2,7 @@ Rise_Version_5.52
 MainMenuTheme_DARKMODE
 ClientName_Hazsi BlocksMC
 Toggle_Interface_true
-ModeSetting_Interface_Theme_Skeet
+ModeSetting_Interface_Theme_Rise Blend
 ModeSetting_Interface_List Animation_Slide
 NumberSetting_Interface_Red_38.0
 NumberSetting_Interface_Green_94.0
