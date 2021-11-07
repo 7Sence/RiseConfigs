@@ -1,6 +1,6 @@
 Rise_Version_5.52
 MainMenuTheme_DARKMODE
-ClientName_hazsi blocksmc v1.2
+ClientName_Hazsi BlocksMC
 Toggle_Interface_true
 ModeSetting_Interface_Theme_Skeet
 ModeSetting_Interface_List Animation_Slide
