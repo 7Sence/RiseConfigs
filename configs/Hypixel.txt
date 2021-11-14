@@ -1,8 +1,8 @@
-Rise_Version_5.52
+Rise_Version_5.6
 MainMenuTheme_LIGHTMODE
 ClientName_auth skywars
 Toggle_Interface_true
-ModeSetting_Interface_Theme_Comfort
+ModeSetting_Interface_Theme_Never Lose
 ModeSetting_Interface_List Animation_Slide
 NumberSetting_Interface_Red_255.0
 NumberSetting_Interface_Green_0.0
@@ -26,13 +26,13 @@ BooleanSetting_Sprint_Only In Air_false
 Toggle_Sneak_false
 ModeSetting_Sneak_Mode_NCP
 Toggle_Fly_false
-ModeSetting_Fly_Fly Mode_Hypixel Infinite
+ModeSetting_Fly_Fly Mode_Hypixel Blink
 ModeSetting_Fly_Value_1
 ModeSetting_Fly_Mode_Stable
 NumberSetting_Fly_Mode_1.0
 BooleanSetting_Fly_Auto Rebow_false
 NumberSetting_Fly_Fly Speed_2.0
-NumberSetting_Fly_Up Amount_8.0
+BooleanSetting_Fly_Auto Stop_true
 NumberSetting_Fly_H Boost first tick_0.4
 NumberSetting_Fly_V Boost first tick_0.5
 NumberSetting_Fly_H Boost second tick_0.7
@@ -99,7 +99,8 @@ NumberSetting_Speed_Distance_62.39
 BooleanSetting_Speed_Disable on flag_true
 BooleanSetting_Speed_Stop on Disable_true
 BooleanSetting_Speed_Low_true
-NumberSetting_Speed_Hypixel Timer_1.4
+NumberSetting_Speed_Hypixel Timer_2.0
+NumberSetting_Speed_Glide_0.025
 NumberSetting_Speed_Mmc Speed_1.0
 Toggle_No0.03_false
 Toggle_Strafe_false
@@ -130,7 +131,7 @@ NumberSetting_LongJump_View Bobbing_0.0
 Toggle_InvMove_true
 NumberSetting_InvMove_Slow Down_1.0
 BooleanSetting_InvMove_Packet_false
-Toggle_Step_false
+Toggle_Step_true
 ModeSetting_Step_Mode_Hypixel
 NumberSetting_Step_Height_1.5
 NumberSetting_Step_Timer_0.5
@@ -152,7 +153,6 @@ Toggle_ClickTP_false
 ModeSetting_ClickTP_Mode_Karhu
 Toggle_BedWalker_false
 Toggle_BowFly_false
-Toggle_FastLadder_false
 Toggle_AutoGap_false
 NumberSetting_AutoGap_Health_10.0
 BooleanSetting_AutoGap_Switch Slots_true
@@ -169,7 +169,7 @@ NumberSetting_Aura_Range_5.0
 NumberSetting_Aura_Rotation Range_5.0
 NumberSetting_Aura_Extended Range_12.0
 BooleanSetting_Aura_Extended Range_false
-NumberSetting_Aura_Min CPS_11.0
+NumberSetting_Aura_Min CPS_12.0
 NumberSetting_Aura_Max CPS_14.0
 NumberSetting_Aura_Max Targets_2.0
 NumberSetting_Aura_Predict_0.0
@@ -205,6 +205,15 @@ BooleanSetting_Aura_Display Range_false
 BooleanSetting_Aura_Disable On World Change_true
 BooleanSetting_Aura_Attack with Scaffold_true
 BooleanSetting_Aura_Attack in Interfaces_true
+BooleanSetting_Aura_On Click_false
+Toggle_FastBow_false
+NumberSetting_FastBow_Targets_4.0
+NumberSetting_FastBow_Packets_20.0
+BooleanSetting_FastBow_Timer Bypass_true
+NumberSetting_FastBow_Range_40.0
+BooleanSetting_FastBow_Invisibles_true
+BooleanSetting_FastBow_Players_true
+BooleanSetting_FastBow_Non Players_true
 Toggle_TPAura_false
 ModeSetting_TPAura_Mode_Single
 NumberSetting_TPAura_CPS_2.0
@@ -240,7 +249,13 @@ BooleanSetting_TargetStrafe_Third Person_false
 BooleanSetting_TargetStrafe_Controllable_true
 BooleanSetting_TargetStrafe_Jump Only_true
 Toggle_FastBow_false
-NumberSetting_FastBow_Power_20.0
+NumberSetting_FastBow_Targets_4.0
+NumberSetting_FastBow_Packets_20.0
+BooleanSetting_FastBow_Timer Bypass_true
+NumberSetting_FastBow_Range_40.0
+BooleanSetting_FastBow_Invisibles_true
+BooleanSetting_FastBow_Players_true
+BooleanSetting_FastBow_Non Players_true
 Toggle_AutoSoup_false
 NumberSetting_AutoSoup_Health_10.0
 NumberSetting_AutoSoup_Min Delay_300.0
@@ -266,7 +281,7 @@ Toggle_WTap_false
 BooleanSetting_WTap_Legit_false
 Toggle_Criticals_false
 ModeSetting_Criticals_Mode_Position
-NumberSetting_Criticals_Delay_0.0
+NumberSetting_Criticals_Delay_500.0000111758711
 Toggle_ComboOneHit_false
 NumberSetting_ComboOneHit_Packets_0.0
 Toggle_Regen_false
@@ -302,7 +317,7 @@ ModeSetting_NoVoid_Mode_Hypixel
 NumberSetting_NoVoid_Fall Distance_5.0
 BooleanSetting_NoVoid_Void Check_true
 BooleanSetting_NoVoid_Show Notifications_false
-Toggle_NoFall_false
+Toggle_NoFall_true
 ModeSetting_NoFall_Mode_Hypixel
 BooleanSetting_NoFall_Offset_true
 Toggle_Scaffold_false
@@ -319,7 +334,7 @@ BooleanSetting_Scaffold_Safe Walk_false
 NumberSetting_Scaffold_Place Delay_0.0
 BooleanSetting_Scaffold_Randomise Place Delay_false
 NumberSetting_Scaffold_Speed Multiplier_1.0
-NumberSetting_Scaffold_Random_2.0
+NumberSetting_Scaffold_Random_1.0
 NumberSetting_Scaffold_Expand_0.0
 BooleanSetting_Scaffold_Jitter_false
 BooleanSetting_Scaffold_Blink_false
@@ -372,14 +387,16 @@ Toggle_Eagle_false
 Toggle_KeepSprint_true
 Toggle_AutoHypixel_true
 BooleanSetting_AutoHypixel_Auto Rejoin_false
-BooleanSetting_AutoHypixel_Auto Play_true
+BooleanSetting_AutoHypixel_Auto Play_false
+BooleanSetting_AutoHypixel_Auto GG_true
+NumberSetting_AutoHypixel_Send Delay_500.0000111758711
+BooleanSetting_AutoHypixel_Win Only_true
 ModeSetting_AutoHypixel_Play Mode_Skywars
 ModeSetting_AutoHypixel_Skywars Mode_Solo
 ModeSetting_AutoHypixel_Skywars Type_Insane
 ModeSetting_AutoHypixel_Bedwars Mode_Solo
 NumberSetting_AutoHypixel_Play Delay_1500.0000335276134
 Toggle_Disabler_false
-BooleanSetting_Disabler_Minemenclub Full_false
 BooleanSetting_Disabler_Minemenclub Keepsprint Check_false
 BooleanSetting_Disabler_Minemenclub Reach Semi_false
 BooleanSetting_Disabler_Hypixel Slime_false
@@ -389,16 +406,17 @@ BooleanSetting_Disabler_Ghostly_false
 BooleanSetting_Disabler_Lunar_false
 BooleanSetting_Disabler_Verus Partial_false
 BooleanSetting_Disabler_Position Edit_false
+BooleanSetting_Disabler_Verus Combat_false
 BooleanSetting_Disabler_Verus_false
 BooleanSetting_Disabler_Hide Old Disablers_false
 BooleanSetting_Disabler_Verus Old_false
-BooleanSetting_Disabler_Verus Combat_false
 BooleanSetting_Disabler_Latest Verus_false
 BooleanSetting_Disabler_Spartan_false
 BooleanSetting_Disabler_Void TP_false
 BooleanSetting_Disabler_Clip_false
 BooleanSetting_Disabler_Tecnio AC Disabler_false
 BooleanSetting_Disabler_Covert Moving Packets_false
+BooleanSetting_Disabler_Reverse Covert Moving Packets_false
 BooleanSetting_Disabler_Funcraft_false
 BooleanSetting_Disabler_Oxygen_false
 BooleanSetting_Disabler_PacketInput_false
@@ -451,8 +469,6 @@ ModeSetting_Crasher_Mode_Pex
 NumberSetting_Crasher_Packets_10.0
 Toggle_PingSpoof_false
 NumberSetting_PingSpoof_Delay_30000.0
-BooleanSetting_PingSpoof_KeepAlives_true
-BooleanSetting_PingSpoof_Transactions_true
 Toggle_NoGuiClose_true
 BooleanSetting_NoGuiClose_Chat Only_true
 Toggle_AntiSuffocation_true
@@ -472,7 +488,7 @@ NumberSetting_PlayerHacks_Aura Range_8.0
 NumberSetting_PlayerHacks_Max Targets_25.0
 BooleanSetting_PlayerHacks_Only On Swing_false
 BooleanSetting_PlayerHacks_Swing_false
-Toggle_StaffAlert_false
+Toggle_StaffAlert_true
 NumberSetting_StaffAlert_Delay (Seconds)_5.0
 Toggle_Sniper_false
 ModeSetting_Sniper_Mode_Skywars
@@ -520,11 +536,11 @@ BooleanSetting_Chams_Rainbow_false
 Toggle_ESP_false
 Toggle_Animations_true
 ModeSetting_Animations_Animation_1.7
-NumberSetting_Animations_Slow_6.0
+NumberSetting_Animations_Slow_11.0
 NumberSetting_Animations_X_0.0
-NumberSetting_Animations_Y_0.0
+NumberSetting_Animations_Y_0.1
 NumberSetting_Animations_Z_0.0
-NumberSetting_Animations_Scale_1.0
+NumberSetting_Animations_Scale_0.8
 BooleanSetting_Animations_Smooth Swing_false
 BooleanSetting_Animations_Reset Position_false
 BooleanSetting_Animations_Always Show_true
