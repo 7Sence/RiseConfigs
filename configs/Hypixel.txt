@@ -100,7 +100,7 @@ BooleanSetting_Speed_Low_true
 NumberSetting_Speed_Hypixel Timer_1.0
 BooleanSetting_Speed_Sneak Timer Boost_true
 NumberSetting_Speed_Sneak Timer_2.0
-NumberSetting_Speed_Glide_0.0
+NumberSetting_Speed_Glide_0.025
 NumberSetting_Speed_Mmc Speed_1.0
 Toggle_No0.03_false
 Toggle_Strafe_false
