@@ -151,7 +151,7 @@ Toggle_ClickTP_false
 ModeSetting_ClickTP_Mode_Karhu
 Toggle_BedWalker_false
 Toggle_BowFly_false
-Toggle_Clipper_false
+Toggle_Clipper_true
 Toggle_AutoGap_false
 NumberSetting_AutoGap_Health_10.0
 BooleanSetting_AutoGap_Switch Slots_true
@@ -604,7 +604,7 @@ BooleanSetting_Blur_TabGui_true
 Toggle_ChestESP_false
 ModeSetting_ChestESP_Mode_2D
 Toggle_NoHurtCam_false
-Toggle_CameraClip_false
+Toggle_CameraClip_true
 Toggle_ItemPhysics_false
 Toggle_MotionGraph_false
 NumberSetting_MotionGraph_Width_140.0
