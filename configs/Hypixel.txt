@@ -29,7 +29,7 @@ Toggle_Fly_false
 ModeSetting_Fly_Fly Mode_Hypixel New
 ModeSetting_Fly_Value_1
 ModeSetting_Fly_Mode_Stable
-NumberSetting_Fly_Fly Speed_9.5
+NumberSetting_Fly_Fly Speed_0.6
 BooleanSetting_Fly_Auto Stop_true
 NumberSetting_Fly_H Boost first tick_0.4
 NumberSetting_Fly_V Boost first tick_0.5
@@ -97,10 +97,10 @@ NumberSetting_Speed_Distance_62.39
 BooleanSetting_Speed_Disable on flag_true
 BooleanSetting_Speed_Stop on Disable_true
 BooleanSetting_Speed_Low_true
-NumberSetting_Speed_Hypixel Timer_1.0
+NumberSetting_Speed_Hypixel Timer_1.1
 BooleanSetting_Speed_Sneak Timer Boost_true
 NumberSetting_Speed_Sneak Timer_1.4
-NumberSetting_Speed_Glide_0.025
+NumberSetting_Speed_Glide_0.02
 NumberSetting_Speed_Mmc Speed_1.0
 Toggle_No0.03_false
 Toggle_Strafe_false
@@ -118,7 +118,7 @@ NumberSetting_JumpBoost_Horizontal Motion_0.25
 BooleanSetting_JumpBoost_Smooth Camera_false
 BooleanSetting_JumpBoost_Auto Disable_true
 Toggle_LongJump_false
-ModeSetting_LongJump_Mode_Redesky
+ModeSetting_LongJump_Mode_Hypixel
 ModeSetting_LongJump_NCP Mode_Damage
 BooleanSetting_LongJump_Smooth Camera_false
 BooleanSetting_LongJump_Auto Disable_true
@@ -151,7 +151,7 @@ Toggle_ClickTP_false
 ModeSetting_ClickTP_Mode_Karhu
 Toggle_BedWalker_false
 Toggle_BowFly_false
-Toggle_Clipper_false
+Toggle_Clipper_true
 Toggle_AutoGap_false
 NumberSetting_AutoGap_Health_10.0
 BooleanSetting_AutoGap_Switch Slots_true
@@ -328,12 +328,12 @@ ModeSetting_NoFall_Mode_Hypixel
 BooleanSetting_NoFall_Offset_true
 Toggle_Scaffold_false
 ModeSetting_Scaffold_Tower_None
-ModeSetting_Scaffold_Rotations_Smooth
+ModeSetting_Scaffold_Rotations_Always
 ModeSetting_Scaffold_Allow Sprint_Disallow
 ModeSetting_Scaffold_Speed_None
 ModeSetting_Scaffold_SameY_None
 ModeSetting_Scaffold_Move Fix_None
-ModeSetting_Scaffold_Sneak_Silent
+ModeSetting_Scaffold_Sneak_Off
 NumberSetting_Scaffold_Tower Timer_1.0
 NumberSetting_Scaffold_Timer_1.0
 BooleanSetting_Scaffold_Safe Walk_false
@@ -391,7 +391,7 @@ NumberSetting_AutoClicker_Min CPS_9.0
 NumberSetting_AutoClicker_Max CPS_13.8
 Toggle_Eagle_false
 Toggle_KeepSprint_false
-Toggle_AutoHypixel_true
+Toggle_AutoHypixel_false
 BooleanSetting_AutoHypixel_Auto Rejoin_false
 BooleanSetting_AutoHypixel_Auto Play_false
 BooleanSetting_AutoHypixel_Auto GG_true
@@ -495,7 +495,7 @@ NumberSetting_PlayerHacks_Aura Range_8.0
 NumberSetting_PlayerHacks_Max Targets_25.0
 BooleanSetting_PlayerHacks_Only On Swing_false
 BooleanSetting_PlayerHacks_Swing_false
-Toggle_StaffAlert_true
+Toggle_StaffAlert_false
 NumberSetting_StaffAlert_Delay (Seconds)_5.0
 Toggle_Sniper_false
 ModeSetting_Sniper_Mode_Skywars
@@ -540,7 +540,7 @@ NumberSetting_Chams_Green_0.0
 NumberSetting_Chams_Blue_0.0
 NumberSetting_Chams_Alpha_50.0
 BooleanSetting_Chams_Rainbow_false
-Toggle_ESP_false
+Toggle_ESP_true
 Toggle_Animations_true
 ModeSetting_Animations_Animation_Exhibition
 NumberSetting_Animations_Slow_11.0
