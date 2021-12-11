@@ -2,7 +2,7 @@ Rise_Version_5.71
 MainMenuTheme_LIGHTMODE
 ClientName_op
 Toggle_Interface_true
-ModeSetting_Interface_Theme_Never Lose Rainbow
+ModeSetting_Interface_Theme_Rise Blend
 ModeSetting_Interface_List Animation_Slide
 NumberSetting_Interface_Red_255.0
 NumberSetting_Interface_Green_0.0
@@ -96,10 +96,10 @@ NumberSetting_Speed_How Often_22.805
 NumberSetting_Speed_Distance_62.39
 BooleanSetting_Speed_Disable on flag_true
 BooleanSetting_Speed_Stop on Disable_true
-BooleanSetting_Speed_Low_true
-NumberSetting_Speed_Hypixel Timer_1.1
+BooleanSetting_Speed_Low_false
+NumberSetting_Speed_Hypixel Timer_1.3
 BooleanSetting_Speed_Sneak Timer Boost_true
-NumberSetting_Speed_Sneak Timer_1.4
+NumberSetting_Speed_Sneak Timer_2.0
 NumberSetting_Speed_Glide_0.02
 NumberSetting_Speed_Mmc Speed_1.0
 Toggle_No0.03_false
@@ -118,7 +118,7 @@ NumberSetting_JumpBoost_Horizontal Motion_0.25
 BooleanSetting_JumpBoost_Smooth Camera_false
 BooleanSetting_JumpBoost_Auto Disable_true
 Toggle_LongJump_false
-ModeSetting_LongJump_Mode_Hypixel
+ModeSetting_LongJump_Mode_NCP
 ModeSetting_LongJump_NCP Mode_Damage
 BooleanSetting_LongJump_Smooth Camera_false
 BooleanSetting_LongJump_Auto Disable_true
@@ -126,15 +126,15 @@ NumberSetting_LongJump_On Ground Speed_0.4
 NumberSetting_LongJump_Off Ground Speed_1.4
 NumberSetting_LongJump_Timer_1.4
 NumberSetting_LongJump_View Bobbing_0.0
-Toggle_InvMove_false
-NumberSetting_InvMove_Slow Down_0.7
+Toggle_InvMove_true
+NumberSetting_InvMove_Slow Down_1.0
 BooleanSetting_InvMove_Packet_false
 Toggle_Step_true
 ModeSetting_Step_Mode_Hypixel
 NumberSetting_Step_Height_1.5
 NumberSetting_Step_Timer_0.5
 Toggle_Phase_false
-ModeSetting_Phase_Mode_Hypixel
+ModeSetting_Phase_Mode_Normal
 NumberSetting_Phase_Fly Speed_1.0
 ModeSetting_Phase_Hypixel Mode_Auto
 ModeSetting_Phase_Teleport Mode_Player
@@ -145,8 +145,8 @@ BooleanSetting_Blink_All Packets_true
 BooleanSetting_Blink_Pulse_true
 NumberSetting_Blink_Pulse Delay_4.0
 Toggle_Spider_false
-ModeSetting_Spider_Mode_Normal
-NumberSetting_Spider_Speed_0.2
+ModeSetting_Spider_Mode_Jump
+NumberSetting_Spider_Speed_0.6
 Toggle_ClickTP_false
 ModeSetting_ClickTP_Mode_Karhu
 Toggle_BedWalker_false
@@ -161,11 +161,11 @@ NumberSetting_AutoHead_Min Delay_300.0
 NumberSetting_AutoHead_Max Delay_500.0
 Toggle_Aura_false
 ModeSetting_Aura_Mode_Switch
-ModeSetting_Aura_Rotation Mode_Custom
+ModeSetting_Aura_Rotation Mode_None
 ModeSetting_Aura_Block Mode_Hypixel
-ModeSetting_Aura_Sorting Mode_Hurttime
-NumberSetting_Aura_Range_5.0
-NumberSetting_Aura_Rotation Range_5.0
+ModeSetting_Aura_Sorting Mode_Distance
+NumberSetting_Aura_Range_6.0
+NumberSetting_Aura_Rotation Range_12.0
 NumberSetting_Aura_Extended Range_12.0
 BooleanSetting_Aura_Extended Range_false
 NumberSetting_Aura_Min CPS_12.0
@@ -240,7 +240,7 @@ NumberSetting_Velocity_Timer_1.0
 NumberSetting_Velocity_Timer Ticks_0.0
 NumberSetting_Velocity_Ticks_3.0
 Toggle_TargetStrafe_true
-NumberSetting_TargetStrafe_Range_3.0
+NumberSetting_TargetStrafe_Range_2.5
 BooleanSetting_TargetStrafe_Third Person_false
 BooleanSetting_TargetStrafe_Controllable_true
 BooleanSetting_TargetStrafe_Jump Only_true
@@ -284,9 +284,9 @@ BooleanSetting_AntiBot_Distance Check_false
 BooleanSetting_AntiBot_Ping Check_false
 Toggle_WTap_false
 BooleanSetting_WTap_Legit_false
-Toggle_Criticals_false
+Toggle_Criticals_true
 ModeSetting_Criticals_Mode_Position
-NumberSetting_Criticals_Delay_500.0000111758711
+NumberSetting_Criticals_Delay_100.00000223517424
 Toggle_ComboOneHit_false
 NumberSetting_ComboOneHit_Packets_0.0
 Toggle_Regen_false
@@ -308,7 +308,7 @@ NumberSetting_Stealer_Max Delay_100.00000223517424
 BooleanSetting_Stealer_Steal trash items_false
 BooleanSetting_Stealer_Auto Close_true
 BooleanSetting_Stealer_Hide Gui_false
-BooleanSetting_Stealer_Move head in chest_false
+BooleanSetting_Stealer_Move head in chest_true
 BooleanSetting_Stealer_Check chest name_true
 Toggle_AutoTool_true
 Toggle_FastPlace_false
@@ -316,14 +316,14 @@ NumberSetting_FastPlace_FastPlace Delay_0.0
 BooleanSetting_FastPlace_Blocks Only_true
 BooleanSetting_FastPlace_Randomize_false
 Toggle_FastEat_false
-ModeSetting_FastEat_Mode_Normal
-NumberSetting_FastEat_Speed_14.0
+ModeSetting_FastEat_Mode_Ghostly
+NumberSetting_FastEat_Speed_78.0
 Toggle_NoVoid_true
-ModeSetting_NoVoid_Mode_Hypixel
-NumberSetting_NoVoid_Fall Distance_1.0
+ModeSetting_NoVoid_Mode_Position
+NumberSetting_NoVoid_Fall Distance_5.0
 BooleanSetting_NoVoid_Void Check_true
 BooleanSetting_NoVoid_Show Notifications_false
-Toggle_NoFall_false
+Toggle_NoFall_true
 ModeSetting_NoFall_Mode_Hypixel
 BooleanSetting_NoFall_Offset_true
 Toggle_Scaffold_false
@@ -334,8 +334,8 @@ ModeSetting_Scaffold_Speed_None
 ModeSetting_Scaffold_SameY_None
 ModeSetting_Scaffold_Move Fix_None
 ModeSetting_Scaffold_Sneak_Off
-NumberSetting_Scaffold_Tower Timer_1.0
-NumberSetting_Scaffold_Timer_1.0
+NumberSetting_Scaffold_Tower Timer_1.1
+NumberSetting_Scaffold_Timer_1.1
 BooleanSetting_Scaffold_Safe Walk_false
 NumberSetting_Scaffold_Place Delay_0.0
 BooleanSetting_Scaffold_Randomise Place Delay_false
@@ -343,15 +343,15 @@ NumberSetting_Scaffold_Speed Multiplier_1.0
 NumberSetting_Scaffold_Random_0.0
 NumberSetting_Scaffold_Expand_0.0
 BooleanSetting_Scaffold_Jitter_false
-BooleanSetting_Scaffold_Blink_false
+BooleanSetting_Scaffold_Blink_true
 BooleanSetting_Scaffold_Downwards_false
 BooleanSetting_Scaffold_Move Freely Whilst Towering_true
 BooleanSetting_Scaffold_Strafe_false
 BooleanSetting_Scaffold_Check if looking at block_false
 BooleanSetting_Scaffold_Ignore Speed_true
 BooleanSetting_Scaffold_Swing_false
-Toggle_FastBreak_false
-NumberSetting_FastBreak_Speed_0.3
+Toggle_FastBreak_true
+NumberSetting_FastBreak_Speed_0.4
 Toggle_Manager_true
 ModeSetting_Manager_Mode_None
 NumberSetting_Manager_Min Delay_50.00000111758712
@@ -415,6 +415,7 @@ BooleanSetting_Disabler_Position Edit_false
 BooleanSetting_Disabler_Vulcan Reach A_false
 BooleanSetting_Disabler_Verus Combat_false
 BooleanSetting_Disabler_Verus_false
+BooleanSetting_Disabler_Matrix_false
 BooleanSetting_Disabler_Hide Old Disablers_false
 BooleanSetting_Disabler_Verus Old_false
 BooleanSetting_Disabler_Latest Verus_false
@@ -442,7 +443,7 @@ Toggle_Insults_false
 ModeSetting_Insults_Mode_Sigma
 Toggle_ChatBypass_false
 ModeSetting_ChatBypass_Mode_Hypixel
-Toggle_Breaker_false
+Toggle_Breaker_true
 NumberSetting_Breaker_Range_4.0
 BooleanSetting_Breaker_Swing_false
 BooleanSetting_Breaker_Cake_false
@@ -463,7 +464,7 @@ BooleanSetting_Nuker_Instant Only_false
 BooleanSetting_Nuker_Scatter_true
 BooleanSetting_Nuker_Swing_true
 Toggle_Timer_false
-NumberSetting_Timer_Timer Speed_0.5
+NumberSetting_Timer_Timer Speed_2.0
 ModeSetting_Timer_Mode_Vanilla
 Toggle_Spammer_false
 ModeSetting_Spammer_Mode_Hypixel
@@ -530,9 +531,9 @@ BooleanSetting_Hitmarkers_Random Pitch_false
 Toggle_SimsESP_false
 Toggle_ClickGui_false
 ModeSetting_ClickGui_Mode_Rise
-ModeSetting_ClickGui_Theme_Rustic Desert
-BooleanSetting_ClickGui_Transparency_false
-NumberSetting_ClickGui_Scale_1.0
+ModeSetting_ClickGui_Theme_Deep Blue Rise
+BooleanSetting_ClickGui_Transparency_true
+NumberSetting_ClickGui_Scale_0.7
 Toggle_Nametags_true
 Toggle_Chams_false
 NumberSetting_Chams_Red_255.0
@@ -542,12 +543,12 @@ NumberSetting_Chams_Alpha_50.0
 BooleanSetting_Chams_Rainbow_false
 Toggle_ESP_true
 Toggle_Animations_true
-ModeSetting_Animations_Animation_Exhibition
-NumberSetting_Animations_Slow_11.0
+ModeSetting_Animations_Animation_Shove
+NumberSetting_Animations_Slow_6.0
 NumberSetting_Animations_X_0.0
-NumberSetting_Animations_Y_0.1
+NumberSetting_Animations_Y_0.0
 NumberSetting_Animations_Z_0.0
-NumberSetting_Animations_Scale_0.8
+NumberSetting_Animations_Scale_1.0
 BooleanSetting_Animations_Smooth Swing_false
 BooleanSetting_Animations_Reset Position_false
 BooleanSetting_Animations_Always Show_false
@@ -602,7 +603,7 @@ BooleanSetting_Blur_Interfaces_true
 BooleanSetting_Blur_Keystrokes_true
 BooleanSetting_Blur_Radar_true
 BooleanSetting_Blur_TabGui_true
-Toggle_ChestESP_false
+Toggle_ChestESP_true
 ModeSetting_ChestESP_Mode_2D
 Toggle_NoHurtCam_false
 Toggle_CameraClip_true
