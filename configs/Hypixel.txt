@@ -152,7 +152,7 @@ BooleanSetting_AntiBot_Distance Check_true
 BooleanSetting_AntiBot_Ping Check_true
 Toggle_WTap_false
 BooleanSetting_WTap_Legit_false
-Toggle_Criticals_true
+Toggle_Criticals_false
 ModeSetting_Criticals_Mode_Hypixel
 NumberSetting_Criticals_Delay_500.0000111758711
 Toggle_ComboOneHit_false
@@ -191,10 +191,11 @@ ModeSetting_NoVoid_Mode_Hypixel
 NumberSetting_NoVoid_Fall Distance_1.0
 BooleanSetting_NoVoid_Void Check_true
 BooleanSetting_NoVoid_Show Notifications_false
-Toggle_NoFall_true
+Toggle_NoFall_false
 ModeSetting_NoFall_Mode_Hypixel
 BooleanSetting_NoFall_Offset_true
 Toggle_Scaffold_false
+ModeSetting_Scaffold_Rotations_Normal
 ModeSetting_Scaffold_Tower_None
 ModeSetting_Scaffold_Movement Fix_None
 ModeSetting_Scaffold_Sprint_Hypixel
@@ -535,6 +536,7 @@ Toggle_ESP_false
 Toggle_Animations_true
 ModeSetting_Animations_Animation_Slide
 NumberSetting_Animations_Slow_11.0
+NumberSetting_Animations_Spin Speed_3.0
 NumberSetting_Animations_X_0.0
 NumberSetting_Animations_Y_0.1
 NumberSetting_Animations_Z_0.0
@@ -585,7 +587,7 @@ BooleanSetting_Scoreboard_Custom Scoreboard_true
 Toggle_Breadcrumbs_false
 BooleanSetting_Breadcrumbs_Timeout_true
 NumberSetting_Breadcrumbs_Time_150.0
-Toggle_Radar_true
+Toggle_Radar_false
 NumberSetting_Radar_Radar X_3.0
 NumberSetting_Radar_Radar Y_23.0
 Toggle_Blur_true
@@ -611,9 +613,10 @@ ModeSetting_XRay(WIP)_Mode_Normal
 NumberSetting_XRay(WIP)_Range_5.0
 Toggle_ShaderESP_true
 Toggle_Particles_true
+NumberSetting_Particles_Amount_5.0
+BooleanSetting_Particles_Physics_false
 Toggle_AutoPot_true
 NumberSetting_AutoPot_Health_15.0
 BooleanSetting_AutoPot_Randomise Rotations_true
 BooleanSetting_AutoPot_Extra Packet_false
 BooleanSetting_AutoPot_Jump_false
-.
