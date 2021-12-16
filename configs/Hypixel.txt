@@ -1,6 +1,6 @@
 Rise_Version_5.71
 MainMenuTheme_LIGHTMODE
-ClientName_auth skywars
+ClientName_Billionare skywars
 Toggle_Interface_true
 ModeSetting_Interface_Theme_Rise Blend
 ModeSetting_Interface_List Animation_Slide
@@ -29,11 +29,11 @@ NumberSetting_AutoHead_Min Delay_300.0
 NumberSetting_AutoHead_Max Delay_500.0
 Toggle_Aura_false
 ModeSetting_Aura_Mode_Single
-ModeSetting_Aura_Rotation Mode_Custom
+ModeSetting_Aura_Rotation Mode_Smooth
 ModeSetting_Aura_Block Mode_Hypixel
 ModeSetting_Aura_Sorting Mode_Hurttime
-NumberSetting_Aura_Range_5.0
-NumberSetting_Aura_Rotation Range_5.0
+NumberSetting_Aura_Range_6.0
+NumberSetting_Aura_Rotation Range_12.0
 NumberSetting_Aura_Extended Range_12.0
 BooleanSetting_Aura_Extended Range_false
 NumberSetting_Aura_Min CPS_12.0
@@ -109,7 +109,7 @@ NumberSetting_Velocity_Timer Ticks_0.0
 NumberSetting_Velocity_Ticks_3.0
 Toggle_TargetStrafe_true
 NumberSetting_TargetStrafe_Range_2.0
-BooleanSetting_TargetStrafe_Third Person_false
+BooleanSetting_TargetStrafe_Third Person_true
 BooleanSetting_TargetStrafe_Controllable_true
 BooleanSetting_TargetStrafe_Jump Only_true
 Toggle_FastBow_false
@@ -152,7 +152,7 @@ BooleanSetting_AntiBot_Distance Check_true
 BooleanSetting_AntiBot_Ping Check_true
 Toggle_WTap_false
 BooleanSetting_WTap_Legit_false
-Toggle_Criticals_false
+Toggle_Criticals_true
 ModeSetting_Criticals_Mode_Hypixel
 NumberSetting_Criticals_Delay_500.0000111758711
 Toggle_ComboOneHit_false
@@ -191,22 +191,22 @@ ModeSetting_NoVoid_Mode_Hypixel
 NumberSetting_NoVoid_Fall Distance_1.0
 BooleanSetting_NoVoid_Void Check_true
 BooleanSetting_NoVoid_Show Notifications_false
-Toggle_NoFall_false
+Toggle_NoFall_true
 ModeSetting_NoFall_Mode_Hypixel
 BooleanSetting_NoFall_Offset_true
 Toggle_Scaffold_false
 ModeSetting_Scaffold_Rotations_Normal
-ModeSetting_Scaffold_Tower_None
-ModeSetting_Scaffold_Movement Fix_None
-ModeSetting_Scaffold_Sprint_Hypixel
-NumberSetting_Scaffold_Timer_1.0
-NumberSetting_Scaffold_Tower Timer_1.0
+ModeSetting_Scaffold_Tower_Slow
+ModeSetting_Scaffold_Movement Fix_Yaw
+ModeSetting_Scaffold_Sprint_Disabled
+NumberSetting_Scaffold_Timer_2.1
+NumberSetting_Scaffold_Tower Timer_0.5
 BooleanSetting_Scaffold_Downwards_false
 BooleanSetting_Scaffold_Safe Walk_false
-BooleanSetting_Scaffold_Same Y_false
+BooleanSetting_Scaffold_Same Y_true
 BooleanSetting_Scaffold_Swing_false
-NumberSetting_Scaffold_Range_4.5
-NumberSetting_Scaffold_Rotation Speed_39.99999940395356
+NumberSetting_Scaffold_Range_6.0
+NumberSetting_Scaffold_Rotation Speed_359.999994635582
 NumberSetting_Scaffold_Randomisation_3.0
 NumberSetting_Scaffold_Place Delay_0.0
 BooleanSetting_Scaffold_Randomise Place Delay_false
@@ -237,7 +237,7 @@ BooleanSetting_Sprint_Only In Air_false
 Toggle_Sneak_false
 ModeSetting_Sneak_Mode_NCP
 Toggle_Fly_false
-ModeSetting_Fly_Fly Mode_Vanilla
+ModeSetting_Fly_Fly Mode_Hypixel New
 ModeSetting_Fly_Value_1
 ModeSetting_Fly_Mode_Stable
 NumberSetting_Fly_Fly Speed_1.8
@@ -303,7 +303,7 @@ NumberSetting_Speed_Distance_62.39
 BooleanSetting_Speed_Disable on flag_true
 BooleanSetting_Speed_Stop on Disable_true
 BooleanSetting_Speed_Low_true
-NumberSetting_Speed_Hypixel Timer_1.2
+NumberSetting_Speed_Hypixel Timer_1.4
 BooleanSetting_Speed_Sneak Timer Boost_true
 NumberSetting_Speed_Sneak Timer_2.0
 NumberSetting_Speed_Glide_0.025
@@ -455,7 +455,7 @@ BooleanSetting_Nuker_Instant Only_false
 BooleanSetting_Nuker_Scatter_true
 BooleanSetting_Nuker_Swing_true
 Toggle_Timer_false
-NumberSetting_Timer_Timer Speed_0.5
+NumberSetting_Timer_Timer Speed_2.1
 ModeSetting_Timer_Mode_Vanilla
 Toggle_Spammer_false
 ModeSetting_Spammer_Mode_Hypixel
@@ -495,7 +495,7 @@ ModeSetting_Sniper_Skywars Mode_Solo
 ModeSetting_Sniper_Skywars Type_Insane
 ModeSetting_Sniper_Bedwars Mode_Quads
 NumberSetting_Sniper_Delay_1000.0
-Toggle_ClientSpoofer_false
+Toggle_ClientSpoofer_true
 ModeSetting_ClientSpoofer_Mode_Lunar
 Toggle_AutoBuild_false
 ModeSetting_AutoBuild_Mode_Teleport
@@ -522,10 +522,10 @@ BooleanSetting_Hitmarkers_Random Pitch_false
 Toggle_SimsESP_false
 Toggle_ClickGui_false
 ModeSetting_ClickGui_Mode_Rise
-ModeSetting_ClickGui_Theme_Rural Amethyst
-BooleanSetting_ClickGui_Transparency_false
-NumberSetting_ClickGui_Scale_1.0
-Toggle_Nametags_false
+ModeSetting_ClickGui_Theme_Deep Blue Rise
+BooleanSetting_ClickGui_Transparency_true
+NumberSetting_ClickGui_Scale_0.7
+Toggle_Nametags_true
 Toggle_Chams_false
 NumberSetting_Chams_Red_255.0
 NumberSetting_Chams_Green_0.0
@@ -534,13 +534,13 @@ NumberSetting_Chams_Alpha_50.0
 BooleanSetting_Chams_Rainbow_false
 Toggle_ESP_false
 Toggle_Animations_true
-ModeSetting_Animations_Animation_Slide
-NumberSetting_Animations_Slow_11.0
+ModeSetting_Animations_Animation_Shove
+NumberSetting_Animations_Slow_6.5
 NumberSetting_Animations_Spin Speed_3.0
-NumberSetting_Animations_X_0.0
-NumberSetting_Animations_Y_0.1
-NumberSetting_Animations_Z_0.0
-NumberSetting_Animations_Scale_0.8
+NumberSetting_Animations_X_1.5
+NumberSetting_Animations_Y_-1.3
+NumberSetting_Animations_Z_-2.0
+NumberSetting_Animations_Scale_1.4
 BooleanSetting_Animations_Smooth Swing_false
 BooleanSetting_Animations_Reset Position_false
 BooleanSetting_Animations_Always Show_false
@@ -559,7 +559,7 @@ NumberSetting_DamageColor_Red_255.0
 NumberSetting_DamageColor_Green_0.0
 NumberSetting_DamageColor_Blue_0.0
 NumberSetting_DamageColor_Alpha_75.0
-Toggle_2DESP_false
+Toggle_2DESP_true
 ModeSetting_2DESP_Mode_Real
 Toggle_Enchant_false
 NumberSetting_Enchant_Strength_2.2
@@ -589,7 +589,7 @@ BooleanSetting_Breadcrumbs_Timeout_true
 NumberSetting_Breadcrumbs_Time_150.0
 Toggle_Radar_false
 NumberSetting_Radar_Radar X_3.0
-NumberSetting_Radar_Radar Y_23.0
+NumberSetting_Radar_Radar Y_25.0
 Toggle_Blur_true
 BooleanSetting_Blur_Interfaces_true
 BooleanSetting_Blur_Keystrokes_true
@@ -611,7 +611,7 @@ Toggle_Health_false
 Toggle_XRay(WIP)_false
 ModeSetting_XRay(WIP)_Mode_Normal
 NumberSetting_XRay(WIP)_Range_5.0
-Toggle_ShaderESP_true
+Toggle_ShaderESP_false
 Toggle_Particles_true
 NumberSetting_Particles_Amount_5.0
 BooleanSetting_Particles_Physics_false
