@@ -616,3 +616,4 @@ NumberSetting_AutoPot_Health_15.0
 BooleanSetting_AutoPot_Randomise Rotations_true
 BooleanSetting_AutoPot_Extra Packet_false
 BooleanSetting_AutoPot_Jump_false
+.
