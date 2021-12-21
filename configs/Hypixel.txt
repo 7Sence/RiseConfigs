@@ -27,7 +27,7 @@ Toggle_AutoHead_false
 NumberSetting_AutoHead_Health_16.0
 NumberSetting_AutoHead_Min Delay_300.0
 NumberSetting_AutoHead_Max Delay_500.0
-Toggle_Aura_false
+Toggle_Aura_true
 ModeSetting_Aura_Mode_Single
 ModeSetting_Aura_Rotation Mode_Smooth
 ModeSetting_Aura_Block Mode_Hypixel
@@ -320,7 +320,7 @@ Toggle_NoSlow_true
 ModeSetting_NoSlow_Mode_Hypixel
 Toggle_JumpBoost_false
 ModeSetting_JumpBoost_Mode_Fireball
-NumberSetting_JumpBoost_Timer Speed_2.0
+NumberSetting_JumpBoost_Timer Speed_1.0
 NumberSetting_JumpBoost_Vertical Motion_0.25
 NumberSetting_JumpBoost_Horizontal Motion_0.25
 BooleanSetting_JumpBoost_Smooth Camera_false
