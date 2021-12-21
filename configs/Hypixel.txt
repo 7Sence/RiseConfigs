@@ -1,6 +1,6 @@
-Rise_Version_5.71
+Rise_Version_5.72
 MainMenuTheme_LIGHTMODE
-ClientName_Billionare skywars
+ClientName_
 Toggle_Interface_true
 ModeSetting_Interface_Theme_Rise Blend
 ModeSetting_Interface_List Animation_Slide
@@ -36,8 +36,8 @@ NumberSetting_Aura_Range_6.0
 NumberSetting_Aura_Rotation Range_12.0
 NumberSetting_Aura_Extended Range_12.0
 BooleanSetting_Aura_Extended Range_false
-NumberSetting_Aura_Min CPS_12.0
-NumberSetting_Aura_Max CPS_14.0
+NumberSetting_Aura_Min CPS_20.0
+NumberSetting_Aura_Max CPS_20.0
 NumberSetting_Aura_Max Targets_50.0
 NumberSetting_Aura_Predict_0.0
 NumberSetting_Aura_Random_0.5
@@ -67,7 +67,7 @@ BooleanSetting_Aura_Attack Dead_false
 BooleanSetting_Aura_Target ESP_true
 BooleanSetting_Aura_Display Range_false
 BooleanSetting_Aura_Disable On World Change_true
-BooleanSetting_Aura_Attack with Scaffold_false
+BooleanSetting_Aura_Attack with Scaffold_true
 BooleanSetting_Aura_Attack in Interfaces_true
 BooleanSetting_Aura_On Click_false
 Toggle_FastBow_false
@@ -153,7 +153,7 @@ BooleanSetting_AntiBot_Ping Check_false
 BooleanSetting_AntiBot_Repeated Movement_false
 Toggle_WTap_false
 BooleanSetting_WTap_Legit_false
-Toggle_Criticals_true
+Toggle_Criticals_false
 ModeSetting_Criticals_Mode_Hypixel
 NumberSetting_Criticals_Delay_500.0000111758711
 Toggle_ComboOneHit_false
@@ -187,7 +187,7 @@ BooleanSetting_FastPlace_Randomize_false
 Toggle_FastEat_false
 ModeSetting_FastEat_Mode_Normal
 NumberSetting_FastEat_Speed_10.0
-Toggle_NoVoid_true
+Toggle_NoVoid_false
 ModeSetting_NoVoid_Mode_Hypixel
 NumberSetting_NoVoid_Fall Distance_1.0
 BooleanSetting_NoVoid_Void Check_true
@@ -197,24 +197,25 @@ ModeSetting_NoFall_Mode_Hypixel
 BooleanSetting_NoFall_Offset_true
 Toggle_Scaffold_false
 ModeSetting_Scaffold_Rotations_Normal
-ModeSetting_Scaffold_Tower_None
+ModeSetting_Scaffold_Tower_Hypixel
 ModeSetting_Scaffold_Movement Fix_None
-ModeSetting_Scaffold_Sprint_Disabled
-NumberSetting_Scaffold_Timer_1.8
+ModeSetting_Scaffold_Sprint_Hypixel
+NumberSetting_Scaffold_Timer_1.0
 NumberSetting_Scaffold_Tower Timer_1.0
 BooleanSetting_Scaffold_Downwards_false
 BooleanSetting_Scaffold_Safe Walk_false
 BooleanSetting_Scaffold_Same Y_false
 BooleanSetting_Scaffold_Swing_false
-NumberSetting_Scaffold_Range_4.5
-NumberSetting_Scaffold_Rotation Speed_28.0
-NumberSetting_Scaffold_Randomisation_3.0
+NumberSetting_Scaffold_Range_4.0
+NumberSetting_Scaffold_Rotation Speed_29.99999955296517
+NumberSetting_Scaffold_Randomisation_6.0
 NumberSetting_Scaffold_Place Delay_0.0
 BooleanSetting_Scaffold_Randomise Place Delay_false
 NumberSetting_Scaffold_Speed Multiplier_1.0
 BooleanSetting_Scaffold_Ignore Speed_false
 BooleanSetting_Scaffold_Tower Move_true
 BooleanSetting_Scaffold_Ray Cast_false
+BooleanSetting_Scaffold_Jitter_false
 Toggle_FastBreak_false
 NumberSetting_FastBreak_Speed_0.3
 Toggle_Manager_false
@@ -241,7 +242,7 @@ Toggle_Fly_false
 ModeSetting_Fly_Fly Mode_Hypixel New
 ModeSetting_Fly_Value_1
 ModeSetting_Fly_Mode_Stable
-NumberSetting_Fly_Fly Speed_1.8
+NumberSetting_Fly_Fly Speed_3.7
 BooleanSetting_Fly_Auto Stop_true
 NumberSetting_Fly_H Boost first tick_0.4
 NumberSetting_Fly_V Boost first tick_0.5
@@ -307,7 +308,7 @@ BooleanSetting_Speed_Low_true
 NumberSetting_Speed_Hypixel Timer_1.1
 BooleanSetting_Speed_Sneak Timer Boost_true
 NumberSetting_Speed_Sneak Timer_1.6
-NumberSetting_Speed_Glide_0.02
+NumberSetting_Speed_Glide_0.015
 NumberSetting_Speed_Mmc Speed_1.0
 Toggle_No0.03_false
 Toggle_Strafe_false
@@ -325,7 +326,7 @@ NumberSetting_JumpBoost_Horizontal Motion_0.25
 BooleanSetting_JumpBoost_Smooth Camera_false
 BooleanSetting_JumpBoost_Auto Disable_true
 Toggle_LongJump_false
-ModeSetting_LongJump_Mode_Redesky 2
+ModeSetting_LongJump_Mode_Hypixel
 ModeSetting_LongJump_NCP Mode_Normal
 BooleanSetting_LongJump_Smooth Camera_false
 BooleanSetting_LongJump_Auto Disable_true
@@ -523,7 +524,7 @@ BooleanSetting_Hitmarkers_Random Pitch_false
 Toggle_SimsESP_false
 Toggle_ClickGui_false
 ModeSetting_ClickGui_Mode_Rise
-ModeSetting_ClickGui_Theme_Rustic Desert
+ModeSetting_ClickGui_Theme_Deep Blue Rise
 BooleanSetting_ClickGui_Transparency_false
 NumberSetting_ClickGui_Scale_1.0
 Toggle_Nametags_false
@@ -589,8 +590,8 @@ Toggle_Breadcrumbs_false
 BooleanSetting_Breadcrumbs_Timeout_true
 NumberSetting_Breadcrumbs_Time_150.0
 Toggle_Radar_false
-NumberSetting_Radar_Radar X_1.0
-NumberSetting_Radar_Radar Y_24.0
+NumberSetting_Radar_Radar X_27.0
+NumberSetting_Radar_Radar Y_27.0
 Toggle_Blur_true
 BooleanSetting_Blur_Interfaces_true
 BooleanSetting_Blur_Keystrokes_true
