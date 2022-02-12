@@ -478,8 +478,8 @@ NumberSetting_Spammer_Bypass Length_16.0
 Toggle_Crasher_false
 ModeSetting_Crasher_Mode_Pex
 NumberSetting_Crasher_Packets_10.0
-Toggle_PingSpoof_false
-NumberSetting_PingSpoof_Delay_200.0
+Toggle_PingSpoof_true
+NumberSetting_PingSpoof_Delay_210.0
 Toggle_NoGuiClose_false
 BooleanSetting_NoGuiClose_Chat Only_true
 Toggle_AntiSuffocation_false
