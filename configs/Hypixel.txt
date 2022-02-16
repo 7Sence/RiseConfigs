@@ -30,8 +30,8 @@ NumberSetting_AutoHead_Min Delay_300.0
 NumberSetting_AutoHead_Max Delay_500.0
 Toggle_Aura_false
 ModeSetting_Aura_Mode_Single
-ModeSetting_Aura_Rotation Mode_Custom
-ModeSetting_Aura_Block Mode_Hypixel
+ModeSetting_Aura_Rotation Mode_None
+ModeSetting_Aura_Block Mode_Vanilla
 ModeSetting_Aura_Sorting Mode_Health
 NumberSetting_Aura_Range_5.0
 NumberSetting_Aura_Rotation Range_5.0
@@ -152,7 +152,7 @@ BooleanSetting_AntiBot_Duplicate ID Check_false
 BooleanSetting_AntiBot_Negative ID Check_false
 BooleanSetting_AntiBot_Distance Check_false
 BooleanSetting_AntiBot_Ping Check_false
-Toggle_WTap_false
+Toggle_WTap_true
 BooleanSetting_WTap_Legit_false
 Toggle_Criticals_false
 ModeSetting_Criticals_Mode_Hypixel
@@ -189,7 +189,7 @@ Toggle_FastEat_false
 ModeSetting_FastEat_Mode_Normal
 NumberSetting_FastEat_Speed_10.0
 Toggle_NoVoid_false
-ModeSetting_NoVoid_Mode_Ground
+ModeSetting_NoVoid_Mode_Hypixel
 NumberSetting_NoVoid_Fall Distance_2.0
 BooleanSetting_NoVoid_Void Check_true
 BooleanSetting_NoVoid_Show Notifications_false
@@ -209,7 +209,7 @@ BooleanSetting_Scaffold_Same Y_false
 BooleanSetting_Scaffold_Swing_false
 NumberSetting_Scaffold_Range_4.5
 BooleanSetting_Scaffold_Randomise Rotation Speed On Enable_true
-NumberSetting_Scaffold_Rotation Speed_73.61325337931774
+NumberSetting_Scaffold_Rotation Speed_53.01636855700631
 NumberSetting_Scaffold_Randomisation_0.0
 NumberSetting_Scaffold_Place Delay_0.0
 BooleanSetting_Scaffold_Randomise Place Delay_false
