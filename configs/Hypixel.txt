@@ -30,11 +30,11 @@ NumberSetting_AutoHead_Min Delay_300.0
 NumberSetting_AutoHead_Max Delay_500.0
 Toggle_Aura_false
 ModeSetting_Aura_Mode_Single
-ModeSetting_Aura_Rotation Mode_None
-ModeSetting_Aura_Block Mode_Vanilla
+ModeSetting_Aura_Rotation Mode_Smooth
+ModeSetting_Aura_Block Mode_Hypixel
 ModeSetting_Aura_Sorting Mode_Health
-NumberSetting_Aura_Range_5.0
-NumberSetting_Aura_Rotation Range_5.0
+NumberSetting_Aura_Range_4.4
+NumberSetting_Aura_Rotation Range_6.0
 NumberSetting_Aura_Extended Range_12.0
 BooleanSetting_Aura_Extended Range_false
 NumberSetting_Aura_Min CPS_12.0
@@ -63,7 +63,7 @@ BooleanSetting_Aura_1.9 Delay_false
 BooleanSetting_Aura_1.9 Swing_false
 BooleanSetting_Aura_Players_true
 BooleanSetting_Aura_Non Players_false
-BooleanSetting_Aura_Ignore Teammates_true
+BooleanSetting_Aura_Ignore Teammates_false
 BooleanSetting_Aura_Invisibles_false
 BooleanSetting_Aura_Attack Dead_false
 BooleanSetting_Aura_Target ESP_true
@@ -108,7 +108,7 @@ NumberSetting_Velocity_Horizontal Attack_100.0
 NumberSetting_Velocity_Vertical Attack_100.0
 NumberSetting_Velocity_Timer_1.0
 NumberSetting_Velocity_Timer Ticks_0.0
-NumberSetting_Velocity_Ticks_3.0
+NumberSetting_Velocity_Ticks_1.0
 Toggle_TargetStrafe_false
 NumberSetting_TargetStrafe_Range_2.0
 BooleanSetting_TargetStrafe_Third Person_false
@@ -173,15 +173,15 @@ BooleanSetting_Derp_Twerk_true
 Toggle_ChestAura_false
 NumberSetting_ChestAura_Range_5.0
 Toggle_Stealer_true
-NumberSetting_Stealer_Min Delay_0.0
-NumberSetting_Stealer_Max Delay_50.00000111758712
+NumberSetting_Stealer_Min Delay_50.00000111758712
+NumberSetting_Stealer_Max Delay_100.00000223517424
 BooleanSetting_Stealer_Steal trash items_false
 BooleanSetting_Stealer_Auto Close_true
 BooleanSetting_Stealer_Hide Gui_false
 BooleanSetting_Stealer_Move head in chest_true
 BooleanSetting_Stealer_Check chest name_true
 Toggle_AutoTool_false
-Toggle_FastPlace_true
+Toggle_FastPlace_false
 NumberSetting_FastPlace_FastPlace Delay_0.0
 BooleanSetting_FastPlace_Blocks Only_true
 BooleanSetting_FastPlace_Randomize_false
@@ -189,8 +189,8 @@ Toggle_FastEat_false
 ModeSetting_FastEat_Mode_Normal
 NumberSetting_FastEat_Speed_10.0
 Toggle_NoVoid_false
-ModeSetting_NoVoid_Mode_Hypixel
-NumberSetting_NoVoid_Fall Distance_2.0
+ModeSetting_NoVoid_Mode_Blink
+NumberSetting_NoVoid_Fall Distance_5.0
 BooleanSetting_NoVoid_Void Check_true
 BooleanSetting_NoVoid_Show Notifications_false
 Toggle_NoFall_true
@@ -201,16 +201,16 @@ ModeSetting_Scaffold_Rotations_Bruteforce
 ModeSetting_Scaffold_Tower_None
 ModeSetting_Scaffold_Movement Fix_None
 ModeSetting_Scaffold_Sprint_Disabled
-NumberSetting_Scaffold_Timer_1.2
+NumberSetting_Scaffold_Timer_1.0
 NumberSetting_Scaffold_Tower Timer_1.0
 BooleanSetting_Scaffold_Downwards_true
 BooleanSetting_Scaffold_Safe Walk_true
 BooleanSetting_Scaffold_Same Y_false
 BooleanSetting_Scaffold_Swing_false
-NumberSetting_Scaffold_Range_4.5
+NumberSetting_Scaffold_Range_5.0
 BooleanSetting_Scaffold_Randomise Rotation Speed On Enable_true
-NumberSetting_Scaffold_Rotation Speed_53.01636855700631
-NumberSetting_Scaffold_Randomisation_0.0
+NumberSetting_Scaffold_Rotation Speed_74.22564809667705
+NumberSetting_Scaffold_Randomisation_2.7
 NumberSetting_Scaffold_Place Delay_0.0
 BooleanSetting_Scaffold_Randomise Place Delay_false
 NumberSetting_Scaffold_Speed Multiplier_1.0
@@ -219,7 +219,7 @@ BooleanSetting_Scaffold_Ignore Speed_true
 BooleanSetting_Scaffold_Tower Move_true
 ModeSetting_Scaffold_Ray Cast_Normal
 ModeSetting_Scaffold_Place on_Post
-BooleanSetting_Scaffold_Drag Click_true
+BooleanSetting_Scaffold_Drag Click_false
 BooleanSetting_Scaffold_Jitter_false
 BooleanSetting_Scaffold_Telly_false
 Toggle_FastBreak_false
@@ -227,7 +227,7 @@ NumberSetting_FastBreak_Speed_0.3
 Toggle_Manager_true
 ModeSetting_Manager_Mode_None
 NumberSetting_Manager_Min Delay_25.00000055879356
-NumberSetting_Manager_Max Delay_50.00000111758712
+NumberSetting_Manager_Max Delay_100.00000223517424
 BooleanSetting_Manager_Throw Useless Items_true
 BooleanSetting_Manager_Throw Custom Items_false
 BooleanSetting_Manager_Throw Heads_true
@@ -248,7 +248,7 @@ Toggle_Fly_false
 ModeSetting_Fly_Fly Mode_Hypixel New
 ModeSetting_Fly_Value_3
 ModeSetting_Fly_Mode_Stable
-NumberSetting_Fly_Fly Speed_0.1
+NumberSetting_Fly_Fly Speed_1.6
 BooleanSetting_Fly_Auto Stop_true
 NumberSetting_Fly_H Boost first tick_0.4
 NumberSetting_Fly_V Boost first tick_0.5
@@ -258,9 +258,10 @@ NumberSetting_Fly_MultiplierInAir_1.1
 NumberSetting_Fly_Glide_0.03
 NumberSetting_Fly_Timer Speed_1.0
 BooleanSetting_Fly_Strafe_false
+BooleanSetting_Fly_Inf_false
 ModeSetting_Fly_Vanilla Kick Bypass_Off
 BooleanSetting_Fly_Delay Kick Bypass_false
-BooleanSetting_Fly_Smooth Camera_true
+BooleanSetting_Fly_Smooth Camera_false
 NumberSetting_Fly_View Bobbing_0.0
 BooleanSetting_Fly_GroundSpoof_false
 BooleanSetting_Fly_Damage_true
@@ -311,18 +312,18 @@ NumberSetting_Speed_How Often_22.805
 NumberSetting_Speed_Distance_62.39
 BooleanSetting_Speed_Disable on flag_true
 BooleanSetting_Speed_Stop on Disable_true
-NumberSetting_Speed_Hypixel Timer_1.4
-NumberSetting_Speed_Sneak Timer_1.8
-NumberSetting_Speed_Glide_0.02
+NumberSetting_Speed_Hypixel Timer_1.0
+NumberSetting_Speed_Sneak Timer_1.0
+NumberSetting_Speed_Glide_0.0
 NumberSetting_Speed_Mmc Speed_1.4
-BooleanSetting_Speed_Low_true
+BooleanSetting_Speed_Low_false
 Toggle_No0.03_false
 Toggle_Strafe_false
 Toggle_Jesus_false
 ModeSetting_Jesus_Mode_Boost
 NumberSetting_Jesus_Motion_0.1
 NumberSetting_Jesus_Speed_0.5
-Toggle_NoSlow_true
+Toggle_NoSlow_false
 ModeSetting_NoSlow_Mode_Hypixel
 Toggle_HighJump_false
 ModeSetting_HighJump_Mode_Fireball
@@ -332,7 +333,7 @@ NumberSetting_HighJump_Horizontal Motion_0.25
 BooleanSetting_HighJump_Smooth Camera_false
 BooleanSetting_HighJump_Auto Disable_true
 Toggle_LongJump_false
-ModeSetting_LongJump_Mode_Hypixel
+ModeSetting_LongJump_Mode_Vulcan
 ModeSetting_LongJump_NCP Mode_Normal
 BooleanSetting_LongJump_Smooth Camera_false
 BooleanSetting_LongJump_Auto Disable_true
@@ -340,16 +341,16 @@ NumberSetting_LongJump_On Ground Speed_0.3
 NumberSetting_LongJump_Off Ground Speed_0.6
 NumberSetting_LongJump_Timer_1.0
 NumberSetting_LongJump_View Bobbing_0.0
-Toggle_InvMove_false
+Toggle_InvMove_true
 NumberSetting_InvMove_Slow Down_1.0
 BooleanSetting_InvMove_Packet_false
-Toggle_Step_true
+Toggle_Step_false
 ModeSetting_Step_Mode_Hypixel
 NumberSetting_Step_Height_1.5
 NumberSetting_Step_Timer_0.5
 Toggle_Phase_false
-ModeSetting_Phase_Mode_Hypixel
-NumberSetting_Phase_Fly Speed_1.0
+ModeSetting_Phase_Mode_Sand
+NumberSetting_Phase_Fly Speed_0.5
 ModeSetting_Phase_Hypixel Mode_Auto
 ModeSetting_Phase_Teleport Mode_Player
 ModeSetting_Phase_Direction_Down
@@ -381,7 +382,7 @@ BooleanSetting_AimAssist_Non Players_true
 BooleanSetting_AimAssist_Teams_false
 BooleanSetting_AimAssist_Invisibles_false
 BooleanSetting_AimAssist_Dead_false
-BooleanSetting_AimAssist_Only Sword_true
+BooleanSetting_AimAssist_Only Sword_false
 BooleanSetting_AimAssist_Vertical_true
 Toggle_Reach_false
 NumberSetting_Reach_Reach_4.0
@@ -403,9 +404,9 @@ ModeSetting_AutoHypixel_Bedwars Mode_Solo
 NumberSetting_AutoHypixel_Play Delay_1500.0000335276134
 Toggle_Disabler_false
 BooleanSetting_Disabler_Minemenclub Keepsprint Check_true
-BooleanSetting_Disabler_Minemenclub Reach Semi_true
+BooleanSetting_Disabler_Minemenclub Reach Semi_false
 BooleanSetting_Disabler_Hypixel Slime_false
-BooleanSetting_Disabler_Dynamic PvP_false
+BooleanSetting_Disabler_Dynamic PvP_true
 BooleanSetting_Disabler_Ghostly Combat_false
 BooleanSetting_Disabler_Ghostly_false
 BooleanSetting_Disabler_Lunar_false
@@ -413,7 +414,7 @@ BooleanSetting_Disabler_Position Edit_false
 BooleanSetting_Disabler_Vulcan Reach A_false
 BooleanSetting_Disabler_Verus Combat_false
 BooleanSetting_Disabler_Verus_false
-BooleanSetting_Disabler_BlocksMC_true
+BooleanSetting_Disabler_BlocksMC_false
 BooleanSetting_Disabler_Sentinel_false
 BooleanSetting_Disabler_Shartemis Movement_false
 BooleanSetting_Disabler_Hide Old Disablers_false
@@ -439,7 +440,7 @@ ModeSetting_Plugins_Mode_Bypass
 Toggle_AutoAuthme_false
 Toggle_NoRot_true
 ModeSetting_NoRot_Mode_Hypixel
-Toggle_Insults_true
+Toggle_Insults_false
 ModeSetting_Insults_Mode_Normal
 Toggle_ChatBypass_false
 ModeSetting_ChatBypass_Mode_Hypixel
@@ -464,7 +465,7 @@ BooleanSetting_Nuker_Instant Only_false
 BooleanSetting_Nuker_Scatter_true
 BooleanSetting_Nuker_Swing_true
 Toggle_Timer_false
-NumberSetting_Timer_Timer Speed_1.8
+NumberSetting_Timer_Timer Speed_0.4
 ModeSetting_Timer_Mode_Vanilla
 Toggle_Spammer_false
 ModeSetting_Spammer_Mode_Hypixel
@@ -476,7 +477,7 @@ Toggle_Crasher_false
 ModeSetting_Crasher_Mode_Pex
 NumberSetting_Crasher_Packets_10.0
 Toggle_PingSpoof_false
-NumberSetting_PingSpoof_Delay_30000.0
+NumberSetting_PingSpoof_Delay_11106.0
 Toggle_NoGuiClose_false
 BooleanSetting_NoGuiClose_Chat Only_true
 Toggle_AntiSuffocation_false
@@ -536,13 +537,13 @@ ModeSetting_ClickGui_Theme_Deep Blue Rise
 BooleanSetting_ClickGui_Transparency_false
 NumberSetting_ClickGui_Scale_0.7
 Toggle_Nametags_false
-Toggle_Chams_true
+Toggle_Chams_false
 NumberSetting_Chams_Red_0.0
 NumberSetting_Chams_Green_130.0
 NumberSetting_Chams_Blue_255.0
 NumberSetting_Chams_Alpha_142.0
 BooleanSetting_Chams_Rainbow_false
-Toggle_BrightPlayers_true
+Toggle_BrightPlayers_false
 Toggle_ESP_false
 Toggle_Animations_true
 ModeSetting_Animations_Animation_Cockless
@@ -593,7 +594,7 @@ BooleanSetting_Freecam_No Clip_true
 Toggle_Tracers_false
 Toggle_NameProtect_false
 Toggle_Streamer_false
-Toggle_Scoreboard_true
+Toggle_Scoreboard_false
 BooleanSetting_Scoreboard_Hide Scoreboard_true
 BooleanSetting_Scoreboard_Hide Background_false
 BooleanSetting_Scoreboard_Custom Font_false
@@ -603,13 +604,13 @@ BooleanSetting_Breadcrumbs_Timeout_true
 NumberSetting_Breadcrumbs_Time_150.0
 Toggle_Radar_false
 NumberSetting_Radar_Radar X_5.0
-NumberSetting_Radar_Radar Y_12.0
+NumberSetting_Radar_Radar Y_0.0
 Toggle_Blur_true
 Toggle_ChestESP_false
 ModeSetting_ChestESP_Mode_2D
-Toggle_NoHurtCam_true
+Toggle_NoHurtCam_false
 Toggle_CameraClip_false
-Toggle_ItemPhysics_true
+Toggle_ItemPhysics_false
 Toggle_MotionGraph_false
 NumberSetting_MotionGraph_Width_140.0
 NumberSetting_MotionGraph_Height_5.0
