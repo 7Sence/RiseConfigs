@@ -112,7 +112,6 @@ NumberSetting_Velocity_Ticks_1.0
 Toggle_TargetStrafe_false
 NumberSetting_TargetStrafe_Range_2.0
 BooleanSetting_TargetStrafe_Third Person_false
-BooleanSetting_TargetStrafe_Controllable_true
 BooleanSetting_TargetStrafe_Jump Only_true
 Toggle_FastBow_false
 NumberSetting_FastBow_Targets_4.0
@@ -209,12 +208,12 @@ BooleanSetting_Scaffold_Same Y_false
 BooleanSetting_Scaffold_Swing_false
 NumberSetting_Scaffold_Range_5.0
 BooleanSetting_Scaffold_Randomise Rotation Speed On Enable_true
-NumberSetting_Scaffold_Rotation Speed_74.22564809667705
+NumberSetting_Scaffold_Rotation Speed_68.94914772298667
 NumberSetting_Scaffold_Randomisation_2.7
 NumberSetting_Scaffold_Place Delay_0.0
 BooleanSetting_Scaffold_Randomise Place Delay_false
 NumberSetting_Scaffold_Speed Multiplier_1.0
-NumberSetting_Scaffold_Eagle_1.0
+NumberSetting_Scaffold_Eagle_15.0
 BooleanSetting_Scaffold_Ignore Speed_true
 BooleanSetting_Scaffold_Tower Move_true
 ModeSetting_Scaffold_Ray Cast_Normal
@@ -313,10 +312,7 @@ NumberSetting_Speed_Distance_62.39
 BooleanSetting_Speed_Disable on flag_true
 BooleanSetting_Speed_Stop on Disable_true
 NumberSetting_Speed_Hypixel Timer_1.0
-NumberSetting_Speed_Sneak Timer_1.0
-NumberSetting_Speed_Glide_0.0
 NumberSetting_Speed_Mmc Speed_1.4
-BooleanSetting_Speed_Low_false
 Toggle_No0.03_false
 Toggle_Strafe_false
 Toggle_Jesus_false
@@ -535,7 +531,7 @@ Toggle_ClickGui_false
 ModeSetting_ClickGui_Mode_Rise
 ModeSetting_ClickGui_Theme_Deep Blue Rise
 BooleanSetting_ClickGui_Transparency_false
-NumberSetting_ClickGui_Scale_0.7
+NumberSetting_ClickGui_Scale_1.0
 Toggle_Nametags_false
 Toggle_Chams_false
 NumberSetting_Chams_Red_0.0
