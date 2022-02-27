@@ -438,7 +438,7 @@ ModeSetting_Plugins_Mode_Bypass
 Toggle_AutoAuthme_false
 Toggle_NoRot_true
 ModeSetting_NoRot_Mode_Hypixel
-Toggle_Insults_true
+Toggle_Insults_false
 ModeSetting_Insults_Mode_Normal
 Toggle_ChatBypass_false
 ModeSetting_ChatBypass_Mode_Hypixel
