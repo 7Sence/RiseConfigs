@@ -1,6 +1,6 @@
 Rise_Version_5.84
 MainMenuTheme_LIGHTMODE
-ClientName_Wynter is hot
+ClientName_Auth
 Toggle_Interface_true
 ModeSetting_Interface_Theme_Rise Blend
 ModeSetting_Interface_List Animation_Slide
@@ -29,7 +29,7 @@ Toggle_AutoHead_false
 NumberSetting_AutoHead_Health_16.0
 NumberSetting_AutoHead_Min Delay_300.0
 NumberSetting_AutoHead_Max Delay_500.0
-Toggle_Aura_false
+Toggle_Aura_true
 ModeSetting_Aura_Mode_Single
 ModeSetting_Aura_Rotation Mode_Smooth
 ModeSetting_Aura_Block Mode_Hypixel
@@ -201,28 +201,28 @@ Toggle_Scaffold_false
 ModeSetting_Scaffold_Rotations_Bruteforce
 ModeSetting_Scaffold_Tower_None
 ModeSetting_Scaffold_Movement Fix_None
-ModeSetting_Scaffold_Sprint_Normal
-NumberSetting_Scaffold_Timer_1.2
+ModeSetting_Scaffold_Sprint_Disabled
+NumberSetting_Scaffold_Timer_1.0
 NumberSetting_Scaffold_Tower Timer_1.0
 BooleanSetting_Scaffold_Downwards_true
-BooleanSetting_Scaffold_Safe Walk_false
-BooleanSetting_Scaffold_Same Y_true
+BooleanSetting_Scaffold_Safe Walk_true
+BooleanSetting_Scaffold_Same Y_false
 BooleanSetting_Scaffold_Swing_false
 NumberSetting_Scaffold_Range_5.0
-BooleanSetting_Scaffold_Randomise Rotation Speed On Enable_false
-NumberSetting_Scaffold_Rotation Speed_139.99999791383746
+BooleanSetting_Scaffold_Randomise Rotation Speed On Enable_true
+NumberSetting_Scaffold_Rotation Speed_62.48204082555737
 NumberSetting_Scaffold_Randomisation_2.7
 NumberSetting_Scaffold_Place Delay_0.0
 BooleanSetting_Scaffold_Randomise Place Delay_false
 NumberSetting_Scaffold_Speed Multiplier_1.0
 NumberSetting_Scaffold_Eagle_15.0
-BooleanSetting_Scaffold_Ignore Speed_false
+BooleanSetting_Scaffold_Ignore Speed_true
 BooleanSetting_Scaffold_Tower Move_true
-ModeSetting_Scaffold_Ray Cast_Off
+ModeSetting_Scaffold_Ray Cast_Normal
 ModeSetting_Scaffold_Place on_Post
 BooleanSetting_Scaffold_Drag Click_false
 BooleanSetting_Scaffold_Jitter_false
-BooleanSetting_Scaffold_Telly_true
+BooleanSetting_Scaffold_Telly_false
 Toggle_FastBreak_false
 NumberSetting_FastBreak_Speed_0.3
 Toggle_Manager_true
@@ -262,13 +262,13 @@ BooleanSetting_Fly_Strafe_false
 BooleanSetting_Fly_Inf_false
 ModeSetting_Fly_Vanilla Kick Bypass_Off
 BooleanSetting_Fly_Delay Kick Bypass_false
-BooleanSetting_Fly_Smooth Camera_true
+BooleanSetting_Fly_Smooth Camera_false
 NumberSetting_Fly_View Bobbing_0.0
 BooleanSetting_Fly_GroundSpoof_false
 BooleanSetting_Fly_Damage_true
 BooleanSetting_Fly_Sigma Fast Fly_false
 Toggle_Speed_false
-ModeSetting_Speed_Mode_Hypixel2
+ModeSetting_Speed_Mode_Hypixel
 ModeSetting_Speed_Value_1
 ModeSetting_Speed_Verus Mode_Hop
 ModeSetting_Speed_GroundSpoof_Off
@@ -313,7 +313,7 @@ NumberSetting_Speed_How Often_22.805
 NumberSetting_Speed_Distance_62.39
 BooleanSetting_Speed_Disable on flag_true
 BooleanSetting_Speed_Stop on Disable_true
-NumberSetting_Speed_Hypixel Timer_1.2
+NumberSetting_Speed_Hypixel Timer_1.0
 NumberSetting_Speed_Mmc Speed_1.4
 Toggle_No0.03_false
 Toggle_Strafe_false
@@ -321,7 +321,7 @@ Toggle_Jesus_false
 ModeSetting_Jesus_Mode_Boost
 NumberSetting_Jesus_Motion_0.1
 NumberSetting_Jesus_Speed_0.5
-Toggle_NoSlow_true
+Toggle_NoSlow_false
 ModeSetting_NoSlow_Mode_Hypixel
 Toggle_HighJump_false
 ModeSetting_HighJump_Mode_Fireball
@@ -331,7 +331,7 @@ NumberSetting_HighJump_Horizontal Motion_0.25
 BooleanSetting_HighJump_Smooth Camera_false
 BooleanSetting_HighJump_Auto Disable_true
 Toggle_LongJump_false
-ModeSetting_LongJump_Mode_Hypixel
+ModeSetting_LongJump_Mode_Vulcan
 ModeSetting_LongJump_NCP Mode_Normal
 BooleanSetting_LongJump_Smooth Camera_false
 BooleanSetting_LongJump_Auto Disable_true
@@ -438,7 +438,7 @@ ModeSetting_Plugins_Mode_Bypass
 Toggle_AutoAuthme_false
 Toggle_NoRot_true
 ModeSetting_NoRot_Mode_Hypixel
-Toggle_Insults_false
+Toggle_Insults_true
 ModeSetting_Insults_Mode_Normal
 Toggle_ChatBypass_false
 ModeSetting_ChatBypass_Mode_Hypixel
@@ -532,7 +532,7 @@ Toggle_SimsESP_false
 Toggle_ClickGui_false
 ModeSetting_ClickGui_Mode_Rise
 ModeSetting_ClickGui_Theme_Deep Blue Rise
-BooleanSetting_ClickGui_Transparency_true
+BooleanSetting_ClickGui_Transparency_false
 NumberSetting_ClickGui_Scale_0.7
 Toggle_Nametags_false
 Toggle_Chams_true
@@ -544,7 +544,7 @@ BooleanSetting_Chams_Rainbow_false
 Toggle_BrightPlayers_true
 Toggle_ESP_false
 Toggle_Animations_true
-ModeSetting_Animations_Animation_1.7
+ModeSetting_Animations_Animation_Exhibition 2
 NumberSetting_Animations_Slow_11.6
 NumberSetting_Animations_Spin Speed_3.0
 NumberSetting_Animations_X_0.1
@@ -601,8 +601,8 @@ Toggle_Breadcrumbs_false
 BooleanSetting_Breadcrumbs_Timeout_true
 NumberSetting_Breadcrumbs_Time_150.0
 Toggle_Radar_true
-NumberSetting_Radar_Radar X_8.0
-NumberSetting_Radar_Radar Y_32.0
+NumberSetting_Radar_Radar X_5.0
+NumberSetting_Radar_Radar Y_24.0
 Toggle_Blur_true
 Toggle_ChestESP_false
 ModeSetting_ChestESP_Mode_2D
