@@ -2,7 +2,7 @@ Rise_Version_5.84
 MainMenuTheme_LIGHTMODE
 ClientName_BlocksMC Config
 Toggle_Interface_true
-ModeSetting_Interface_Theme_Rise Blend
+ModeSetting_Interface_Theme_Rice
 ModeSetting_Interface_List Animation_Slide
 NumberSetting_Interface_Red_0.0
 NumberSetting_Interface_Green_255.0
@@ -29,7 +29,7 @@ Toggle_AutoHead_false
 NumberSetting_AutoHead_Health_16.0
 NumberSetting_AutoHead_Min Delay_300.0
 NumberSetting_AutoHead_Max Delay_500.0
-Toggle_Aura_false
+Toggle_Aura_true
 ModeSetting_Aura_Mode_Switch
 ModeSetting_Aura_Rotation Mode_Custom Advanced
 ModeSetting_Aura_Block Mode_Vanilla
@@ -84,8 +84,8 @@ BooleanSetting_FastBow_Players_true
 BooleanSetting_FastBow_Non Players_true
 Toggle_TPAura_false
 ModeSetting_TPAura_Mode_Single
-NumberSetting_TPAura_CPS_2.0
-NumberSetting_TPAura_Range_30.0
+NumberSetting_TPAura_CPS_1.0
+NumberSetting_TPAura_Range_20.0
 NumberSetting_TPAura_Timer_0.6
 NumberSetting_TPAura_Max Targets_2.0
 BooleanSetting_TPAura_Players_true
@@ -114,7 +114,7 @@ NumberSetting_Velocity_Ticks_1.0
 Toggle_TargetStrafe_true
 NumberSetting_TargetStrafe_Range_4.1
 BooleanSetting_TargetStrafe_Third Person_false
-BooleanSetting_TargetStrafe_Jump Only_true
+BooleanSetting_TargetStrafe_Jump Only_false
 Toggle_FastBow_false
 NumberSetting_FastBow_Targets_4.0
 NumberSetting_FastBow_Packets_20.0
@@ -153,7 +153,7 @@ BooleanSetting_AntiBot_Duplicate ID Check_false
 BooleanSetting_AntiBot_Negative ID Check_false
 BooleanSetting_AntiBot_Distance Check_true
 BooleanSetting_AntiBot_Ping Check_true
-Toggle_WTap_true
+Toggle_WTap_false
 BooleanSetting_WTap_Legit_false
 Toggle_Criticals_true
 ModeSetting_Criticals_Mode_Position
@@ -174,8 +174,8 @@ BooleanSetting_Derp_Twerk_true
 Toggle_ChestAura_false
 NumberSetting_ChestAura_Range_1.0
 Toggle_Stealer_true
-NumberSetting_Stealer_Min Delay_0.0
-NumberSetting_Stealer_Max Delay_0.0
+NumberSetting_Stealer_Min Delay_25.00000055879356
+NumberSetting_Stealer_Max Delay_75.00000167638068
 BooleanSetting_Stealer_Steal trash items_false
 BooleanSetting_Stealer_Auto Close_true
 BooleanSetting_Stealer_Hide Gui_false
@@ -200,24 +200,24 @@ BooleanSetting_NoFall_Offset_false
 Toggle_Scaffold_false
 ModeSetting_Scaffold_Rotations_None
 ModeSetting_Scaffold_Tower_Verus
-ModeSetting_Scaffold_Movement Fix_Yaw
+ModeSetting_Scaffold_Movement Fix_None
 ModeSetting_Scaffold_Sprint_Normal
-NumberSetting_Scaffold_Timer_1.0
-NumberSetting_Scaffold_Tower Timer_1.0
+NumberSetting_Scaffold_Timer_1.2
+NumberSetting_Scaffold_Tower Timer_1.3
 BooleanSetting_Scaffold_Downwards_true
 BooleanSetting_Scaffold_Safe Walk_false
 BooleanSetting_Scaffold_Same Y_true
-BooleanSetting_Scaffold_Swing_false
+BooleanSetting_Scaffold_Swing_true
 NumberSetting_Scaffold_Range_6.0
 BooleanSetting_Scaffold_Randomise Rotation Speed On Enable_false
-NumberSetting_Scaffold_Rotation Speed_89.9999986588955
-NumberSetting_Scaffold_Randomisation_0.2
+NumberSetting_Scaffold_Rotation Speed_109.9999983608723
+NumberSetting_Scaffold_Randomisation_0.0
 NumberSetting_Scaffold_Place Delay_0.4
 BooleanSetting_Scaffold_Randomise Place Delay_false
 NumberSetting_Scaffold_Speed Multiplier_1.0
 NumberSetting_Scaffold_Eagle_15.0
 BooleanSetting_Scaffold_Ignore Speed_false
-BooleanSetting_Scaffold_Tower Move_true
+BooleanSetting_Scaffold_Tower Move_false
 ModeSetting_Scaffold_Ray Cast_Off
 ModeSetting_Scaffold_Place on_Legit
 BooleanSetting_Scaffold_Drag Click_true
@@ -227,8 +227,8 @@ Toggle_FastBreak_true
 NumberSetting_FastBreak_Speed_0.2
 Toggle_Manager_true
 ModeSetting_Manager_Mode_None
-NumberSetting_Manager_Min Delay_0.0
-NumberSetting_Manager_Max Delay_0.0
+NumberSetting_Manager_Min Delay_25.00000055879356
+NumberSetting_Manager_Max Delay_75.00000167638068
 BooleanSetting_Manager_Throw Useless Items_true
 BooleanSetting_Manager_Throw Custom Items_true
 BooleanSetting_Manager_Throw Heads_true
@@ -246,7 +246,7 @@ BooleanSetting_Sprint_Only In Air_true
 Toggle_Sneak_false
 ModeSetting_Sneak_Mode_Hold
 Toggle_Fly_false
-ModeSetting_Fly_Fly Mode_Verus Lag
+ModeSetting_Fly_Fly Mode_Collide
 ModeSetting_Fly_Value_3
 ModeSetting_Fly_Mode_Stable
 NumberSetting_Fly_Fly Speed_2.0
@@ -273,12 +273,12 @@ ModeSetting_Speed_Value_3
 ModeSetting_Speed_Verus Mode_Hop
 ModeSetting_Speed_GroundSpoof_Off
 NumberSetting_Speed_Custom Speed_0.68
-NumberSetting_Speed_Custom MotionY_0.38
-NumberSetting_Speed_Custom Fall Motion_0.2
+NumberSetting_Speed_Custom MotionY_0.36
+NumberSetting_Speed_Custom Fall Motion_0.16
 NumberSetting_Speed_Custom Fall Tick_10.0
 NumberSetting_Speed_Randomize Speed_0.0
 NumberSetting_Speed_Void TP Ticks_20.0
-NumberSetting_Speed_Timer_1.1
+NumberSetting_Speed_Timer_1.0
 NumberSetting_Speed_Timer Random_0.0
 NumberSetting_Speed_GroundSpoof Ticks_10.0
 NumberSetting_Speed_Teleport Distance_1.0
@@ -400,7 +400,7 @@ ModeSetting_AutoHypixel_Skywars Mode_Solo
 ModeSetting_AutoHypixel_Skywars Type_Normal
 ModeSetting_AutoHypixel_Bedwars Mode_Solo
 NumberSetting_AutoHypixel_Play Delay_1500.0000335276134
-Toggle_Disabler_false
+Toggle_Disabler_true
 BooleanSetting_Disabler_Minemenclub Keepsprint Check_false
 BooleanSetting_Disabler_Minemenclub Reach Semi_false
 BooleanSetting_Disabler_Hypixel Slime_false
@@ -515,15 +515,15 @@ BooleanSetting_AutoBuild_Next Slot_true
 BooleanSetting_AutoBuild_Swing_false
 Toggle_Test_false
 Toggle_ShaderESP_true
-Toggle_PopOutAnimation_false
+Toggle_PopOutAnimation_true
 BooleanSetting_PopOutAnimation_ClickGui_true
 BooleanSetting_PopOutAnimation_Inventories_true
 NumberSetting_PopOutAnimation_Starting Size_0.0
 NumberSetting_PopOutAnimation_Speed_0.05
-Toggle_ChinaHat_false
-ModeSetting_ChinaHat_Quality_Normal
+Toggle_ChinaHat_true
+ModeSetting_ChinaHat_Quality_Smooth
 BooleanSetting_ChinaHat_Show in First Person_false
-BooleanSetting_ChinaHat_Rotate_false
+BooleanSetting_ChinaHat_Rotate_true
 Toggle_Hitmarkers_false
 NumberSetting_Hitmarkers_Volume_0.6
 NumberSetting_Hitmarkers_Pitch_1.0
@@ -541,7 +541,7 @@ NumberSetting_Chams_Green_0.0
 NumberSetting_Chams_Blue_0.0
 NumberSetting_Chams_Alpha_0.0
 BooleanSetting_Chams_Rainbow_false
-Toggle_BrightPlayers_false
+Toggle_BrightPlayers_true
 Toggle_ESP_true
 Toggle_Animations_true
 ModeSetting_Animations_Animation_Slide
@@ -600,11 +600,11 @@ BooleanSetting_Scoreboard_Custom Scoreboard_true
 Toggle_Breadcrumbs_false
 BooleanSetting_Breadcrumbs_Timeout_true
 NumberSetting_Breadcrumbs_Time_150.0
-Toggle_Radar_true
+Toggle_Radar_false
 NumberSetting_Radar_Radar X_722.0
 NumberSetting_Radar_Radar Y_384.0
 Toggle_Blur_false
-Toggle_ChestESP_false
+Toggle_ChestESP_true
 ModeSetting_ChestESP_Mode_2D
 Toggle_NoHurtCam_true
 Toggle_CameraClip_false
