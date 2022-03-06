@@ -1,4 +1,4 @@
-Rise_Version_5.83
+Rise_Version_5.85
 MainMenuTheme_DARKMODE
 ClientName_Auth
 Toggle_Interface_true
@@ -11,6 +11,7 @@ BooleanSetting_Interface_Show Render Modules on List_false
 BooleanSetting_Interface_Arraylist Outline_true
 BooleanSetting_Interface_Custom Hotbar_true
 BooleanSetting_Interface_Smooth Hotbar_true
+BooleanSetting_Interface_Armor HUD_false
 BooleanSetting_Interface_Restore Defaults_false
 BooleanSetting_Interface_Transparent Chat_false
 BooleanSetting_Interface_Custom Chat Font_true
@@ -28,27 +29,27 @@ Toggle_AutoHead_false
 NumberSetting_AutoHead_Health_16.0
 NumberSetting_AutoHead_Min Delay_300.0
 NumberSetting_AutoHead_Max Delay_500.0
-Toggle_Aura_true
+Toggle_Aura_false
 ModeSetting_Aura_Mode_Single
-ModeSetting_Aura_Rotation Mode_Smooth
-ModeSetting_Aura_Block Mode_Bypass
+ModeSetting_Aura_Rotation Mode_None
+ModeSetting_Aura_Block Mode_Fake
 ModeSetting_Aura_Sorting Mode_Health
-NumberSetting_Aura_Range_6.0
-NumberSetting_Aura_Rotation Range_6.0
+NumberSetting_Aura_Range_4.9
+NumberSetting_Aura_Rotation Range_5.5
 NumberSetting_Aura_Extended Range_12.0
 BooleanSetting_Aura_Extended Range_false
-NumberSetting_Aura_Min CPS_12.0
-NumberSetting_Aura_Max CPS_15.0
+NumberSetting_Aura_Min CPS_4.0
+NumberSetting_Aura_Max CPS_10.0
 NumberSetting_Aura_Max Targets_50.0
 NumberSetting_Aura_Predict_0.0
-NumberSetting_Aura_Random_3.9
-NumberSetting_Aura_Max Rot_180.0
-NumberSetting_Aura_Min Rot_180.0
-NumberSetting_Aura_Min Yaw Rot_180.0
-NumberSetting_Aura_Max Yaw Rot_180.0
-NumberSetting_Aura_Min Pitch Rot_180.0
-NumberSetting_Aura_Max Pitch Rot_180.0
-NumberSetting_Aura_Sin Speed_180.0
+NumberSetting_Aura_Random_4.1
+NumberSetting_Aura_Max Rot_1.0
+NumberSetting_Aura_Min Rot_2.8
+NumberSetting_Aura_Min Yaw Rot_7.3
+NumberSetting_Aura_Max Yaw Rot_75.3
+NumberSetting_Aura_Min Pitch Rot_1.0
+NumberSetting_Aura_Max Pitch Rot_10.8
+NumberSetting_Aura_Sin Speed_27.0
 NumberSetting_Aura_Derp Speed_30.0
 BooleanSetting_Aura_Predicted Position_false
 BooleanSetting_Aura_Raytrace_false
@@ -57,7 +58,7 @@ BooleanSetting_Aura_DeadZone_false
 BooleanSetting_Aura_Through Walls_true
 BooleanSetting_Aura_Silent Rotations_true
 BooleanSetting_Aura_Keep Sprint_true
-BooleanSetting_Aura_Only In Air_false
+BooleanSetting_Aura_Only In Air_true
 BooleanSetting_Aura_Movement Fix_false
 BooleanSetting_Aura_1.9 Delay_false
 BooleanSetting_Aura_1.9 Swing_false
@@ -68,6 +69,7 @@ BooleanSetting_Aura_Invisibles_false
 BooleanSetting_Aura_Attack Dead_false
 BooleanSetting_Aura_Target ESP_true
 BooleanSetting_Aura_Display Range_false
+BooleanSetting_Aura_Target On Player_true
 BooleanSetting_Aura_Disable On World Change_true
 BooleanSetting_Aura_Attack with Scaffold_false
 BooleanSetting_Aura_Attack in Interfaces_true
@@ -96,7 +98,7 @@ Toggle_BackTrack_false
 NumberSetting_BackTrack_Amount_13.0
 NumberSetting_BackTrack_Forward_1.0
 Toggle_Velocity_true
-ModeSetting_Velocity_Mode_Custom
+ModeSetting_Velocity_Mode_Vulcan
 BooleanSetting_Velocity_Explosion_true
 BooleanSetting_Velocity_Only In Air_false
 NumberSetting_Velocity_Horizontal_0.0
@@ -112,7 +114,6 @@ NumberSetting_Velocity_Ticks_1.0
 Toggle_TargetStrafe_false
 NumberSetting_TargetStrafe_Range_2.0
 BooleanSetting_TargetStrafe_Third Person_false
-BooleanSetting_TargetStrafe_Controllable_true
 BooleanSetting_TargetStrafe_Jump Only_true
 Toggle_FastBow_false
 NumberSetting_FastBow_Targets_4.0
@@ -142,7 +143,7 @@ BooleanSetting_FightBot_Anti Fall_true
 BooleanSetting_FightBot_Target Strafe_true
 BooleanSetting_FightBot_Auto Block_true
 BooleanSetting_FightBot_Auto GG_true
-Toggle_AntiBot_true
+Toggle_AntiBot_false
 ModeSetting_AntiBot_Mode_Custom
 BooleanSetting_AntiBot_Duplicate Name Check_true
 BooleanSetting_AntiBot_Ticks Existed Check_false
@@ -181,7 +182,7 @@ BooleanSetting_Stealer_Hide Gui_false
 BooleanSetting_Stealer_Move head in chest_true
 BooleanSetting_Stealer_Check chest name_true
 Toggle_AutoTool_false
-Toggle_FastPlace_false
+Toggle_FastPlace_true
 NumberSetting_FastPlace_FastPlace Delay_0.0
 BooleanSetting_FastPlace_Blocks Only_true
 BooleanSetting_FastPlace_Randomize_false
@@ -201,6 +202,7 @@ ModeSetting_Scaffold_Rotations_Bruteforce
 ModeSetting_Scaffold_Tower_Slow
 ModeSetting_Scaffold_Movement Fix_None
 ModeSetting_Scaffold_Sprint_Bypass
+ModeSetting_Scaffold_Block Counter_Normal
 NumberSetting_Scaffold_Timer_1.0
 NumberSetting_Scaffold_Tower Timer_1.0
 BooleanSetting_Scaffold_Downwards_true
@@ -209,8 +211,8 @@ BooleanSetting_Scaffold_Same Y_true
 BooleanSetting_Scaffold_Swing_false
 NumberSetting_Scaffold_Range_4.5
 BooleanSetting_Scaffold_Randomise Rotation Speed On Enable_false
-NumberSetting_Scaffold_Rotation Speed_134.99999798834327
-NumberSetting_Scaffold_Randomisation_0.0
+NumberSetting_Scaffold_Rotation Speed_39.99999940395356
+NumberSetting_Scaffold_Randomisation_6.0
 NumberSetting_Scaffold_Place Delay_0.0
 BooleanSetting_Scaffold_Randomise Place Delay_false
 NumberSetting_Scaffold_Speed Multiplier_1.0
@@ -245,10 +247,10 @@ BooleanSetting_Sprint_Only In Air_false
 Toggle_Sneak_false
 ModeSetting_Sneak_Mode_NCP
 Toggle_Fly_false
-ModeSetting_Fly_Fly Mode_Vulcan
+ModeSetting_Fly_Fly Mode_Vulcan2
 ModeSetting_Fly_Value_3
 ModeSetting_Fly_Mode_Stable
-NumberSetting_Fly_Fly Speed_0.1
+NumberSetting_Fly_Fly Speed_0.4
 BooleanSetting_Fly_Auto Stop_true
 NumberSetting_Fly_H Boost first tick_0.4
 NumberSetting_Fly_V Boost first tick_0.5
@@ -258,6 +260,7 @@ NumberSetting_Fly_MultiplierInAir_1.1
 NumberSetting_Fly_Glide_0.03
 NumberSetting_Fly_Timer Speed_1.0
 BooleanSetting_Fly_Strafe_false
+BooleanSetting_Fly_Inf_false
 ModeSetting_Fly_Vanilla Kick Bypass_Off
 BooleanSetting_Fly_Delay Kick Bypass_false
 BooleanSetting_Fly_Smooth Camera_false
@@ -266,7 +269,7 @@ BooleanSetting_Fly_GroundSpoof_false
 BooleanSetting_Fly_Damage_false
 BooleanSetting_Fly_Sigma Fast Fly_false
 Toggle_Speed_false
-ModeSetting_Speed_Mode_Vulcan2
+ModeSetting_Speed_Mode_Vulcan
 ModeSetting_Speed_Value_3
 ModeSetting_Speed_Verus Mode_Hop
 ModeSetting_Speed_GroundSpoof_Off
@@ -312,10 +315,7 @@ NumberSetting_Speed_Distance_62.39
 BooleanSetting_Speed_Disable on flag_false
 BooleanSetting_Speed_Stop on Disable_true
 NumberSetting_Speed_Hypixel Timer_1.4
-NumberSetting_Speed_Sneak Timer_1.8
-NumberSetting_Speed_Glide_0.02
 NumberSetting_Speed_Mmc Speed_1.4
-BooleanSetting_Speed_Low_true
 Toggle_No0.03_false
 Toggle_Strafe_false
 Toggle_Jesus_false
@@ -356,10 +356,11 @@ ModeSetting_Phase_Direction_Down
 BooleanSetting_Phase_Sneak Only_false
 Toggle_Blink_false
 BooleanSetting_Blink_All Packets_true
+BooleanSetting_Blink_Show Player_false
 BooleanSetting_Blink_Pulse_false
 NumberSetting_Blink_Pulse Delay_4.0
 Toggle_Spider_false
-ModeSetting_Spider_Mode_Normal
+ModeSetting_Spider_Mode_Collide
 NumberSetting_Spider_Speed_0.2
 Toggle_ClickTP_false
 ModeSetting_ClickTP_Mode_Normal
@@ -416,6 +417,7 @@ BooleanSetting_Disabler_Verus_false
 BooleanSetting_Disabler_BlocksMC_false
 BooleanSetting_Disabler_Sentinel_false
 BooleanSetting_Disabler_Shartemis Movement_false
+BooleanSetting_Disabler_BlocksMC 2.0_false
 BooleanSetting_Disabler_Hide Old Disablers_false
 BooleanSetting_Disabler_Verus Old_false
 BooleanSetting_Disabler_Spartan_false
@@ -545,7 +547,7 @@ BooleanSetting_Chams_Rainbow_false
 Toggle_BrightPlayers_false
 Toggle_ESP_false
 Toggle_Animations_true
-ModeSetting_Animations_Animation_Cockless
+ModeSetting_Animations_Animation_LB
 NumberSetting_Animations_Slow_9.0
 NumberSetting_Animations_Spin Speed_3.0
 NumberSetting_Animations_X_0.1
@@ -581,7 +583,7 @@ Toggle_DeathEffects_false
 ModeSetting_DeathEffects_Mode_Lightning
 NumberSetting_DeathEffects_Amount_10.0
 BooleanSetting_DeathEffects_Sound_true
-Toggle_Fullbright_false
+Toggle_Fullbright_true
 ModeSetting_Fullbright_Mode_Gamma
 Toggle_NoWeather_false
 Toggle_Giants_false
@@ -607,7 +609,7 @@ NumberSetting_Radar_Radar Y_2.0
 Toggle_Blur_true
 Toggle_ChestESP_false
 ModeSetting_ChestESP_Mode_2D
-Toggle_NoHurtCam_true
+Toggle_NoHurtCam_false
 Toggle_CameraClip_false
 Toggle_ItemPhysics_false
 Toggle_MotionGraph_false
@@ -629,3 +631,4 @@ NumberSetting_AutoPot_Health_15.0
 BooleanSetting_AutoPot_Randomise Rotations_true
 BooleanSetting_AutoPot_Extra Packet_false
 BooleanSetting_AutoPot_Jump_false
+Toggle_Self Destruct_false
