@@ -1,8 +1,8 @@
-Rise_Version_5.84
+Rise_Version_5.85
 MainMenuTheme_LIGHTMODE
 ClientName_BlocksMC Config
 Toggle_Interface_true
-ModeSetting_Interface_Theme_Rice
+ModeSetting_Interface_Theme_Rise Christmas
 ModeSetting_Interface_List Animation_Slide
 NumberSetting_Interface_Red_0.0
 NumberSetting_Interface_Green_255.0
@@ -29,7 +29,7 @@ Toggle_AutoHead_false
 NumberSetting_AutoHead_Health_16.0
 NumberSetting_AutoHead_Min Delay_300.0
 NumberSetting_AutoHead_Max Delay_500.0
-Toggle_Aura_true
+Toggle_Aura_false
 ModeSetting_Aura_Mode_Switch
 ModeSetting_Aura_Rotation Mode_Custom Advanced
 ModeSetting_Aura_Block Mode_Vanilla
@@ -173,7 +173,7 @@ NumberSetting_Derp_Constant Speed_22.8
 BooleanSetting_Derp_Twerk_true
 Toggle_ChestAura_false
 NumberSetting_ChestAura_Range_1.0
-Toggle_Stealer_true
+Toggle_Stealer_false
 NumberSetting_Stealer_Min Delay_25.00000055879356
 NumberSetting_Stealer_Max Delay_75.00000167638068
 BooleanSetting_Stealer_Steal trash items_false
@@ -202,6 +202,7 @@ ModeSetting_Scaffold_Rotations_None
 ModeSetting_Scaffold_Tower_Verus
 ModeSetting_Scaffold_Movement Fix_None
 ModeSetting_Scaffold_Sprint_Normal
+ModeSetting_Scaffold_Block Counter_Normal
 NumberSetting_Scaffold_Timer_1.2
 NumberSetting_Scaffold_Tower Timer_1.3
 BooleanSetting_Scaffold_Downwards_true
@@ -225,7 +226,7 @@ BooleanSetting_Scaffold_Jitter_false
 BooleanSetting_Scaffold_Telly_false
 Toggle_FastBreak_true
 NumberSetting_FastBreak_Speed_0.2
-Toggle_Manager_true
+Toggle_Manager_false
 ModeSetting_Manager_Mode_None
 NumberSetting_Manager_Min Delay_25.00000055879356
 NumberSetting_Manager_Max Delay_75.00000167638068
@@ -355,6 +356,7 @@ ModeSetting_Phase_Direction_Down
 BooleanSetting_Phase_Sneak Only_true
 Toggle_Blink_false
 BooleanSetting_Blink_All Packets_true
+BooleanSetting_Blink_Show Player_false
 BooleanSetting_Blink_Pulse_false
 NumberSetting_Blink_Pulse Delay_4.0
 Toggle_Spider_false
@@ -415,6 +417,7 @@ BooleanSetting_Disabler_Verus_false
 BooleanSetting_Disabler_BlocksMC_true
 BooleanSetting_Disabler_Sentinel_false
 BooleanSetting_Disabler_Shartemis Movement_false
+BooleanSetting_Disabler_BlocksMC 2.0_false
 BooleanSetting_Disabler_Hide Old Disablers_false
 BooleanSetting_Disabler_Verus Old_false
 BooleanSetting_Disabler_Spartan_false
@@ -531,7 +534,7 @@ BooleanSetting_Hitmarkers_Random Pitch_false
 Toggle_SimsESP_false
 Toggle_ClickGui_false
 ModeSetting_ClickGui_Mode_Rise
-ModeSetting_ClickGui_Theme_Deep Blue Rise
+ModeSetting_ClickGui_Theme_Orchid Aqua
 BooleanSetting_ClickGui_Transparency_false
 NumberSetting_ClickGui_Scale_0.65
 Toggle_Nametags_true
@@ -552,7 +555,7 @@ NumberSetting_Animations_Y_0.5
 NumberSetting_Animations_Z_0.0
 NumberSetting_Animations_Scale_0.7
 BooleanSetting_Animations_Old Damage_true
-BooleanSetting_Animations_Smooth Swing_false
+BooleanSetting_Animations_Smooth Swing_true
 BooleanSetting_Animations_Reset Position_false
 BooleanSetting_Animations_Always Show_false
 Toggle_Ambiance_true
