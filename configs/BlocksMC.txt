@@ -2,7 +2,7 @@ Rise_Version_5.85
 MainMenuTheme_LIGHTMODE
 ClientName_BlocksMC Config
 Toggle_Interface_true
-ModeSetting_Interface_Theme_Minecraft
+ModeSetting_Interface_Theme_Minecraft Rainbow
 ModeSetting_Interface_List Animation_Slide
 NumberSetting_Interface_Red_0.0
 NumberSetting_Interface_Green_255.0
@@ -85,8 +85,8 @@ BooleanSetting_FastBow_Non Players_true
 Toggle_TPAura_false
 ModeSetting_TPAura_Mode_Single
 NumberSetting_TPAura_CPS_1.0
-NumberSetting_TPAura_Range_45.0
-NumberSetting_TPAura_Timer_1.0
+NumberSetting_TPAura_Range_27.0
+NumberSetting_TPAura_Timer_1.3
 NumberSetting_TPAura_Max Targets_2.0
 BooleanSetting_TPAura_Players_true
 BooleanSetting_TPAura_Non Players_false
@@ -198,7 +198,7 @@ Toggle_NoFall_true
 ModeSetting_NoFall_Mode_Ground Spoof
 BooleanSetting_NoFall_Offset_false
 Toggle_Scaffold_false
-ModeSetting_Scaffold_Rotations_None
+ModeSetting_Scaffold_Rotations_Normal
 ModeSetting_Scaffold_Tower_Verus
 ModeSetting_Scaffold_Movement Fix_None
 ModeSetting_Scaffold_Sprint_Normal
@@ -217,14 +217,14 @@ NumberSetting_Scaffold_Place Delay_0.4
 BooleanSetting_Scaffold_Randomise Place Delay_false
 NumberSetting_Scaffold_Speed Multiplier_1.0
 NumberSetting_Scaffold_Eagle_15.0
-BooleanSetting_Scaffold_Ignore Speed_false
+BooleanSetting_Scaffold_Ignore Speed_true
 BooleanSetting_Scaffold_Tower Move_false
 ModeSetting_Scaffold_Ray Cast_Off
-ModeSetting_Scaffold_Place on_Legit
+ModeSetting_Scaffold_Place on_Post
 BooleanSetting_Scaffold_Drag Click_true
 BooleanSetting_Scaffold_Jitter_false
 BooleanSetting_Scaffold_Telly_false
-Toggle_FastBreak_true
+Toggle_FastBreak_false
 NumberSetting_FastBreak_Speed_0.2
 Toggle_Manager_true
 ModeSetting_Manager_Mode_None
@@ -247,7 +247,7 @@ BooleanSetting_Sprint_Only In Air_true
 Toggle_Sneak_false
 ModeSetting_Sneak_Mode_Hold
 Toggle_Fly_false
-ModeSetting_Fly_Fly Mode_Vanilla
+ModeSetting_Fly_Fly Mode_Collide
 ModeSetting_Fly_Value_3
 ModeSetting_Fly_Mode_Stable
 NumberSetting_Fly_Fly Speed_2.0
@@ -273,7 +273,7 @@ ModeSetting_Speed_Mode_Custom
 ModeSetting_Speed_Value_3
 ModeSetting_Speed_Verus Mode_Hop
 ModeSetting_Speed_GroundSpoof_Off
-NumberSetting_Speed_Custom Speed_0.44
+NumberSetting_Speed_Custom Speed_0.52
 NumberSetting_Speed_Custom MotionY_0.4
 NumberSetting_Speed_Custom Fall Motion_0.14
 NumberSetting_Speed_Custom Fall Tick_10.0
@@ -318,7 +318,7 @@ NumberSetting_Speed_Hypixel Timer_1.0
 NumberSetting_Speed_Mmc Speed_1.0
 Toggle_No0.03_false
 Toggle_Strafe_false
-Toggle_Jesus_false
+Toggle_Jesus_true
 ModeSetting_Jesus_Mode_NCP
 NumberSetting_Jesus_Motion_1.0
 NumberSetting_Jesus_Speed_1.0
@@ -338,7 +338,7 @@ BooleanSetting_LongJump_Smooth Camera_false
 BooleanSetting_LongJump_Auto Disable_true
 NumberSetting_LongJump_On Ground Speed_0.6
 NumberSetting_LongJump_Off Ground Speed_3.0
-NumberSetting_LongJump_Timer_0.9
+NumberSetting_LongJump_Timer_1.0
 NumberSetting_LongJump_View Bobbing_0.1
 Toggle_InvMove_true
 NumberSetting_InvMove_Slow Down_0.9
@@ -346,7 +346,7 @@ BooleanSetting_InvMove_Packet_false
 Toggle_Step_true
 ModeSetting_Step_Mode_NCP
 NumberSetting_Step_Height_1.5
-NumberSetting_Step_Timer_1.0
+NumberSetting_Step_Timer_0.5
 Toggle_Phase_false
 ModeSetting_Phase_Mode_Clip
 NumberSetting_Phase_Fly Speed_1.0
@@ -402,17 +402,17 @@ ModeSetting_AutoHypixel_Skywars Mode_Solo
 ModeSetting_AutoHypixel_Skywars Type_Normal
 ModeSetting_AutoHypixel_Bedwars Mode_Solo
 NumberSetting_AutoHypixel_Play Delay_1500.0000335276134
-Toggle_Disabler_true
-BooleanSetting_Disabler_Minemenclub Keepsprint Check_false
-BooleanSetting_Disabler_Minemenclub Reach Semi_false
+Toggle_Disabler_false
+BooleanSetting_Disabler_Minemenclub Keepsprint Check_true
+BooleanSetting_Disabler_Minemenclub Reach Semi_true
 BooleanSetting_Disabler_Hypixel Slime_false
 BooleanSetting_Disabler_Dynamic PvP_false
-BooleanSetting_Disabler_Ghostly Combat_true
+BooleanSetting_Disabler_Ghostly Combat_false
 BooleanSetting_Disabler_Ghostly_false
 BooleanSetting_Disabler_Lunar_false
 BooleanSetting_Disabler_Position Edit_false
 BooleanSetting_Disabler_Vulcan Reach A_false
-BooleanSetting_Disabler_Verus Combat_true
+BooleanSetting_Disabler_Verus Combat_false
 BooleanSetting_Disabler_Verus_false
 BooleanSetting_Disabler_BlocksMC_false
 BooleanSetting_Disabler_Sentinel_false
@@ -445,7 +445,7 @@ Toggle_Insults_false
 ModeSetting_Insults_Mode_Normal
 Toggle_ChatBypass_false
 ModeSetting_ChatBypass_Mode_Hypixel
-Toggle_Breaker_true
+Toggle_Breaker_false
 NumberSetting_Breaker_Range_3.5
 BooleanSetting_Breaker_Swing_false
 BooleanSetting_Breaker_Cake_false
@@ -479,7 +479,7 @@ ModeSetting_Crasher_Mode_NaN
 NumberSetting_Crasher_Packets_10.0
 Toggle_PingSpoof_false
 NumberSetting_PingSpoof_Delay_10.0
-Toggle_NoGuiClose_true
+Toggle_NoGuiClose_false
 BooleanSetting_NoGuiClose_Chat Only_true
 Toggle_AntiSuffocation_false
 ModeSetting_AntiSuffocation_Mode_Mine
@@ -506,7 +506,7 @@ ModeSetting_Sniper_Skywars Mode_Solo
 ModeSetting_Sniper_Skywars Type_Insane
 ModeSetting_Sniper_Bedwars Mode_Quads
 NumberSetting_Sniper_Delay_1000.0
-Toggle_ClientSpoofer_true
+Toggle_ClientSpoofer_false
 ModeSetting_ClientSpoofer_Mode_Lunar
 Toggle_AutoBuild_false
 ModeSetting_AutoBuild_Mode_Teleport
@@ -534,9 +534,9 @@ BooleanSetting_Hitmarkers_Random Pitch_false
 Toggle_SimsESP_false
 Toggle_ClickGui_false
 ModeSetting_ClickGui_Mode_Rise
-ModeSetting_ClickGui_Theme_Orchid Aqua
+ModeSetting_ClickGui_Theme_Deep Blue Rise
 BooleanSetting_ClickGui_Transparency_false
-NumberSetting_ClickGui_Scale_0.65
+NumberSetting_ClickGui_Scale_0.7
 Toggle_Nametags_true
 Toggle_Chams_true
 NumberSetting_Chams_Red_0.0
@@ -566,7 +566,7 @@ ModeSetting_AttackEffects_Mode_Blood
 NumberSetting_AttackEffects_Amount_10.0
 BooleanSetting_AttackEffects_Sound_true
 Toggle_TargetHud_true
-ModeSetting_TargetHud_Mode_Exhibition
+ModeSetting_TargetHud_Mode_Normal
 BooleanSetting_TargetHud_Background_false
 Toggle_DamageColor_true
 NumberSetting_DamageColor_Red_255.0
