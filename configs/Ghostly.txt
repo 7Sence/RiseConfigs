@@ -1,4 +1,4 @@
-Rise_Version_5.85
+Rise_Version_5.86
 MainMenuTheme_LIGHTMODE
 ClientName_GhostlyV0.1
 Toggle_Interface_true
@@ -367,6 +367,7 @@ ModeSetting_ClickTP_Mode_Normal
 Toggle_BedWalker_false
 Toggle_BowFly_false
 Toggle_Clipper_false
+Toggle_NoBob_false
 Toggle_LegitFightBot_false
 BooleanSetting_LegitFightBot_Players_true
 BooleanSetting_LegitFightBot_Non Players_true
@@ -414,10 +415,9 @@ BooleanSetting_Disabler_Position Edit_false
 BooleanSetting_Disabler_Vulcan Reach A_false
 BooleanSetting_Disabler_Verus Combat_false
 BooleanSetting_Disabler_Verus_false
-BooleanSetting_Disabler_BlocksMC_false
+BooleanSetting_Disabler_BlocksMC_true
 BooleanSetting_Disabler_Sentinel_false
 BooleanSetting_Disabler_Shartemis Movement_false
-BooleanSetting_Disabler_BlocksMC 2.0_true
 BooleanSetting_Disabler_Hide Old Disablers_false
 BooleanSetting_Disabler_Verus Old_false
 BooleanSetting_Disabler_Spartan_false
@@ -536,14 +536,29 @@ Toggle_ClickGui_false
 ModeSetting_ClickGui_Mode_Rise
 ModeSetting_ClickGui_Theme_Rural Amethyst
 BooleanSetting_ClickGui_Transparency_true
+BooleanSetting_ClickGui_Blur Background_false
 NumberSetting_ClickGui_Scale_0.7
 Toggle_Nametags_false
 Toggle_Chams_false
+ModeSetting_Chams_Mode_Normal
+BooleanSetting_Chams_Hands_false
+BooleanSetting_Chams_Rainbow_true
 NumberSetting_Chams_Red_142.8
 NumberSetting_Chams_Green_168.3
 NumberSetting_Chams_Blue_255.0
 NumberSetting_Chams_Alpha_0.0
-BooleanSetting_Chams_Rainbow_true
+NumberSetting_Chams_Red Hand_255.0
+NumberSetting_Chams_Green Hand_0.0
+NumberSetting_Chams_Blue Hand_0.0
+NumberSetting_Chams_Alpha Hand_100.0
+NumberSetting_Chams_Red Visible_255.0
+NumberSetting_Chams_Green Visible_0.0
+NumberSetting_Chams_Blue Visible_0.0
+NumberSetting_Chams_Alpha Visible_100.0
+NumberSetting_Chams_Red Hidden_255.0
+NumberSetting_Chams_Green Hidden_0.0
+NumberSetting_Chams_Blue Hidden_0.0
+NumberSetting_Chams_Alpha Hidden_100.0
 Toggle_BrightPlayers_false
 Toggle_ESP_false
 Toggle_Animations_true
@@ -631,4 +646,4 @@ NumberSetting_AutoPot_Health_16.0
 BooleanSetting_AutoPot_Randomise Rotations_true
 BooleanSetting_AutoPot_Extra Packet_true
 BooleanSetting_AutoPot_Jump_false
-Toggle_Self Destruct_false
+Toggle_SelfDestruct_false
