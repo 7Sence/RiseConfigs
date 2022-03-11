@@ -1,6 +1,6 @@
 Rise_Version_5.86
 MainMenuTheme_LIGHTMODE
-ClientName_
+ClientName_5.86 Hypixel Config
 Toggle_Interface_true
 ModeSetting_Interface_Theme_Skeet
 ModeSetting_Interface_List Animation_Rise
