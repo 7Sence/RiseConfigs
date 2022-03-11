@@ -189,7 +189,7 @@ BooleanSetting_FastPlace_Randomize_false
 Toggle_FastEat_false
 ModeSetting_FastEat_Mode_Normal
 NumberSetting_FastEat_Speed_10.0
-Toggle_NoVoid_false
+Toggle_NoVoid_true
 ModeSetting_NoVoid_Mode_Hypixel
 NumberSetting_NoVoid_Fall Distance_3.1
 BooleanSetting_NoVoid_Void Check_true
