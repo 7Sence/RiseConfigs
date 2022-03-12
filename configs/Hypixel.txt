@@ -203,7 +203,7 @@ ModeSetting_Scaffold_Tower_None
 ModeSetting_Scaffold_Movement Fix_None
 ModeSetting_Scaffold_Sprint_Normal
 ModeSetting_Scaffold_Block Counter_Normal
-NumberSetting_Scaffold_Timer_1.4
+NumberSetting_Scaffold_Timer_1.0
 NumberSetting_Scaffold_Tower Timer_1.0
 BooleanSetting_Scaffold_Downwards_true
 BooleanSetting_Scaffold_Safe Walk_false
@@ -211,7 +211,7 @@ BooleanSetting_Scaffold_Same Y_true
 BooleanSetting_Scaffold_Swing_false
 NumberSetting_Scaffold_Range_5.0
 BooleanSetting_Scaffold_Randomise Rotation Speed On Enable_true
-NumberSetting_Scaffold_Rotation Speed_54.00822815242801
+NumberSetting_Scaffold_Rotation Speed_57.81597165230333
 NumberSetting_Scaffold_Randomisation_6.0
 NumberSetting_Scaffold_Place Delay_0.0
 BooleanSetting_Scaffold_Randomise Place Delay_false
@@ -620,8 +620,8 @@ Toggle_Breadcrumbs_false
 BooleanSetting_Breadcrumbs_Timeout_true
 NumberSetting_Breadcrumbs_Time_150.0
 Toggle_Radar_false
-NumberSetting_Radar_Radar X_10.0
-NumberSetting_Radar_Radar Y_14.0
+NumberSetting_Radar_Radar X_9.0
+NumberSetting_Radar_Radar Y_12.0
 Toggle_Blur_true
 Toggle_ChestESP_true
 ModeSetting_ChestESP_Mode_2D
