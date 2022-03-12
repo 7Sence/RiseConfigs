@@ -1,8 +1,8 @@
-Rise_Version_5.85
+Rise_Version_5.86
 MainMenuTheme_LIGHTMODE
-ClientName_Rise 5.85 Hypixel Config
+ClientName_5.86 hypixel fig update (wynter)
 Toggle_Interface_true
-ModeSetting_Interface_Theme_Rise Christmas
+ModeSetting_Interface_Theme_Rice
 ModeSetting_Interface_List Animation_Slide
 NumberSetting_Interface_Red_0.0
 NumberSetting_Interface_Green_0.0
@@ -29,13 +29,13 @@ Toggle_AutoHead_false
 NumberSetting_AutoHead_Health_16.0
 NumberSetting_AutoHead_Min Delay_300.0
 NumberSetting_AutoHead_Max Delay_500.0
-Toggle_Aura_false
+Toggle_Aura_true
 ModeSetting_Aura_Mode_Single
 ModeSetting_Aura_Rotation Mode_Smooth
 ModeSetting_Aura_Block Mode_Hypixel
 ModeSetting_Aura_Sorting Mode_Health
-NumberSetting_Aura_Range_4.4
-NumberSetting_Aura_Rotation Range_6.0
+NumberSetting_Aura_Range_4.8
+NumberSetting_Aura_Rotation Range_4.8
 NumberSetting_Aura_Extended Range_12.0
 BooleanSetting_Aura_Extended Range_false
 NumberSetting_Aura_Min CPS_12.0
@@ -173,15 +173,15 @@ NumberSetting_Derp_Constant Speed_22.8
 BooleanSetting_Derp_Twerk_true
 Toggle_ChestAura_false
 NumberSetting_ChestAura_Range_5.0
-Toggle_Stealer_true
+Toggle_Stealer_false
 NumberSetting_Stealer_Min Delay_25.00000055879356
-NumberSetting_Stealer_Max Delay_75.00000167638068
+NumberSetting_Stealer_Max Delay_100.00000223517424
 BooleanSetting_Stealer_Steal trash items_false
 BooleanSetting_Stealer_Auto Close_true
 BooleanSetting_Stealer_Hide Gui_false
 BooleanSetting_Stealer_Move head in chest_true
 BooleanSetting_Stealer_Check chest name_true
-Toggle_AutoTool_false
+Toggle_AutoTool_true
 Toggle_FastPlace_false
 NumberSetting_FastPlace_FastPlace Delay_0.0
 BooleanSetting_FastPlace_Blocks Only_true
@@ -189,12 +189,12 @@ BooleanSetting_FastPlace_Randomize_false
 Toggle_FastEat_false
 ModeSetting_FastEat_Mode_Normal
 NumberSetting_FastEat_Speed_10.0
-Toggle_NoVoid_false
-ModeSetting_NoVoid_Mode_Blink
-NumberSetting_NoVoid_Fall Distance_5.0
+Toggle_NoVoid_true
+ModeSetting_NoVoid_Mode_Hypixel
+NumberSetting_NoVoid_Fall Distance_3.2
 BooleanSetting_NoVoid_Void Check_true
 BooleanSetting_NoVoid_Show Notifications_false
-Toggle_NoFall_true
+Toggle_NoFall_false
 ModeSetting_NoFall_Mode_Hypixel
 BooleanSetting_NoFall_Offset_true
 Toggle_Scaffold_false
@@ -203,7 +203,7 @@ ModeSetting_Scaffold_Tower_None
 ModeSetting_Scaffold_Movement Fix_Yaw
 ModeSetting_Scaffold_Sprint_Normal
 ModeSetting_Scaffold_Block Counter_Normal
-NumberSetting_Scaffold_Timer_1.3
+NumberSetting_Scaffold_Timer_1.2
 NumberSetting_Scaffold_Tower Timer_1.0
 BooleanSetting_Scaffold_Downwards_true
 BooleanSetting_Scaffold_Safe Walk_false
@@ -211,13 +211,13 @@ BooleanSetting_Scaffold_Same Y_true
 BooleanSetting_Scaffold_Swing_false
 NumberSetting_Scaffold_Range_5.0
 BooleanSetting_Scaffold_Randomise Rotation Speed On Enable_false
-NumberSetting_Scaffold_Rotation Speed_64.99999903142454
+NumberSetting_Scaffold_Rotation Speed_124.99999813735488
 NumberSetting_Scaffold_Randomisation_6.0
 NumberSetting_Scaffold_Place Delay_0.0
 BooleanSetting_Scaffold_Randomise Place Delay_false
-NumberSetting_Scaffold_Speed Multiplier_0.8
+NumberSetting_Scaffold_Speed Multiplier_0.7
 NumberSetting_Scaffold_Eagle_15.0
-BooleanSetting_Scaffold_Ignore Speed_false
+BooleanSetting_Scaffold_Ignore Speed_true
 BooleanSetting_Scaffold_Tower Move_true
 ModeSetting_Scaffold_Ray Cast_Off
 ModeSetting_Scaffold_Place on_Post
@@ -226,10 +226,10 @@ BooleanSetting_Scaffold_Jitter_false
 BooleanSetting_Scaffold_Telly_true
 Toggle_FastBreak_false
 NumberSetting_FastBreak_Speed_0.3
-Toggle_Manager_true
+Toggle_Manager_false
 ModeSetting_Manager_Mode_None
 NumberSetting_Manager_Min Delay_25.00000055879356
-NumberSetting_Manager_Max Delay_75.00000167638068
+NumberSetting_Manager_Max Delay_100.00000223517424
 BooleanSetting_Manager_Throw Useless Items_true
 BooleanSetting_Manager_Throw Custom Items_false
 BooleanSetting_Manager_Throw Heads_true
@@ -314,7 +314,7 @@ NumberSetting_Speed_How Often_22.805
 NumberSetting_Speed_Distance_62.39
 BooleanSetting_Speed_Disable on flag_true
 BooleanSetting_Speed_Stop on Disable_true
-NumberSetting_Speed_Hypixel Timer_1.2
+NumberSetting_Speed_Hypixel Timer_1.6
 NumberSetting_Speed_Mmc Speed_1.4
 Toggle_No0.03_false
 Toggle_Strafe_false
@@ -366,7 +366,8 @@ Toggle_ClickTP_false
 ModeSetting_ClickTP_Mode_Normal
 Toggle_BedWalker_false
 Toggle_BowFly_false
-Toggle_Clipper_false
+Toggle_Clipper_true
+Toggle_NoBob_false
 Toggle_LegitFightBot_false
 BooleanSetting_LegitFightBot_Players_true
 BooleanSetting_LegitFightBot_Non Players_true
@@ -417,7 +418,6 @@ BooleanSetting_Disabler_Verus_false
 BooleanSetting_Disabler_BlocksMC_false
 BooleanSetting_Disabler_Sentinel_false
 BooleanSetting_Disabler_Shartemis Movement_false
-BooleanSetting_Disabler_BlocksMC 2.0_false
 BooleanSetting_Disabler_Hide Old Disablers_false
 BooleanSetting_Disabler_Verus Old_false
 BooleanSetting_Disabler_Spartan_false
@@ -439,7 +439,7 @@ BooleanSetting_Disabler_PacketResourcePacketStatus_false
 Toggle_Plugins_false
 ModeSetting_Plugins_Mode_Bypass
 Toggle_AutoAuthme_false
-Toggle_NoRot_true
+Toggle_NoRot_false
 ModeSetting_NoRot_Mode_Hypixel
 Toggle_Insults_false
 ModeSetting_Insults_Mode_Normal
@@ -536,29 +536,44 @@ Toggle_ClickGui_false
 ModeSetting_ClickGui_Mode_Rise
 ModeSetting_ClickGui_Theme_Deep Blue Rise
 BooleanSetting_ClickGui_Transparency_false
+BooleanSetting_ClickGui_Blur Background_false
 NumberSetting_ClickGui_Scale_0.7
 Toggle_Nametags_false
 Toggle_Chams_true
+ModeSetting_Chams_Mode_Normal
+BooleanSetting_Chams_Hands_false
+BooleanSetting_Chams_Rainbow_false
 NumberSetting_Chams_Red_0.0
 NumberSetting_Chams_Green_130.0
 NumberSetting_Chams_Blue_255.0
 NumberSetting_Chams_Alpha_195.0
-BooleanSetting_Chams_Rainbow_false
+NumberSetting_Chams_Red Hand_255.0
+NumberSetting_Chams_Green Hand_0.0
+NumberSetting_Chams_Blue Hand_0.0
+NumberSetting_Chams_Alpha Hand_100.0
+NumberSetting_Chams_Red Visible_255.0
+NumberSetting_Chams_Green Visible_0.0
+NumberSetting_Chams_Blue Visible_0.0
+NumberSetting_Chams_Alpha Visible_100.0
+NumberSetting_Chams_Red Hidden_255.0
+NumberSetting_Chams_Green Hidden_0.0
+NumberSetting_Chams_Blue Hidden_0.0
+NumberSetting_Chams_Alpha Hidden_100.0
 Toggle_BrightPlayers_true
 Toggle_ESP_false
 Toggle_Animations_true
-ModeSetting_Animations_Animation_1.7
-NumberSetting_Animations_Slow_11.6
+ModeSetting_Animations_Animation_Exhibition
+NumberSetting_Animations_Slow_13.5
 NumberSetting_Animations_Spin Speed_3.0
 NumberSetting_Animations_X_0.1
-NumberSetting_Animations_Y_0.0
-NumberSetting_Animations_Z_0.0
-NumberSetting_Animations_Scale_1.1
+NumberSetting_Animations_Y_0.1
+NumberSetting_Animations_Z_-0.2
+NumberSetting_Animations_Scale_0.8
 BooleanSetting_Animations_Old Damage_true
 BooleanSetting_Animations_Smooth Swing_false
 BooleanSetting_Animations_Reset Position_false
 BooleanSetting_Animations_Always Show_false
-Toggle_Ambiance_false
+Toggle_Ambiance_true
 NumberSetting_Ambiance_Time_0.0
 NumberSetting_Ambiance_Time Speed_0.0
 Toggle_AttackEffects_false
@@ -604,8 +619,8 @@ Toggle_Breadcrumbs_false
 BooleanSetting_Breadcrumbs_Timeout_true
 NumberSetting_Breadcrumbs_Time_150.0
 Toggle_Radar_true
-NumberSetting_Radar_Radar X_15.0
-NumberSetting_Radar_Radar Y_30.0
+NumberSetting_Radar_Radar X_20.0
+NumberSetting_Radar_Radar Y_36.0
 Toggle_Blur_false
 Toggle_ChestESP_false
 ModeSetting_ChestESP_Mode_2D
@@ -631,4 +646,4 @@ NumberSetting_AutoPot_Health_15.0
 BooleanSetting_AutoPot_Randomise Rotations_true
 BooleanSetting_AutoPot_Extra Packet_false
 BooleanSetting_AutoPot_Jump_false
-Toggle_Self Destruct_false
+Toggle_SelfDestruct_false
