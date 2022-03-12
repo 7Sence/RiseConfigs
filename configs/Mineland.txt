@@ -1,6 +1,6 @@
-Rise_Version_5.85
+Rise_Version_5.86
 MainMenuTheme_LIGHTMODE
-ClientName_Mineland by CringeClient
+ClientName_MinelandV0.2 By CringeClient
 Toggle_Interface_true
 ModeSetting_Interface_Theme_Rise Blend
 ModeSetting_Interface_List Animation_Rise
@@ -23,7 +23,7 @@ NumberSetting_Interface_KeystrokesY_72.5
 ModeSetting_Interface_Cape_Electric Sky
 Toggle_TabGui_false
 Toggle_AutoGap_false
-NumberSetting_AutoGap_Health_10.0
+NumberSetting_AutoGap_Health_13.0
 BooleanSetting_AutoGap_Switch Slots_true
 Toggle_AutoHead_false
 NumberSetting_AutoHead_Health_16.0
@@ -174,7 +174,7 @@ BooleanSetting_Derp_Twerk_false
 Toggle_ChestAura_false
 NumberSetting_ChestAura_Range_5.0
 Toggle_Stealer_false
-NumberSetting_Stealer_Min Delay_75.00000167638068
+NumberSetting_Stealer_Min Delay_125.00000279396778
 NumberSetting_Stealer_Max Delay_250.00000558793556
 BooleanSetting_Stealer_Steal trash items_false
 BooleanSetting_Stealer_Auto Close_true
@@ -187,49 +187,49 @@ NumberSetting_FastPlace_FastPlace Delay_0.0
 BooleanSetting_FastPlace_Blocks Only_true
 BooleanSetting_FastPlace_Randomize_false
 Toggle_FastEat_false
-ModeSetting_FastEat_Mode_Ghostly
-NumberSetting_FastEat_Speed_13.0
+ModeSetting_FastEat_Mode_Normal
+NumberSetting_FastEat_Speed_66.0
 Toggle_NoVoid_true
 ModeSetting_NoVoid_Mode_Matrix
 NumberSetting_NoVoid_Fall Distance_3.5
 BooleanSetting_NoVoid_Void Check_true
 BooleanSetting_NoVoid_Show Notifications_false
 Toggle_NoFall_false
-ModeSetting_NoFall_Mode_Tick
+ModeSetting_NoFall_Mode_Hypixel
 BooleanSetting_NoFall_Offset_false
 Toggle_Scaffold_false
-ModeSetting_Scaffold_Rotations_Simple
+ModeSetting_Scaffold_Rotations_Bruteforce
 ModeSetting_Scaffold_Tower_Slow
 ModeSetting_Scaffold_Movement Fix_None
 ModeSetting_Scaffold_Sprint_Normal
 ModeSetting_Scaffold_Block Counter_Normal
-NumberSetting_Scaffold_Timer_1.0
+NumberSetting_Scaffold_Timer_1.4
 NumberSetting_Scaffold_Tower Timer_0.9
 BooleanSetting_Scaffold_Downwards_true
 BooleanSetting_Scaffold_Safe Walk_false
-BooleanSetting_Scaffold_Same Y_false
+BooleanSetting_Scaffold_Same Y_true
 BooleanSetting_Scaffold_Swing_true
 NumberSetting_Scaffold_Range_6.0
 BooleanSetting_Scaffold_Randomise Rotation Speed On Enable_false
 NumberSetting_Scaffold_Rotation Speed_359.999994635582
-NumberSetting_Scaffold_Randomisation_1.4
+NumberSetting_Scaffold_Randomisation_0.0
 NumberSetting_Scaffold_Place Delay_0.0
 BooleanSetting_Scaffold_Randomise Place Delay_false
-NumberSetting_Scaffold_Speed Multiplier_0.95
-NumberSetting_Scaffold_Eagle_10.0
+NumberSetting_Scaffold_Speed Multiplier_1.0
+NumberSetting_Scaffold_Eagle_15.0
 BooleanSetting_Scaffold_Ignore Speed_false
 BooleanSetting_Scaffold_Tower Move_true
 ModeSetting_Scaffold_Ray Cast_Off
 ModeSetting_Scaffold_Place on_Legit
 BooleanSetting_Scaffold_Drag Click_false
 BooleanSetting_Scaffold_Jitter_false
-BooleanSetting_Scaffold_Telly_false
+BooleanSetting_Scaffold_Telly_true
 Toggle_FastBreak_true
 NumberSetting_FastBreak_Speed_0.9
 Toggle_Manager_false
 ModeSetting_Manager_Mode_None
-NumberSetting_Manager_Min Delay_25.00000055879356
-NumberSetting_Manager_Max Delay_75.00000167638068
+NumberSetting_Manager_Min Delay_50.00000111758712
+NumberSetting_Manager_Max Delay_125.00000279396778
 BooleanSetting_Manager_Throw Useless Items_true
 BooleanSetting_Manager_Throw Custom Items_true
 BooleanSetting_Manager_Throw Heads_false
@@ -243,22 +243,22 @@ NumberSetting_Manager_Potion Slot_6.0
 Toggle_Infinite_false
 Toggle_Sprint_true
 BooleanSetting_Sprint_All Directions_true
-BooleanSetting_Sprint_Only In Air_true
+BooleanSetting_Sprint_Only In Air_false
 Toggle_Sneak_false
 ModeSetting_Sneak_Mode_Always
 Toggle_Fly_false
-ModeSetting_Fly_Fly Mode_BlockFly
+ModeSetting_Fly_Fly Mode_Bow Longjump
 ModeSetting_Fly_Value_1
 ModeSetting_Fly_Mode_Stable
-NumberSetting_Fly_Fly Speed_0.3
+NumberSetting_Fly_Fly Speed_0.01
 BooleanSetting_Fly_Auto Stop_true
-NumberSetting_Fly_H Boost first tick_0.9
-NumberSetting_Fly_V Boost first tick_0.0
-NumberSetting_Fly_H Boost second tick_1.2
-NumberSetting_Fly_V Boost second tick_0.3
+NumberSetting_Fly_H Boost first tick_0.5
+NumberSetting_Fly_V Boost first tick_0.4
+NumberSetting_Fly_H Boost second tick_0.4
+NumberSetting_Fly_V Boost second tick_0.0
 NumberSetting_Fly_MultiplierInAir_1.1
-NumberSetting_Fly_Glide_0.03
-NumberSetting_Fly_Timer Speed_0.7
+NumberSetting_Fly_Glide_0.02
+NumberSetting_Fly_Timer Speed_0.9
 BooleanSetting_Fly_Strafe_false
 BooleanSetting_Fly_Inf_false
 ModeSetting_Fly_Vanilla Kick Bypass_Off
@@ -279,8 +279,8 @@ NumberSetting_Speed_Custom Fall Motion_0.09
 NumberSetting_Speed_Custom Fall Tick_3.5
 NumberSetting_Speed_Randomize Speed_0.0
 NumberSetting_Speed_Void TP Ticks_1.0
-NumberSetting_Speed_Timer_1.1
-NumberSetting_Speed_Timer Random_0.1
+NumberSetting_Speed_Timer_1.04
+NumberSetting_Speed_Timer Random_0.01
 NumberSetting_Speed_GroundSpoof Ticks_10.0
 NumberSetting_Speed_Teleport Distance_0.04
 BooleanSetting_Speed_Strafe_true
@@ -312,7 +312,7 @@ BooleanSetting_Speed_Smart Timer_false
 BooleanSetting_Speed_Revert to fastest on default config_false
 NumberSetting_Speed_How Often_2.23
 NumberSetting_Speed_Distance_4.97
-BooleanSetting_Speed_Disable on flag_false
+BooleanSetting_Speed_Disable on flag_true
 BooleanSetting_Speed_Stop on Disable_true
 NumberSetting_Speed_Hypixel Timer_1.1
 NumberSetting_Speed_Mmc Speed_1.0
@@ -337,8 +337,8 @@ ModeSetting_LongJump_NCP Mode_Normal
 BooleanSetting_LongJump_Smooth Camera_false
 BooleanSetting_LongJump_Auto Disable_true
 NumberSetting_LongJump_On Ground Speed_0.4
-NumberSetting_LongJump_Off Ground Speed_0.5
-NumberSetting_LongJump_Timer_1.0
+NumberSetting_LongJump_Off Ground Speed_0.7
+NumberSetting_LongJump_Timer_1.4
 NumberSetting_LongJump_View Bobbing_0.0
 Toggle_InvMove_true
 NumberSetting_InvMove_Slow Down_1.0
@@ -346,7 +346,7 @@ BooleanSetting_InvMove_Packet_false
 Toggle_Step_true
 ModeSetting_Step_Mode_NCP
 NumberSetting_Step_Height_1.5
-NumberSetting_Step_Timer_0.5
+NumberSetting_Step_Timer_0.4
 Toggle_Phase_false
 ModeSetting_Phase_Mode_Clip
 NumberSetting_Phase_Fly Speed_1.0
@@ -367,6 +367,7 @@ ModeSetting_ClickTP_Mode_Normal
 Toggle_BedWalker_false
 Toggle_BowFly_false
 Toggle_Clipper_true
+Toggle_NoBob_false
 Toggle_LegitFightBot_false
 BooleanSetting_LegitFightBot_Players_true
 BooleanSetting_LegitFightBot_Non Players_true
@@ -417,7 +418,6 @@ BooleanSetting_Disabler_Verus_false
 BooleanSetting_Disabler_BlocksMC_false
 BooleanSetting_Disabler_Sentinel_false
 BooleanSetting_Disabler_Shartemis Movement_false
-BooleanSetting_Disabler_BlocksMC 2.0_false
 BooleanSetting_Disabler_Hide Old Disablers_false
 BooleanSetting_Disabler_Verus Old_false
 BooleanSetting_Disabler_Spartan_false
@@ -536,14 +536,29 @@ Toggle_ClickGui_false
 ModeSetting_ClickGui_Mode_Rise
 ModeSetting_ClickGui_Theme_Rural Amethyst
 BooleanSetting_ClickGui_Transparency_true
+BooleanSetting_ClickGui_Blur Background_false
 NumberSetting_ClickGui_Scale_0.7
 Toggle_Nametags_false
 Toggle_Chams_false
+ModeSetting_Chams_Mode_Normal
+BooleanSetting_Chams_Hands_false
+BooleanSetting_Chams_Rainbow_true
 NumberSetting_Chams_Red_142.8
 NumberSetting_Chams_Green_168.3
 NumberSetting_Chams_Blue_255.0
 NumberSetting_Chams_Alpha_0.0
-BooleanSetting_Chams_Rainbow_true
+NumberSetting_Chams_Red Hand_255.0
+NumberSetting_Chams_Green Hand_0.0
+NumberSetting_Chams_Blue Hand_0.0
+NumberSetting_Chams_Alpha Hand_100.0
+NumberSetting_Chams_Red Visible_255.0
+NumberSetting_Chams_Green Visible_0.0
+NumberSetting_Chams_Blue Visible_0.0
+NumberSetting_Chams_Alpha Visible_100.0
+NumberSetting_Chams_Red Hidden_255.0
+NumberSetting_Chams_Green Hidden_0.0
+NumberSetting_Chams_Blue Hidden_0.0
+NumberSetting_Chams_Alpha Hidden_100.0
 Toggle_BrightPlayers_false
 Toggle_ESP_false
 Toggle_Animations_true
@@ -604,8 +619,8 @@ Toggle_Breadcrumbs_false
 BooleanSetting_Breadcrumbs_Timeout_true
 NumberSetting_Breadcrumbs_Time_150.0
 Toggle_Radar_false
-NumberSetting_Radar_Radar X_44.0
-NumberSetting_Radar_Radar Y_13.0
+NumberSetting_Radar_Radar X_41.0
+NumberSetting_Radar_Radar Y_18.0
 Toggle_Blur_false
 Toggle_ChestESP_true
 ModeSetting_ChestESP_Mode_2D
@@ -631,4 +646,4 @@ NumberSetting_AutoPot_Health_16.0
 BooleanSetting_AutoPot_Randomise Rotations_true
 BooleanSetting_AutoPot_Extra Packet_true
 BooleanSetting_AutoPot_Jump_false
-Toggle_Self Destruct_false
+Toggle_SelfDestruct_false
