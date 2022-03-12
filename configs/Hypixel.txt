@@ -1,9 +1,9 @@
-Rise_Version_5.86
+Rise_Version_5.87
 MainMenuTheme_LIGHTMODE
-ClientName_oskar
+ClientName_bypass edition
 Toggle_Interface_true
 ModeSetting_Interface_Theme_Rise Blend
-ModeSetting_Interface_List Animation_Slide
+ModeSetting_Interface_List Animation_Rise
 NumberSetting_Interface_Red_0.0
 NumberSetting_Interface_Green_0.0
 NumberSetting_Interface_Blue_255.0
@@ -64,7 +64,7 @@ BooleanSetting_Aura_1.9 Delay_false
 BooleanSetting_Aura_1.9 Swing_false
 BooleanSetting_Aura_Players_true
 BooleanSetting_Aura_Non Players_false
-BooleanSetting_Aura_Ignore Teammates_false
+BooleanSetting_Aura_Ignore Teammates_true
 BooleanSetting_Aura_Invisibles_false
 BooleanSetting_Aura_Attack Dead_false
 BooleanSetting_Aura_Target ESP_true
@@ -189,7 +189,7 @@ BooleanSetting_FastPlace_Randomize_false
 Toggle_FastEat_false
 ModeSetting_FastEat_Mode_Normal
 NumberSetting_FastEat_Speed_10.0
-Toggle_NoVoid_true
+Toggle_NoVoid_false
 ModeSetting_NoVoid_Mode_Hypixel
 NumberSetting_NoVoid_Fall Distance_3.1
 BooleanSetting_NoVoid_Void Check_true
@@ -203,7 +203,7 @@ ModeSetting_Scaffold_Tower_None
 ModeSetting_Scaffold_Movement Fix_None
 ModeSetting_Scaffold_Sprint_Normal
 ModeSetting_Scaffold_Block Counter_Normal
-NumberSetting_Scaffold_Timer_1.0
+NumberSetting_Scaffold_Timer_1.4
 NumberSetting_Scaffold_Tower Timer_1.0
 BooleanSetting_Scaffold_Downwards_true
 BooleanSetting_Scaffold_Safe Walk_false
@@ -211,7 +211,7 @@ BooleanSetting_Scaffold_Same Y_true
 BooleanSetting_Scaffold_Swing_false
 NumberSetting_Scaffold_Range_5.0
 BooleanSetting_Scaffold_Randomise Rotation Speed On Enable_true
-NumberSetting_Scaffold_Rotation Speed_69.57123842004076
+NumberSetting_Scaffold_Rotation Speed_54.00822815242801
 NumberSetting_Scaffold_Randomisation_6.0
 NumberSetting_Scaffold_Place Delay_0.0
 BooleanSetting_Scaffold_Randomise Place Delay_false
@@ -258,13 +258,13 @@ NumberSetting_Fly_H Boost second tick_0.7
 NumberSetting_Fly_V Boost second tick_0.0
 NumberSetting_Fly_MultiplierInAir_1.1
 NumberSetting_Fly_Glide_0.03
-NumberSetting_Fly_Timer Speed_1.0
+NumberSetting_Fly_Timer Speed_2.0
 BooleanSetting_Fly_Strafe_false
 BooleanSetting_Fly_Inf_false
 ModeSetting_Fly_Vanilla Kick Bypass_Off
 BooleanSetting_Fly_Delay Kick Bypass_false
-BooleanSetting_Fly_Smooth Camera_true
-NumberSetting_Fly_View Bobbing_0.0
+BooleanSetting_Fly_Smooth Camera_false
+NumberSetting_Fly_View Bobbing_0.07
 BooleanSetting_Fly_GroundSpoof_false
 BooleanSetting_Fly_Damage_true
 BooleanSetting_Fly_Sigma Fast Fly_false
@@ -314,7 +314,7 @@ NumberSetting_Speed_How Often_22.805
 NumberSetting_Speed_Distance_62.39
 BooleanSetting_Speed_Disable on flag_true
 BooleanSetting_Speed_Stop on Disable_true
-NumberSetting_Speed_Hypixel Timer_1.7
+NumberSetting_Speed_Hypixel Timer_1.0
 NumberSetting_Speed_Mmc Speed_1.4
 Toggle_No0.03_false
 Toggle_Strafe_false
@@ -329,13 +329,13 @@ ModeSetting_HighJump_Mode_Fireball
 NumberSetting_HighJump_Timer Speed_1.0
 NumberSetting_HighJump_Vertical Motion_0.25
 NumberSetting_HighJump_Horizontal Motion_0.25
-BooleanSetting_HighJump_Smooth Camera_false
+BooleanSetting_HighJump_Smooth Camera_true
 BooleanSetting_HighJump_Auto Disable_true
 Toggle_LongJump_false
 ModeSetting_LongJump_Mode_Hypixel
 ModeSetting_LongJump_NCP Mode_Normal
-BooleanSetting_LongJump_Smooth Camera_false
-BooleanSetting_LongJump_Auto Disable_true
+BooleanSetting_LongJump_Smooth Camera_true
+BooleanSetting_LongJump_Auto Disable_false
 NumberSetting_LongJump_On Ground Speed_0.3
 NumberSetting_LongJump_Off Ground Speed_0.6
 NumberSetting_LongJump_Timer_1.0
@@ -367,6 +367,7 @@ ModeSetting_ClickTP_Mode_Normal
 Toggle_BedWalker_false
 Toggle_BowFly_false
 Toggle_Clipper_true
+Toggle_NoBob_false
 Toggle_LegitFightBot_false
 BooleanSetting_LegitFightBot_Players_true
 BooleanSetting_LegitFightBot_Non Players_true
@@ -517,11 +518,11 @@ BooleanSetting_AutoBuild_Next Slot_true
 BooleanSetting_AutoBuild_Swing_false
 Toggle_Test_false
 Toggle_ShaderESP_true
-Toggle_PopOutAnimation_false
+Toggle_PopOutAnimation_true
 BooleanSetting_PopOutAnimation_ClickGui_true
 BooleanSetting_PopOutAnimation_Inventories_true
 NumberSetting_PopOutAnimation_Starting Size_0.0
-NumberSetting_PopOutAnimation_Speed_0.05
+NumberSetting_PopOutAnimation_Speed_0.51
 Toggle_ChinaHat_false
 ModeSetting_ChinaHat_Quality_Normal
 BooleanSetting_ChinaHat_Show in First Person_false
@@ -538,16 +539,31 @@ BooleanSetting_ClickGui_Transparency_false
 BooleanSetting_ClickGui_Blur Background_false
 NumberSetting_ClickGui_Scale_0.7
 Toggle_Nametags_false
+BooleanSetting_Nametags_Invisibles_false
 Toggle_Chams_false
+ModeSetting_Chams_Mode_Normal
+BooleanSetting_Chams_Hands_false
+BooleanSetting_Chams_Rainbow_false
 NumberSetting_Chams_Red_0.0
 NumberSetting_Chams_Green_130.0
 NumberSetting_Chams_Blue_255.0
 NumberSetting_Chams_Alpha_195.0
-BooleanSetting_Chams_Rainbow_false
-Toggle_BrightPlayers_true
+NumberSetting_Chams_Red Hand_255.0
+NumberSetting_Chams_Green Hand_0.0
+NumberSetting_Chams_Blue Hand_0.0
+NumberSetting_Chams_Alpha Hand_100.0
+NumberSetting_Chams_Red Visible_255.0
+NumberSetting_Chams_Green Visible_0.0
+NumberSetting_Chams_Blue Visible_0.0
+NumberSetting_Chams_Alpha Visible_100.0
+NumberSetting_Chams_Red Hidden_255.0
+NumberSetting_Chams_Green Hidden_0.0
+NumberSetting_Chams_Blue Hidden_0.0
+NumberSetting_Chams_Alpha Hidden_100.0
+Toggle_BrightPlayers_false
 Toggle_ESP_false
 Toggle_Animations_true
-ModeSetting_Animations_Animation_Exhibition 2
+ModeSetting_Animations_Animation_Exhibition
 NumberSetting_Animations_Slow_12.2
 NumberSetting_Animations_Spin Speed_3.0
 NumberSetting_Animations_X_-0.1
@@ -568,7 +584,7 @@ BooleanSetting_AttackEffects_Sound_true
 Toggle_TargetHud_true
 ModeSetting_TargetHud_Mode_FpsEater3000
 BooleanSetting_TargetHud_Background_false
-Toggle_DamageColor_true
+Toggle_DamageColor_false
 NumberSetting_DamageColor_Red_255.0
 NumberSetting_DamageColor_Green_0.0
 NumberSetting_DamageColor_Blue_0.0
@@ -604,8 +620,8 @@ Toggle_Breadcrumbs_false
 BooleanSetting_Breadcrumbs_Timeout_true
 NumberSetting_Breadcrumbs_Time_150.0
 Toggle_Radar_false
-NumberSetting_Radar_Radar X_8.0
-NumberSetting_Radar_Radar Y_32.0
+NumberSetting_Radar_Radar X_10.0
+NumberSetting_Radar_Radar Y_14.0
 Toggle_Blur_true
 Toggle_ChestESP_true
 ModeSetting_ChestESP_Mode_2D
