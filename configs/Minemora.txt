@@ -323,7 +323,7 @@ Toggle_Jesus_false
 ModeSetting_Jesus_Mode_Boost
 NumberSetting_Jesus_Motion_0.1
 NumberSetting_Jesus_Speed_0.5
-Toggle_NoSlow_true
+Toggle_NoSlow_false
 ModeSetting_NoSlow_Mode_Hypixel
 Toggle_HighJump_false
 ModeSetting_HighJump_Mode_Fireball
