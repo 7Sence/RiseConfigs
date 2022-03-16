@@ -175,7 +175,7 @@ Toggle_ChestAura_false
 NumberSetting_ChestAura_Range_5.0
 Toggle_Stealer_true
 NumberSetting_Stealer_Min Delay_100.00000223517424
-NumberSetting_Stealer_Max Delay_100.00000223517424
+NumberSetting_Stealer_Max Delay_125.00000279396778
 BooleanSetting_Stealer_Steal trash items_false
 BooleanSetting_Stealer_Auto Close_true
 BooleanSetting_Stealer_Hide Gui_false
@@ -201,7 +201,7 @@ Toggle_Scaffold_false
 ModeSetting_Scaffold_Rotations_Simple
 ModeSetting_Scaffold_Tower_Intave
 ModeSetting_Scaffold_Movement Fix_None
-ModeSetting_Scaffold_Sprint_Disabled
+ModeSetting_Scaffold_Sprint_Bypass
 ModeSetting_Scaffold_Block Counter_Normal
 NumberSetting_Scaffold_Timer_1.0
 NumberSetting_Scaffold_Tower Timer_1.0
@@ -216,7 +216,7 @@ NumberSetting_Scaffold_Rotation Speed_214.9999967962504
 NumberSetting_Scaffold_Randomisation_0.0
 NumberSetting_Scaffold_Place Delay_0.0
 BooleanSetting_Scaffold_Randomise Place Delay_false
-NumberSetting_Scaffold_Speed Multiplier_1.0
+NumberSetting_Scaffold_Speed Multiplier_0.8
 NumberSetting_Scaffold_Eagle_0.0
 BooleanSetting_Scaffold_Ignore Speed_false
 BooleanSetting_Scaffold_Tower Move_true
@@ -224,13 +224,13 @@ ModeSetting_Scaffold_Ray Cast_Off
 ModeSetting_Scaffold_Place on_Legit
 BooleanSetting_Scaffold_Drag Click_true
 BooleanSetting_Scaffold_Jitter_false
-BooleanSetting_Scaffold_Telly_false
+BooleanSetting_Scaffold_Telly_true
 Toggle_FastBreak_false
 NumberSetting_FastBreak_Speed_0.5
 Toggle_Manager_true
 ModeSetting_Manager_Mode_Open Inventory
-NumberSetting_Manager_Min Delay_100.00000223517424
-NumberSetting_Manager_Max Delay_100.00000223517424
+NumberSetting_Manager_Min Delay_125.00000279396778
+NumberSetting_Manager_Max Delay_125.00000279396778
 BooleanSetting_Manager_Throw Useless Items_true
 BooleanSetting_Manager_Throw Custom Items_false
 BooleanSetting_Manager_Throw Heads_true
@@ -624,7 +624,7 @@ Toggle_Radar_false
 NumberSetting_Radar_Radar X_526.0
 NumberSetting_Radar_Radar Y_157.0
 Toggle_Blur_false
-Toggle_ChestESP_false
+Toggle_ChestESP_true
 ModeSetting_ChestESP_Mode_2D
 Toggle_NoHurtCam_true
 Toggle_CameraClip_false
