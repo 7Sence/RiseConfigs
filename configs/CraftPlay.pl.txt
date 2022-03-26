@@ -2,7 +2,7 @@ Rise_Version_5.89
 MainMenuTheme_LIGHTMODE
 ClientName_Herkowskyyy 27/03/2022
 Toggle_Interface_true
-ModeSetting_Interface_Theme_Comfort
+ModeSetting_Interface_Theme_Rise Rainbow
 ModeSetting_Interface_List Animation_Slide
 NumberSetting_Interface_Red_0.0
 NumberSetting_Interface_Green_207.0
@@ -249,7 +249,7 @@ BooleanSetting_Sprint_Only In Air_false
 Toggle_Sneak_false
 ModeSetting_Sneak_Mode_NCP
 Toggle_Fly_false
-ModeSetting_Fly_Fly Mode_Aac3
+ModeSetting_Fly_Fly Mode_Damage
 ModeSetting_Fly_Value_3
 ModeSetting_Fly_Mode_Stable
 NumberSetting_Fly_Fly Speed_5.0
@@ -273,11 +273,11 @@ BooleanSetting_Fly_GroundSpoof_false
 BooleanSetting_Fly_Damage_false
 BooleanSetting_Fly_Sigma Fast Fly_false
 Toggle_Speed_false
-ModeSetting_Speed_Mode_Vulcan
+ModeSetting_Speed_Mode_Custom
 ModeSetting_Speed_Value_3
 ModeSetting_Speed_Verus Mode_Hop
 ModeSetting_Speed_GroundSpoof_Off
-NumberSetting_Speed_Custom Speed_0.48
+NumberSetting_Speed_Custom Speed_0.4
 NumberSetting_Speed_Custom MotionY_0.42
 NumberSetting_Speed_Custom Fall Motion_0.25
 NumberSetting_Speed_Custom Fall Tick_4.0
@@ -290,9 +290,9 @@ NumberSetting_Speed_Teleport Distance_0.05
 BooleanSetting_Speed_Strafe_true
 BooleanSetting_Speed_MinemenClub Balance Timer_false
 BooleanSetting_Speed_Abide Friciton_true
-BooleanSetting_Speed_Only Strafe On Ground_false
+BooleanSetting_Speed_Only Strafe On Ground_true
 BooleanSetting_Speed_Ground Disabler_false
-BooleanSetting_Speed_FastFall_true
+BooleanSetting_Speed_FastFall_false
 BooleanSetting_Speed_VoidTP_false
 BooleanSetting_Speed_VoidTP only Move_false
 BooleanSetting_Speed_Cancel C0F_false
