@@ -98,7 +98,7 @@ ModeSetting_Velocity_Mode_Custom
 BooleanSetting_Velocity_Explosion_true
 BooleanSetting_Velocity_Only In Air_false
 NumberSetting_Velocity_Horizontal_0.0
-NumberSetting_Velocity_Vertical_53.5
+NumberSetting_Velocity_Vertical_1.0
 BooleanSetting_Velocity_More Options_false
 NumberSetting_Velocity_Delayed Horizontal_100.0
 NumberSetting_Velocity_Delayed Vertical_100.0
