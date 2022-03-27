@@ -1,4 +1,4 @@
-Rise_Version_5.88
+Rise_Version_5.89
 MainMenuTheme_LIGHTMODE
 ClientName_zajchu
 Toggle_Interface_true
@@ -29,10 +29,10 @@ Toggle_AutoHead_false
 NumberSetting_AutoHead_Health_15.0
 NumberSetting_AutoHead_Min Delay_300.0
 NumberSetting_AutoHead_Max Delay_500.0
-Toggle_Aura_true
-ModeSetting_Aura_Mode_Single
+Toggle_Aura_false
+ModeSetting_Aura_Mode_Switch
 ModeSetting_Aura_Rotation Mode_None
-ModeSetting_Aura_Block Mode_Hypixel
+ModeSetting_Aura_Block Mode_Interact
 ModeSetting_Aura_Sorting Mode_Distance
 NumberSetting_Aura_Range_4.2
 NumberSetting_Aura_Rotation Range_4.4
@@ -182,13 +182,13 @@ BooleanSetting_Stealer_Hide Gui_false
 BooleanSetting_Stealer_Move head in chest_true
 BooleanSetting_Stealer_Check chest name_true
 Toggle_AutoTool_true
-Toggle_FastPlace_false
+Toggle_FastPlace_true
 NumberSetting_FastPlace_FastPlace Delay_0.0
 BooleanSetting_FastPlace_Blocks Only_true
 BooleanSetting_FastPlace_Randomize_false
 Toggle_FastEat_false
 ModeSetting_FastEat_Mode_Normal
-NumberSetting_FastEat_Speed_20.0
+NumberSetting_FastEat_Speed_100.0
 Toggle_NoVoid_true
 ModeSetting_NoVoid_Mode_Hypixel
 NumberSetting_NoVoid_Fall Distance_5.0
@@ -198,34 +198,34 @@ Toggle_NoFall_false
 ModeSetting_NoFall_Mode_Hypixel
 BooleanSetting_NoFall_Offset_true
 Toggle_Scaffold_false
-ModeSetting_Scaffold_Rotations_Bruteforce
+ModeSetting_Scaffold_Rotations_Pitch Abuse
 ModeSetting_Scaffold_Tower_Hypixel
-ModeSetting_Scaffold_Movement Fix_None
+ModeSetting_Scaffold_Movement Fix_Yaw
 ModeSetting_Scaffold_Sprint_Bypass
 ModeSetting_Scaffold_Block Counter_Normal
 NumberSetting_Scaffold_Timer_1.3
-NumberSetting_Scaffold_Tower Timer_1.0
-BooleanSetting_Scaffold_Downwards_true
+NumberSetting_Scaffold_Tower Timer_1.8
+BooleanSetting_Scaffold_Downwards_false
 BooleanSetting_Scaffold_Safe Walk_false
 BooleanSetting_Scaffold_Strafe_false
 BooleanSetting_Scaffold_Same Y_true
-BooleanSetting_Scaffold_Swing_false
-NumberSetting_Scaffold_Range_4.5
-BooleanSetting_Scaffold_Randomise Rotation Speed On Enable_false
-NumberSetting_Scaffold_Rotation Speed_359.999994635582
-NumberSetting_Scaffold_Randomisation_0.4
+BooleanSetting_Scaffold_Swing_true
+NumberSetting_Scaffold_Range_5.0
+BooleanSetting_Scaffold_Randomise Rotation Speed On Enable_true
+NumberSetting_Scaffold_Rotation Speed_81.6218489500223
+NumberSetting_Scaffold_Randomisation_6.0
 NumberSetting_Scaffold_Place Delay_0.0
 BooleanSetting_Scaffold_Randomise Place Delay_false
 NumberSetting_Scaffold_Speed Multiplier_1.0
 NumberSetting_Scaffold_Eagle_15.0
-BooleanSetting_Scaffold_Ignore Speed_true
-BooleanSetting_Scaffold_Tower Move_true
+BooleanSetting_Scaffold_Ignore Speed_false
+BooleanSetting_Scaffold_Tower Move_false
 ModeSetting_Scaffold_Ray Cast_Off
 ModeSetting_Scaffold_Place on_Legit
 BooleanSetting_Scaffold_Drag Click_false
 BooleanSetting_Scaffold_Jitter_false
 BooleanSetting_Scaffold_Telly_true
-BooleanSetting_Scaffold_Hide Jumps_false
+BooleanSetting_Scaffold_Hide Jumps_true
 Toggle_FastBreak_false
 NumberSetting_FastBreak_Speed_0.5
 Toggle_Manager_true
@@ -252,8 +252,9 @@ Toggle_Fly_false
 ModeSetting_Fly_Fly Mode_Hypixel New
 ModeSetting_Fly_Value_1
 ModeSetting_Fly_Mode_Stable
-NumberSetting_Fly_Fly Speed_1.0
+NumberSetting_Fly_Fly Speed_0.1
 BooleanSetting_Fly_Auto Stop_true
+ModeSetting_Fly_Speed_Airstrike
 NumberSetting_Fly_H Boost first tick_4.0
 NumberSetting_Fly_V Boost first tick_4.0
 NumberSetting_Fly_H Boost second tick_4.0
@@ -267,7 +268,7 @@ ModeSetting_Fly_Vanilla Kick Bypass_Off
 BooleanSetting_Fly_Delay Kick Bypass_false
 BooleanSetting_Fly_Smooth Camera_false
 BooleanSetting_Fly_Fake Damage_true
-NumberSetting_Fly_View Bobbing_0.07
+NumberSetting_Fly_View Bobbing_0.03
 BooleanSetting_Fly_GroundSpoof_false
 BooleanSetting_Fly_Damage_false
 BooleanSetting_Fly_Sigma Fast Fly_false
@@ -317,9 +318,9 @@ NumberSetting_Speed_How Often_1.0
 NumberSetting_Speed_Distance_2.0
 BooleanSetting_Speed_Disable on flag_true
 BooleanSetting_Speed_Stop on Disable_true
-NumberSetting_Speed_Hypixel Timer_1.2
+NumberSetting_Speed_Hypixel Timer_1.4
 NumberSetting_Speed_Mmc Speed_1.0
-Toggle_No0.03_true
+Toggle_No0.03_false
 Toggle_Strafe_false
 Toggle_Jesus_false
 ModeSetting_Jesus_Mode_Solid
@@ -357,11 +358,12 @@ ModeSetting_Phase_Hypixel Mode_Teleport
 ModeSetting_Phase_Teleport Mode_Player
 ModeSetting_Phase_Direction_Down
 BooleanSetting_Phase_Sneak Only_false
-Toggle_Blink_false
+Toggle_Blink_true
 BooleanSetting_Blink_All Packets_true
 BooleanSetting_Blink_Show Player_false
 BooleanSetting_Blink_Pulse_true
-NumberSetting_Blink_Pulse Delay_4.0
+NumberSetting_Blink_Pulse Delay_3.0
+BooleanSetting_Blink_Randomise Pulse_true
 Toggle_Spider_false
 ModeSetting_Spider_Mode_Normal
 NumberSetting_Spider_Speed_0.2
@@ -395,7 +397,7 @@ NumberSetting_AutoClicker_Min CPS_6.0
 NumberSetting_AutoClicker_Max CPS_8.0
 Toggle_Eagle_false
 Toggle_KeepSprint_false
-Toggle_AutoHypixel_true
+Toggle_AutoHypixel_false
 BooleanSetting_AutoHypixel_Auto Rejoin_true
 BooleanSetting_AutoHypixel_Auto Play_true
 BooleanSetting_AutoHypixel_Auto GG_true
@@ -469,7 +471,7 @@ BooleanSetting_Nuker_Instant Only_false
 BooleanSetting_Nuker_Scatter_false
 BooleanSetting_Nuker_Swing_true
 Toggle_Timer_false
-NumberSetting_Timer_Timer Speed_1.4
+NumberSetting_Timer_Timer Speed_0.2
 ModeSetting_Timer_Mode_Vanilla
 Toggle_Spammer_false
 ModeSetting_Spammer_Mode_Normal
@@ -481,7 +483,7 @@ Toggle_Crasher_false
 ModeSetting_Crasher_Mode_Pex
 NumberSetting_Crasher_Packets_10.0
 Toggle_PingSpoof_false
-NumberSetting_PingSpoof_Delay_1000.0
+NumberSetting_PingSpoof_Delay_610.0
 Toggle_NoGuiClose_false
 BooleanSetting_NoGuiClose_Chat Only_true
 Toggle_AntiSuffocation_false
@@ -520,7 +522,7 @@ BooleanSetting_AutoBuild_Auto Disable_false
 BooleanSetting_AutoBuild_Next Slot_false
 BooleanSetting_AutoBuild_Swing_true
 Toggle_Test_false
-Toggle_ShaderESP_false
+Toggle_ShaderESP_true
 Toggle_PopOutAnimation_false
 BooleanSetting_PopOutAnimation_ClickGui_true
 BooleanSetting_PopOutAnimation_Inventories_true
@@ -543,7 +545,7 @@ BooleanSetting_ClickGui_Blur Background_false
 NumberSetting_ClickGui_Scale_0.7
 Toggle_Nametags_false
 BooleanSetting_Nametags_Invisibles_false
-Toggle_Chams_true
+Toggle_Chams_false
 ModeSetting_Chams_Mode_Normal
 BooleanSetting_Chams_Hands_false
 BooleanSetting_Chams_Rainbow_false
@@ -566,8 +568,8 @@ NumberSetting_Chams_Alpha Hidden_255.0
 Toggle_BrightPlayers_true
 Toggle_ESP_false
 Toggle_Animations_true
-ModeSetting_Animations_Animation_Old
-NumberSetting_Animations_Slow_18.0
+ModeSetting_Animations_Animation_LB
+NumberSetting_Animations_Slow_10.3
 NumberSetting_Animations_Spin Speed_0.0
 NumberSetting_Animations_X_0.0
 NumberSetting_Animations_Y_0.0
@@ -586,7 +588,7 @@ NumberSetting_AttackEffects_Amount_5.0
 BooleanSetting_AttackEffects_Sound_true
 Toggle_TargetHud_true
 ModeSetting_TargetHud_Mode_FpsEater3000
-BooleanSetting_TargetHud_Background_true
+BooleanSetting_TargetHud_Background_false
 Toggle_DamageColor_false
 NumberSetting_DamageColor_Red_255.0
 NumberSetting_DamageColor_Green_0.0
@@ -625,7 +627,7 @@ NumberSetting_Breadcrumbs_Time_15.0
 Toggle_Radar_false
 NumberSetting_Radar_Radar X_4.0
 NumberSetting_Radar_Radar Y_109.0
-Toggle_Blur_false
+Toggle_Blur_true
 Toggle_ChestESP_false
 ModeSetting_ChestESP_Mode_2D
 Toggle_NoHurtCam_false
