@@ -1,4 +1,4 @@
-Rise_Version_5.89
+Rise_Version_5.90
 MainMenuTheme_LIGHTMODE
 ClientName_zajchu
 Toggle_Interface_true
@@ -182,7 +182,7 @@ BooleanSetting_Stealer_Hide Gui_false
 BooleanSetting_Stealer_Move head in chest_true
 BooleanSetting_Stealer_Check chest name_true
 Toggle_AutoTool_true
-Toggle_FastPlace_true
+Toggle_FastPlace_false
 NumberSetting_FastPlace_FastPlace Delay_0.0
 BooleanSetting_FastPlace_Blocks Only_true
 BooleanSetting_FastPlace_Randomize_false
@@ -200,20 +200,20 @@ BooleanSetting_NoFall_Offset_true
 Toggle_Scaffold_false
 ModeSetting_Scaffold_Rotations_Pitch Abuse
 ModeSetting_Scaffold_Tower_Hypixel
-ModeSetting_Scaffold_Movement Fix_Yaw
+ModeSetting_Scaffold_Movement Fix_None
 ModeSetting_Scaffold_Sprint_Bypass
 ModeSetting_Scaffold_Block Counter_Normal
-NumberSetting_Scaffold_Timer_1.3
+NumberSetting_Scaffold_Timer_1.5
 NumberSetting_Scaffold_Tower Timer_1.8
 BooleanSetting_Scaffold_Downwards_false
 BooleanSetting_Scaffold_Safe Walk_false
 BooleanSetting_Scaffold_Strafe_false
 BooleanSetting_Scaffold_Same Y_true
 BooleanSetting_Scaffold_Swing_true
-NumberSetting_Scaffold_Range_5.0
-BooleanSetting_Scaffold_Randomise Rotation Speed On Enable_true
-NumberSetting_Scaffold_Rotation Speed_81.6218489500223
-NumberSetting_Scaffold_Randomisation_6.0
+NumberSetting_Scaffold_Range_3.0
+BooleanSetting_Scaffold_Randomise Rotation Speed On Enable_false
+NumberSetting_Scaffold_Rotation Speed_359.999994635582
+NumberSetting_Scaffold_Randomisation_0.0
 NumberSetting_Scaffold_Place Delay_0.0
 BooleanSetting_Scaffold_Randomise Place Delay_false
 NumberSetting_Scaffold_Speed Multiplier_1.0
@@ -254,7 +254,7 @@ ModeSetting_Fly_Value_1
 ModeSetting_Fly_Mode_Stable
 NumberSetting_Fly_Fly Speed_0.1
 BooleanSetting_Fly_Auto Stop_true
-ModeSetting_Fly_Speed_Airstrike
+ModeSetting_Fly_Speed_Normal
 NumberSetting_Fly_H Boost first tick_4.0
 NumberSetting_Fly_V Boost first tick_4.0
 NumberSetting_Fly_H Boost second tick_4.0
@@ -318,7 +318,7 @@ NumberSetting_Speed_How Often_1.0
 NumberSetting_Speed_Distance_2.0
 BooleanSetting_Speed_Disable on flag_true
 BooleanSetting_Speed_Stop on Disable_true
-NumberSetting_Speed_Hypixel Timer_1.4
+NumberSetting_Speed_Hypixel Timer_1.3
 NumberSetting_Speed_Mmc Speed_1.0
 Toggle_No0.03_false
 Toggle_Strafe_false
@@ -542,7 +542,7 @@ ModeSetting_ClickGui_Mode_Rise
 ModeSetting_ClickGui_Theme_Deep Blue Rise
 BooleanSetting_ClickGui_Transparency_false
 BooleanSetting_ClickGui_Blur Background_false
-NumberSetting_ClickGui_Scale_0.7
+NumberSetting_ClickGui_Scale_1.0
 Toggle_Nametags_false
 BooleanSetting_Nametags_Invisibles_false
 Toggle_Chams_false
