@@ -5,8 +5,8 @@ Toggle_Interface_true
 ModeSetting_Interface_Theme_Rise Blend
 ModeSetting_Interface_List Animation_Rise
 NumberSetting_Interface_Red_255.0
-NumberSetting_Interface_Green_0.0
-NumberSetting_Interface_Blue_0.0
+NumberSetting_Interface_Green_255.0
+NumberSetting_Interface_Blue_255.0
 BooleanSetting_Interface_Show Render Modules on List_false
 BooleanSetting_Interface_Arraylist Outline_true
 BooleanSetting_Interface_Custom Hotbar_true
@@ -29,7 +29,7 @@ Toggle_AutoHead_false
 NumberSetting_AutoHead_Health_15.0
 NumberSetting_AutoHead_Min Delay_300.0
 NumberSetting_AutoHead_Max Delay_500.0
-Toggle_Aura_false
+Toggle_Aura_true
 ModeSetting_Aura_Mode_Switch
 ModeSetting_Aura_Rotation Mode_None
 ModeSetting_Aura_Block Mode_Interact
@@ -114,7 +114,7 @@ NumberSetting_Velocity_Ticks_3.0
 Toggle_TargetStrafe_false
 NumberSetting_TargetStrafe_Range_3.0
 BooleanSetting_TargetStrafe_Third Person_false
-BooleanSetting_TargetStrafe_Jump Only_false
+BooleanSetting_TargetStrafe_Jump Only_true
 Toggle_FastBow_false
 NumberSetting_FastBow_Targets_4.0
 NumberSetting_FastBow_Packets_20.0
@@ -155,9 +155,9 @@ BooleanSetting_AntiBot_Distance Check_false
 BooleanSetting_AntiBot_Ping Check_false
 Toggle_WTap_false
 BooleanSetting_WTap_Legit_false
-Toggle_Criticals_false
+Toggle_Criticals_true
 ModeSetting_Criticals_Mode_Packet
-NumberSetting_Criticals_Delay_250.00000558793556
+NumberSetting_Criticals_Delay_450.00001005828403
 Toggle_ComboOneHit_false
 NumberSetting_ComboOneHit_Packets_50.0
 Toggle_Regen_false
@@ -182,7 +182,7 @@ BooleanSetting_Stealer_Hide Gui_false
 BooleanSetting_Stealer_Move head in chest_true
 BooleanSetting_Stealer_Check chest name_true
 Toggle_AutoTool_true
-Toggle_FastPlace_false
+Toggle_FastPlace_true
 NumberSetting_FastPlace_FastPlace Delay_0.0
 BooleanSetting_FastPlace_Blocks Only_true
 BooleanSetting_FastPlace_Randomize_false
@@ -194,16 +194,16 @@ ModeSetting_NoVoid_Mode_Hypixel
 NumberSetting_NoVoid_Fall Distance_5.0
 BooleanSetting_NoVoid_Void Check_true
 BooleanSetting_NoVoid_Show Notifications_false
-Toggle_NoFall_false
+Toggle_NoFall_true
 ModeSetting_NoFall_Mode_Hypixel
 BooleanSetting_NoFall_Offset_true
 Toggle_Scaffold_false
-ModeSetting_Scaffold_Rotations_Pitch Abuse
+ModeSetting_Scaffold_Rotations_Bruteforce
 ModeSetting_Scaffold_Tower_Hypixel
 ModeSetting_Scaffold_Movement Fix_None
-ModeSetting_Scaffold_Sprint_Bypass
+ModeSetting_Scaffold_Sprint_Disabled
 ModeSetting_Scaffold_Block Counter_Normal
-NumberSetting_Scaffold_Timer_1.5
+NumberSetting_Scaffold_Timer_1.7
 NumberSetting_Scaffold_Tower Timer_1.8
 BooleanSetting_Scaffold_Downwards_false
 BooleanSetting_Scaffold_Safe Walk_false
@@ -252,9 +252,9 @@ Toggle_Fly_false
 ModeSetting_Fly_Fly Mode_Hypixel New
 ModeSetting_Fly_Value_1
 ModeSetting_Fly_Mode_Stable
-NumberSetting_Fly_Fly Speed_0.1
+NumberSetting_Fly_Fly Speed_1.9
 BooleanSetting_Fly_Auto Stop_true
-ModeSetting_Fly_Speed_Normal
+ModeSetting_Fly_Speed_Intercontinental ballistic missile
 NumberSetting_Fly_H Boost first tick_4.0
 NumberSetting_Fly_V Boost first tick_4.0
 NumberSetting_Fly_H Boost second tick_4.0
@@ -318,9 +318,9 @@ NumberSetting_Speed_How Often_1.0
 NumberSetting_Speed_Distance_2.0
 BooleanSetting_Speed_Disable on flag_true
 BooleanSetting_Speed_Stop on Disable_true
-NumberSetting_Speed_Hypixel Timer_1.3
+NumberSetting_Speed_Hypixel Timer_1.2
 NumberSetting_Speed_Mmc Speed_1.0
-Toggle_No0.03_false
+Toggle_No0.03_true
 Toggle_Strafe_false
 Toggle_Jesus_false
 ModeSetting_Jesus_Mode_Solid
@@ -362,16 +362,16 @@ Toggle_Blink_true
 BooleanSetting_Blink_All Packets_true
 BooleanSetting_Blink_Show Player_false
 BooleanSetting_Blink_Pulse_true
-NumberSetting_Blink_Pulse Delay_3.0
+NumberSetting_Blink_Pulse Delay_1.0
 BooleanSetting_Blink_Randomise Pulse_true
 Toggle_Spider_false
-ModeSetting_Spider_Mode_Normal
+ModeSetting_Spider_Mode_Jump
 NumberSetting_Spider_Speed_0.2
 Toggle_ClickTP_false
 ModeSetting_ClickTP_Mode_Purple Prison
 Toggle_BedWalker_false
 Toggle_BowFly_false
-Toggle_Clipper_false
+Toggle_Clipper_true
 Toggle_NoBob_false
 Toggle_LegitFightBot_false
 BooleanSetting_LegitFightBot_Players_true
@@ -397,7 +397,7 @@ NumberSetting_AutoClicker_Min CPS_6.0
 NumberSetting_AutoClicker_Max CPS_8.0
 Toggle_Eagle_false
 Toggle_KeepSprint_false
-Toggle_AutoHypixel_false
+Toggle_AutoHypixel_true
 BooleanSetting_AutoHypixel_Auto Rejoin_true
 BooleanSetting_AutoHypixel_Auto Play_true
 BooleanSetting_AutoHypixel_Auto GG_true
@@ -542,7 +542,7 @@ ModeSetting_ClickGui_Mode_Rise
 ModeSetting_ClickGui_Theme_Deep Blue Rise
 BooleanSetting_ClickGui_Transparency_false
 BooleanSetting_ClickGui_Blur Background_false
-NumberSetting_ClickGui_Scale_1.0
+NumberSetting_ClickGui_Scale_0.7
 Toggle_Nametags_false
 BooleanSetting_Nametags_Invisibles_false
 Toggle_Chams_false
@@ -568,7 +568,7 @@ NumberSetting_Chams_Alpha Hidden_255.0
 Toggle_BrightPlayers_true
 Toggle_ESP_false
 Toggle_Animations_true
-ModeSetting_Animations_Animation_LB
+ModeSetting_Animations_Animation_Rhys
 NumberSetting_Animations_Slow_10.3
 NumberSetting_Animations_Spin Speed_0.0
 NumberSetting_Animations_X_0.0
@@ -579,8 +579,8 @@ BooleanSetting_Animations_Old Damage_true
 BooleanSetting_Animations_Smooth Swing_true
 BooleanSetting_Animations_Reset Position_false
 BooleanSetting_Animations_Always Show_false
-Toggle_Ambiance_false
-NumberSetting_Ambiance_Time_11385.0
+Toggle_Ambiance_true
+NumberSetting_Ambiance_Time_22999.0
 NumberSetting_Ambiance_Time Speed_0.0
 Toggle_AttackEffects_false
 ModeSetting_AttackEffects_Mode_Blood
