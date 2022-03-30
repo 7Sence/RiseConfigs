@@ -1,4 +1,4 @@
-Rise_Version_5.90
+Rise_Version_5.91
 MainMenuTheme_LIGHTMODE
 ClientName_zajchu
 Toggle_Interface_true
@@ -29,7 +29,7 @@ Toggle_AutoHead_false
 NumberSetting_AutoHead_Health_15.0
 NumberSetting_AutoHead_Min Delay_300.0
 NumberSetting_AutoHead_Max Delay_500.0
-Toggle_Aura_true
+Toggle_Aura_false
 ModeSetting_Aura_Mode_Switch
 ModeSetting_Aura_Rotation Mode_None
 ModeSetting_Aura_Block Mode_Interact
@@ -173,7 +173,7 @@ NumberSetting_Derp_Constant Speed_10.0
 BooleanSetting_Derp_Twerk_false
 Toggle_ChestAura_false
 NumberSetting_ChestAura_Range_5.0
-Toggle_Stealer_true
+Toggle_Stealer_false
 NumberSetting_Stealer_Min Delay_25.00000055879356
 NumberSetting_Stealer_Max Delay_100.00000223517424
 BooleanSetting_Stealer_Steal trash items_false
@@ -228,7 +228,7 @@ BooleanSetting_Scaffold_Telly_true
 BooleanSetting_Scaffold_Hide Jumps_true
 Toggle_FastBreak_false
 NumberSetting_FastBreak_Speed_0.5
-Toggle_Manager_true
+Toggle_Manager_false
 ModeSetting_Manager_Mode_None
 NumberSetting_Manager_Min Delay_75.00000167638068
 NumberSetting_Manager_Max Delay_175.0000039115549
@@ -371,7 +371,7 @@ Toggle_ClickTP_false
 ModeSetting_ClickTP_Mode_Purple Prison
 Toggle_BedWalker_false
 Toggle_BowFly_false
-Toggle_Clipper_true
+Toggle_Clipper_false
 Toggle_NoBob_false
 Toggle_LegitFightBot_false
 BooleanSetting_LegitFightBot_Players_true
@@ -521,6 +521,8 @@ NumberSetting_AutoBuild_Tick_1.0
 BooleanSetting_AutoBuild_Auto Disable_false
 BooleanSetting_AutoBuild_Next Slot_false
 BooleanSetting_AutoBuild_Swing_true
+Toggle_Denicker_false
+BooleanSetting_Denicker_Overlay Support_true
 Toggle_Test_false
 Toggle_ShaderESP_true
 Toggle_PopOutAnimation_false
@@ -619,6 +621,7 @@ Toggle_Streamer_false
 Toggle_Scoreboard_true
 BooleanSetting_Scoreboard_Hide Scoreboard_false
 BooleanSetting_Scoreboard_Hide Background_false
+BooleanSetting_Scoreboard_Draw On Left_false
 BooleanSetting_Scoreboard_Custom Font_true
 BooleanSetting_Scoreboard_Custom Scoreboard_false
 Toggle_Breadcrumbs_false
