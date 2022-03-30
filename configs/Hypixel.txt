@@ -173,7 +173,7 @@ NumberSetting_Derp_Constant Speed_10.0
 BooleanSetting_Derp_Twerk_false
 Toggle_ChestAura_false
 NumberSetting_ChestAura_Range_5.0
-Toggle_Stealer_false
+Toggle_Stealer_true
 NumberSetting_Stealer_Min Delay_25.00000055879356
 NumberSetting_Stealer_Max Delay_100.00000223517424
 BooleanSetting_Stealer_Steal trash items_false
@@ -228,7 +228,7 @@ BooleanSetting_Scaffold_Telly_true
 BooleanSetting_Scaffold_Hide Jumps_true
 Toggle_FastBreak_false
 NumberSetting_FastBreak_Speed_0.5
-Toggle_Manager_false
+Toggle_Manager_true
 ModeSetting_Manager_Mode_None
 NumberSetting_Manager_Min Delay_75.00000167638068
 NumberSetting_Manager_Max Delay_175.0000039115549
@@ -524,7 +524,7 @@ BooleanSetting_AutoBuild_Swing_true
 Toggle_Denicker_false
 BooleanSetting_Denicker_Overlay Support_true
 Toggle_Test_false
-Toggle_ShaderESP_true
+Toggle_ShaderESP_false
 Toggle_PopOutAnimation_false
 BooleanSetting_PopOutAnimation_ClickGui_true
 BooleanSetting_PopOutAnimation_Inventories_true
@@ -544,10 +544,10 @@ ModeSetting_ClickGui_Mode_Rise
 ModeSetting_ClickGui_Theme_Deep Blue Rise
 BooleanSetting_ClickGui_Transparency_false
 BooleanSetting_ClickGui_Blur Background_false
-NumberSetting_ClickGui_Scale_0.7
+NumberSetting_ClickGui_Scale_1.0
 Toggle_Nametags_false
 BooleanSetting_Nametags_Invisibles_false
-Toggle_Chams_false
+Toggle_Chams_true
 ModeSetting_Chams_Mode_Normal
 BooleanSetting_Chams_Hands_false
 BooleanSetting_Chams_Rainbow_false
@@ -630,7 +630,7 @@ NumberSetting_Breadcrumbs_Time_15.0
 Toggle_Radar_false
 NumberSetting_Radar_Radar X_4.0
 NumberSetting_Radar_Radar Y_109.0
-Toggle_Blur_true
+Toggle_Blur_false
 Toggle_ChestESP_false
 ModeSetting_ChestESP_Mode_2D
 Toggle_NoHurtCam_false
