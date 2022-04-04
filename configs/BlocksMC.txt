@@ -1,4 +1,4 @@
-Rise_Version_5.89
+Rise_Version_5.91
 MainMenuTheme_LIGHTMODE
 ClientName_BlocksMc >DerScherzkeks< Edition
 Toggle_Interface_true
@@ -363,6 +363,7 @@ BooleanSetting_Blink_All Packets_true
 BooleanSetting_Blink_Show Player_false
 BooleanSetting_Blink_Pulse_false
 NumberSetting_Blink_Pulse Delay_4.0
+BooleanSetting_Blink_Randomise Pulse_true
 Toggle_Spider_false
 ModeSetting_Spider_Mode_Normal
 NumberSetting_Spider_Speed_0.2
@@ -508,7 +509,7 @@ Toggle_Sniper_false
 ModeSetting_Sniper_Mode_Skywars
 ModeSetting_Sniper_Skywars Mode_Solo
 ModeSetting_Sniper_Skywars Type_Insane
-ModeSetting_Sniper_Bedwars Mode_Quads
+ModeSetting_Sniper_Bedwars Mode_Solo
 NumberSetting_Sniper_Delay_1000.0
 Toggle_ClientSpoofer_false
 ModeSetting_ClientSpoofer_Mode_Lunar
@@ -520,6 +521,8 @@ NumberSetting_AutoBuild_Tick_1.0
 BooleanSetting_AutoBuild_Auto Disable_false
 BooleanSetting_AutoBuild_Next Slot_true
 BooleanSetting_AutoBuild_Swing_false
+Toggle_Denicker_false
+BooleanSetting_Denicker_Overlay Support_true
 Toggle_Test_false
 Toggle_ShaderESP_true
 Toggle_PopOutAnimation_false
@@ -538,10 +541,10 @@ BooleanSetting_Hitmarkers_Random Pitch_false
 Toggle_SimsESP_false
 Toggle_ClickGui_false
 ModeSetting_ClickGui_Mode_Rise
-ModeSetting_ClickGui_Theme_Deep Blue Rise
+ModeSetting_ClickGui_Theme_Rustic Desert
 BooleanSetting_ClickGui_Transparency_false
 BooleanSetting_ClickGui_Blur Background_false
-NumberSetting_ClickGui_Scale_0.65
+NumberSetting_ClickGui_Scale_1.0
 Toggle_Nametags_true
 BooleanSetting_Nametags_Invisibles_false
 Toggle_Chams_false
@@ -618,6 +621,7 @@ Toggle_Streamer_false
 Toggle_Scoreboard_true
 BooleanSetting_Scoreboard_Hide Scoreboard_false
 BooleanSetting_Scoreboard_Hide Background_true
+BooleanSetting_Scoreboard_Draw On Left_false
 BooleanSetting_Scoreboard_Custom Font_true
 BooleanSetting_Scoreboard_Custom Scoreboard_true
 Toggle_Breadcrumbs_false
@@ -651,4 +655,4 @@ NumberSetting_AutoPot_Health_15.0
 BooleanSetting_AutoPot_Randomise Rotations_true
 BooleanSetting_AutoPot_Extra Packet_false
 BooleanSetting_AutoPot_Jump_false
-Toggle_SelfDestruct_fals
+Toggle_SelfDestruct_false
