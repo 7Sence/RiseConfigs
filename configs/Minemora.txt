@@ -155,9 +155,9 @@ BooleanSetting_AntiBot_Distance Check_true
 BooleanSetting_AntiBot_Ping Check_true
 Toggle_WTap_false
 BooleanSetting_WTap_Legit_true
-Toggle_Criticals_true
+Toggle_Criticals_false
 ModeSetting_Criticals_Mode_Hypixel
-NumberSetting_Criticals_Delay_500.0000111758711
+NumberSetting_Criticals_Delay_750.0000167638067
 Toggle_ComboOneHit_false
 NumberSetting_ComboOneHit_Packets_25.00000055879356
 Toggle_Regen_false
@@ -254,7 +254,7 @@ Toggle_Fly_false
 ModeSetting_Fly_Fly Mode_Damage
 ModeSetting_Fly_Value_2
 ModeSetting_Fly_Mode_Stable
-NumberSetting_Fly_Fly Speed_1.6
+NumberSetting_Fly_Fly Speed_1.7
 BooleanSetting_Fly_Auto Stop_true
 ModeSetting_Fly_Speed_Airstrike
 NumberSetting_Fly_H Boost first tick_0.4
