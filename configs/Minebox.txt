@@ -627,7 +627,7 @@ BooleanSetting_DeathEffects_Sound_true
 Toggle_Fullbright_true
 ModeSetting_Fullbright_Mode_Gamma
 Toggle_NoWeather_false
-Toggle_Giants_true
+Toggle_Giants_false
 NumberSetting_Giants_Size_0.8
 Toggle_Freecam_false
 BooleanSetting_Freecam_Fly_true
