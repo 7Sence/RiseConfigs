@@ -29,7 +29,7 @@ Toggle_AutoHead_false
 NumberSetting_AutoHead_Health_16.0
 NumberSetting_AutoHead_Min Delay_300.0
 NumberSetting_AutoHead_Max Delay_500.0
-Toggle_Aura_false
+Toggle_Aura_true
 ModeSetting_Aura_Mode_Single
 ModeSetting_Aura_Rotation Mode_None
 ModeSetting_Aura_Block Mode_Fake
@@ -203,7 +203,7 @@ ModeSetting_Scaffold_Tower_Slow
 ModeSetting_Scaffold_Movement Fix_None
 ModeSetting_Scaffold_Sprint_Bypass
 ModeSetting_Scaffold_Block Counter_Normal
-NumberSetting_Scaffold_Timer_1.2
+NumberSetting_Scaffold_Timer_1.0
 NumberSetting_Scaffold_Tower Timer_1.0
 BooleanSetting_Scaffold_Downwards_true
 BooleanSetting_Scaffold_Safe Walk_false
@@ -216,7 +216,7 @@ NumberSetting_Scaffold_Rotation Speed_39.99999940395356
 NumberSetting_Scaffold_Randomisation_6.0
 NumberSetting_Scaffold_Place Delay_0.0
 BooleanSetting_Scaffold_Randomise Place Delay_false
-NumberSetting_Scaffold_Speed Multiplier_1.05
+NumberSetting_Scaffold_Speed Multiplier_1.0
 NumberSetting_Scaffold_Eagle_0.0
 NumberSetting_Scaffold_Expand_0.0
 BooleanSetting_Scaffold_Ignore Speed_true
