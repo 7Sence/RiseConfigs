@@ -1,6 +1,6 @@
 Rise_Version_5.92
 MainMenuTheme_DARKMODE
-ClientName_Auth & Herkowskyyy
+ClientName_Herkowskyyy
 Toggle_Interface_true
 ModeSetting_Interface_Theme_Rice
 ModeSetting_Interface_List Animation_Slide
@@ -29,7 +29,7 @@ Toggle_AutoHead_false
 NumberSetting_AutoHead_Health_16.0
 NumberSetting_AutoHead_Min Delay_300.0
 NumberSetting_AutoHead_Max Delay_500.0
-Toggle_Aura_true
+Toggle_Aura_false
 ModeSetting_Aura_Mode_Single
 ModeSetting_Aura_Rotation Mode_None
 ModeSetting_Aura_Block Mode_Fake
