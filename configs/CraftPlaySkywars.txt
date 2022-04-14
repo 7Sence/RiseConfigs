@@ -1,5 +1,5 @@
 Rise_Version_5.92
-MainMenuTheme_DARKMODE
+MainMenuTheme_LIGHTMODE
 ClientName_Herkowskyyy
 Toggle_Interface_true
 ModeSetting_Interface_Theme_Rice
@@ -38,8 +38,8 @@ NumberSetting_Aura_Range_4.8
 NumberSetting_Aura_Rotation Range_5.5
 NumberSetting_Aura_Extended Range_12.0
 BooleanSetting_Aura_Extended Range_false
-NumberSetting_Aura_Min CPS_20.0
-NumberSetting_Aura_Max CPS_20.0
+NumberSetting_Aura_Min CPS_12.0
+NumberSetting_Aura_Max CPS_15.0
 NumberSetting_Aura_Max Targets_50.0
 NumberSetting_Aura_Predict_0.0
 NumberSetting_Aura_Random_4.1
@@ -203,7 +203,7 @@ ModeSetting_Scaffold_Tower_Slow
 ModeSetting_Scaffold_Movement Fix_None
 ModeSetting_Scaffold_Sprint_Bypass
 ModeSetting_Scaffold_Block Counter_Normal
-NumberSetting_Scaffold_Timer_1.0
+NumberSetting_Scaffold_Timer_1.2
 NumberSetting_Scaffold_Tower Timer_1.0
 BooleanSetting_Scaffold_Downwards_true
 BooleanSetting_Scaffold_Safe Walk_false
@@ -216,10 +216,10 @@ NumberSetting_Scaffold_Rotation Speed_39.99999940395356
 NumberSetting_Scaffold_Randomisation_6.0
 NumberSetting_Scaffold_Place Delay_0.0
 BooleanSetting_Scaffold_Randomise Place Delay_false
-NumberSetting_Scaffold_Speed Multiplier_1.0
+NumberSetting_Scaffold_Speed Multiplier_1.05
 NumberSetting_Scaffold_Eagle_0.0
 NumberSetting_Scaffold_Expand_0.0
-BooleanSetting_Scaffold_Ignore Speed_false
+BooleanSetting_Scaffold_Ignore Speed_true
 BooleanSetting_Scaffold_Tower Move_true
 ModeSetting_Scaffold_Ray Cast_Off
 ModeSetting_Scaffold_Place on_Legit
@@ -245,13 +245,13 @@ NumberSetting_Manager_Block Slot_5.0
 NumberSetting_Manager_Potion Slot_6.0
 Toggle_Infinite_false
 Toggle_Sprint_true
-BooleanSetting_Sprint_All Directions_true
+BooleanSetting_Sprint_All Directions_false
 BooleanSetting_Sprint_Only In Air_false
 BooleanSetting_Sprint_Silent_false
 Toggle_Sneak_false
 ModeSetting_Sneak_Mode_Always
 Toggle_Fly_false
-ModeSetting_Fly_Fly Mode_Exempted Value
+ModeSetting_Fly_Fly Mode_Verus AirJump
 ModeSetting_Fly_Value_3
 ModeSetting_Fly_Mode_Stable
 NumberSetting_Fly_Fly Speed_1.0
@@ -365,7 +365,7 @@ Toggle_Blink_false
 BooleanSetting_Blink_All Packets_true
 BooleanSetting_Blink_Show Player_false
 BooleanSetting_Blink_Pulse_true
-NumberSetting_Blink_Pulse Delay_9.8
+NumberSetting_Blink_Pulse Delay_4.0
 BooleanSetting_Blink_Randomise Pulse_true
 Toggle_Spider_false
 ModeSetting_Spider_Mode_Jump
@@ -489,7 +489,7 @@ BooleanSetting_Nuker_Instant Only_false
 BooleanSetting_Nuker_Scatter_false
 BooleanSetting_Nuker_Swing_true
 Toggle_Timer_false
-NumberSetting_Timer_Timer Speed_0.6
+NumberSetting_Timer_Timer Speed_2.2
 ModeSetting_Timer_Mode_Vanilla
 Toggle_Spammer_false
 ModeSetting_Spammer_Mode_Normal
@@ -588,10 +588,10 @@ NumberSetting_Chams_Alpha Hidden_255.0
 Toggle_BrightPlayers_false
 Toggle_ESP_false
 Toggle_Animations_true
-ModeSetting_Animations_Animation_Slide
+ModeSetting_Animations_Animation_Exhibition
 NumberSetting_Animations_Slow_6.5
 NumberSetting_Animations_Spin Speed_3.0
-NumberSetting_Animations_X_0.1
+NumberSetting_Animations_X_0.0
 NumberSetting_Animations_Y_0.2
 NumberSetting_Animations_Z_0.0
 NumberSetting_Animations_Scale_0.9
@@ -668,7 +668,7 @@ NumberSetting_XRay(WIP)_Range_5.0
 Toggle_Particles_false
 NumberSetting_Particles_Amount_10.0
 BooleanSetting_Particles_Physics_true
-Toggle_AutoPot_false
+Toggle_AutoPot_true
 NumberSetting_AutoPot_Health_15.0
 BooleanSetting_AutoPot_Randomise Rotations_true
 BooleanSetting_AutoPot_Extra Packet_false
