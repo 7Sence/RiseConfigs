@@ -1,6 +1,6 @@
 Rise_Version_5.92
 MainMenuTheme_LIGHTMODE
-ClientName_Herkowskyyy
+ClientName_Herkowskyyy | bind spammer and fly to the same key and do .spammer .vclip -0.1
 Toggle_Interface_true
 ModeSetting_Interface_Theme_Rice
 ModeSetting_Interface_List Animation_Slide
@@ -199,7 +199,7 @@ ModeSetting_NoFall_Mode_Vulcan
 BooleanSetting_NoFall_Offset_false
 Toggle_Scaffold_false
 ModeSetting_Scaffold_Rotations_Bruteforce
-ModeSetting_Scaffold_Tower_Slow
+ModeSetting_Scaffold_Tower_Verus
 ModeSetting_Scaffold_Movement Fix_None
 ModeSetting_Scaffold_Sprint_Bypass
 ModeSetting_Scaffold_Block Counter_Normal
@@ -251,7 +251,7 @@ BooleanSetting_Sprint_Silent_false
 Toggle_Sneak_false
 ModeSetting_Sneak_Mode_Always
 Toggle_Fly_false
-ModeSetting_Fly_Fly Mode_Verus AirJump
+ModeSetting_Fly_Fly Mode_Exempted Value
 ModeSetting_Fly_Value_3
 ModeSetting_Fly_Mode_Stable
 NumberSetting_Fly_Fly Speed_1.0
@@ -276,7 +276,7 @@ BooleanSetting_Fly_Damage_false
 BooleanSetting_Fly_Sigma Fast Fly_false
 Toggle_Speed_false
 ModeSetting_Speed_Mode_Vulcan
-ModeSetting_Speed_Value_3
+ModeSetting_Speed_Value_2
 ModeSetting_Speed_Verus Mode_Hop
 ModeSetting_Speed_GroundSpoof_Off
 NumberSetting_Speed_Custom Speed_0.48
@@ -289,7 +289,7 @@ NumberSetting_Speed_Timer_1.0
 NumberSetting_Speed_Timer Random_0.0
 NumberSetting_Speed_GroundSpoof Ticks_10.0
 NumberSetting_Speed_Teleport Distance_0.05
-BooleanSetting_Speed_Strafe_true
+BooleanSetting_Speed_Strafe_false
 BooleanSetting_Speed_MinemenClub Balance Timer_false
 BooleanSetting_Speed_Abide Friciton_true
 BooleanSetting_Speed_Only Strafe On Ground_false
@@ -304,7 +304,7 @@ NumberSetting_Speed_Pulse_44.3
 BooleanSetting_Speed_Damage Boost_false
 NumberSetting_Speed_Speed Multiplier_1.0
 NumberSetting_Speed_Timer Boost_2.0
-NumberSetting_Speed_Tick_1.0
+NumberSetting_Speed_Tick_4.5
 BooleanSetting_Speed_GroundSpoof_false
 BooleanSetting_Speed_Hide Jumps_false
 NumberSetting_Speed_Speed Multiplier No Speed_1.07
@@ -350,7 +350,7 @@ NumberSetting_LongJump_View Bobbing_0.0
 Toggle_InvMove_true
 NumberSetting_InvMove_Slow Down_0.1
 BooleanSetting_InvMove_Packet_false
-Toggle_Step_true
+Toggle_Step_false
 ModeSetting_Step_Mode_Low
 NumberSetting_Step_Height_1.0
 NumberSetting_Step_Timer_0.5
@@ -465,7 +465,7 @@ Toggle_AutoAuthme_false
 Toggle_NoRot_true
 ModeSetting_NoRot_Mode_Hypixel
 Toggle_Insults_true
-ModeSetting_Insults_Mode_Normal
+ModeSetting_Insults_Mode_Sigma
 Toggle_ChatBypass_false
 ModeSetting_ChatBypass_Mode_Hypixel
 Toggle_Breaker_false
@@ -489,7 +489,7 @@ BooleanSetting_Nuker_Instant Only_false
 BooleanSetting_Nuker_Scatter_false
 BooleanSetting_Nuker_Swing_true
 Toggle_Timer_false
-NumberSetting_Timer_Timer Speed_2.2
+NumberSetting_Timer_Timer Speed_4.5
 ModeSetting_Timer_Mode_Vanilla
 Toggle_Spammer_false
 ModeSetting_Spammer_Mode_Normal
@@ -519,7 +519,7 @@ NumberSetting_PlayerHacks_Aura Range_8.0
 NumberSetting_PlayerHacks_Max Targets_25.0
 BooleanSetting_PlayerHacks_Only On Swing_false
 BooleanSetting_PlayerHacks_Swing_false
-Toggle_AntiCheat_true
+Toggle_AntiCheat_false
 ModeSetting_AntiCheat_Alerts_Server
 Toggle_StaffAlert_false
 NumberSetting_StaffAlert_Delay (Seconds)_5.0
@@ -646,8 +646,8 @@ Toggle_Breadcrumbs_false
 BooleanSetting_Breadcrumbs_Timeout_true
 NumberSetting_Breadcrumbs_Time_1.0
 Toggle_Radar_false
-NumberSetting_Radar_Radar X_132.0
-NumberSetting_Radar_Radar Y_2.0
+NumberSetting_Radar_Radar X_335.0
+NumberSetting_Radar_Radar Y_95.0
 Toggle_Blur_false
 Toggle_ChestESP_false
 ModeSetting_ChestESP_Mode_2D
@@ -668,7 +668,7 @@ NumberSetting_XRay(WIP)_Range_5.0
 Toggle_Particles_false
 NumberSetting_Particles_Amount_10.0
 BooleanSetting_Particles_Physics_true
-Toggle_AutoPot_true
+Toggle_AutoPot_false
 NumberSetting_AutoPot_Health_15.0
 BooleanSetting_AutoPot_Randomise Rotations_true
 BooleanSetting_AutoPot_Extra Packet_false
