@@ -1,12 +1,12 @@
 Rise_Version_5.92
 MainMenuTheme_LIGHTMODE
-ClientName_Herkowskyyy | bind spammer and fly to the same key and do .spammer .vclip -0.1
+ClientName_Herkowskyyy | bind spammer and fly to the same key and do .spammer .vclip -0.1 lol
 Toggle_Interface_true
-ModeSetting_Interface_Theme_Rice
+ModeSetting_Interface_Theme_Minecraft
 ModeSetting_Interface_List Animation_Slide
-NumberSetting_Interface_Red_0.0
+NumberSetting_Interface_Red_255.0
 NumberSetting_Interface_Green_0.0
-NumberSetting_Interface_Blue_255.0
+NumberSetting_Interface_Blue_0.0
 BooleanSetting_Interface_Show Render Modules on List_false
 BooleanSetting_Interface_Arraylist Outline_false
 BooleanSetting_Interface_Custom Hotbar_true
@@ -67,9 +67,9 @@ BooleanSetting_Aura_Non Players_false
 BooleanSetting_Aura_Ignore Teammates_false
 BooleanSetting_Aura_Invisibles_false
 BooleanSetting_Aura_Attack Dead_false
-BooleanSetting_Aura_Target ESP_true
+BooleanSetting_Aura_Target ESP_false
 BooleanSetting_Aura_Display Range_false
-BooleanSetting_Aura_Target On Player_true
+BooleanSetting_Aura_Target On Player_false
 BooleanSetting_Aura_Disable On World Change_true
 BooleanSetting_Aura_Attack with Scaffold_false
 BooleanSetting_Aura_Attack in Interfaces_true
@@ -180,8 +180,8 @@ BooleanSetting_Stealer_Steal trash items_false
 BooleanSetting_Stealer_Auto Close_true
 BooleanSetting_Stealer_Hide Gui_false
 BooleanSetting_Stealer_Move head in chest_true
-BooleanSetting_Stealer_Check chest name_true
-Toggle_AutoTool_false
+BooleanSetting_Stealer_Check chest name_false
+Toggle_AutoTool_true
 Toggle_FastPlace_true
 NumberSetting_FastPlace_FastPlace Delay_0.0
 BooleanSetting_FastPlace_Blocks Only_true
@@ -199,7 +199,7 @@ ModeSetting_NoFall_Mode_Vulcan
 BooleanSetting_NoFall_Offset_false
 Toggle_Scaffold_false
 ModeSetting_Scaffold_Rotations_Bruteforce
-ModeSetting_Scaffold_Tower_Verus
+ModeSetting_Scaffold_Tower_Slow
 ModeSetting_Scaffold_Movement Fix_None
 ModeSetting_Scaffold_Sprint_Bypass
 ModeSetting_Scaffold_Block Counter_Normal
@@ -216,7 +216,7 @@ NumberSetting_Scaffold_Rotation Speed_39.99999940395356
 NumberSetting_Scaffold_Randomisation_6.0
 NumberSetting_Scaffold_Place Delay_0.0
 BooleanSetting_Scaffold_Randomise Place Delay_false
-NumberSetting_Scaffold_Speed Multiplier_1.0
+NumberSetting_Scaffold_Speed Multiplier_0.95
 NumberSetting_Scaffold_Eagle_0.0
 NumberSetting_Scaffold_Expand_0.0
 BooleanSetting_Scaffold_Ignore Speed_true
@@ -592,9 +592,9 @@ ModeSetting_Animations_Animation_Exhibition
 NumberSetting_Animations_Slow_6.5
 NumberSetting_Animations_Spin Speed_3.0
 NumberSetting_Animations_X_0.0
-NumberSetting_Animations_Y_0.2
+NumberSetting_Animations_Y_-0.1
 NumberSetting_Animations_Z_0.0
-NumberSetting_Animations_Scale_0.9
+NumberSetting_Animations_Scale_1.0
 BooleanSetting_Animations_Old Damage_true
 BooleanSetting_Animations_Smooth Swing_false
 BooleanSetting_Animations_Reset Position_false
@@ -646,8 +646,8 @@ Toggle_Breadcrumbs_false
 BooleanSetting_Breadcrumbs_Timeout_true
 NumberSetting_Breadcrumbs_Time_1.0
 Toggle_Radar_false
-NumberSetting_Radar_Radar X_335.0
-NumberSetting_Radar_Radar Y_95.0
+NumberSetting_Radar_Radar X_385.0
+NumberSetting_Radar_Radar Y_109.0
 Toggle_Blur_false
 Toggle_ChestESP_false
 ModeSetting_ChestESP_Mode_2D
