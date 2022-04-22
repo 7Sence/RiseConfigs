@@ -1,8 +1,8 @@
 Rise_Version_5.93
-MainMenuTheme_DARKMODE
-ClientName_t
+MainMenuTheme_LIGHTMODE
+ClientName_The
 Toggle_Interface_true
-ModeSetting_Interface_Theme_Rise Cotton Candy
+ModeSetting_Interface_Theme_Rise Blend
 ModeSetting_Interface_List Animation_Slide
 NumberSetting_Interface_Red_0.0
 NumberSetting_Interface_Green_255.0
