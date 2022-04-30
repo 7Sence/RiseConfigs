@@ -1,6 +1,6 @@
 Rise_Version_5.94
 MainMenuTheme_DARKMODE
-ClientName_
+ClientName_Hypixel Airlines
 Toggle_Interface_true
 ModeSetting_Interface_Theme_Rise Cotton Candy
 ModeSetting_Interface_List Animation_Slide
