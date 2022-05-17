@@ -26,7 +26,7 @@ Toggle_AutoHead_false
 NumberSetting_AutoHead_Health_17.0
 NumberSetting_AutoHead_Min Delay_1000.0000223517422
 NumberSetting_AutoHead_Max Delay_1000.0000223517422
-Toggle_Aura_true
+Toggle_Aura_false
 ModeSetting_Aura_Mode_Switch
 ModeSetting_Aura_Rotation Mode_Smooth
 ModeSetting_Aura_Block Mode_Hypixel
@@ -174,7 +174,7 @@ NumberSetting_Derp_Constant Speed_16.0
 BooleanSetting_Derp_Twerk_false
 Toggle_ChestAura_false
 NumberSetting_ChestAura_Range_3.0
-Toggle_Stealer_true
+Toggle_Stealer_false
 NumberSetting_Stealer_Min Delay_50.00000111758712
 NumberSetting_Stealer_Max Delay_50.00000111758712
 BooleanSetting_Stealer_Steal trash items_false
@@ -232,7 +232,7 @@ BooleanSetting_Scaffold_Telly_false
 BooleanSetting_Scaffold_Hide Jumps_false
 Toggle_FastBreak_false
 NumberSetting_FastBreak_Speed_0.4
-Toggle_Manager_true
+Toggle_Manager_false
 ModeSetting_Manager_Mode_None
 NumberSetting_Manager_Min Delay_50.00000111758712
 NumberSetting_Manager_Max Delay_50.00000111758712
@@ -281,7 +281,7 @@ BooleanSetting_Fly_Damage_false
 BooleanSetting_Fly_Disable on World Change_true
 NumberSetting_Fly_View Bobbing_0.1
 Toggle_Speed_false
-ModeSetting_Speed_Mode_Hypixel2
+ModeSetting_Speed_Mode_Hypixel
 ModeSetting_Speed_Value_1
 ModeSetting_Speed_Vape Mode_AntiCheat A
 NumberSetting_Speed_Vape Steps_36.4
@@ -578,7 +578,7 @@ BooleanSetting_AutoBuild_Swing_false
 Toggle_Denicker_false
 BooleanSetting_Denicker_Overlay Support_true
 Toggle_Test_false
-Toggle_ShaderESP_false
+Toggle_ShaderESP_true
 Toggle_PopOutAnimation_false
 BooleanSetting_PopOutAnimation_Inventories_true
 NumberSetting_PopOutAnimation_Starting Size_0.0
@@ -636,7 +636,7 @@ BooleanSetting_Animations_Always Show_false
 Toggle_Ambiance_true
 NumberSetting_Ambiance_Time_0.0
 NumberSetting_Ambiance_Time Speed_0.0
-Toggle_AttackEffects_false
+Toggle_AttackEffects_true
 ModeSetting_AttackEffects_Mode_Blood
 NumberSetting_AttackEffects_Amount_3.0
 BooleanSetting_AttackEffects_Sound_true
@@ -650,12 +650,12 @@ NumberSetting_DamageColor_Blue_0.0
 NumberSetting_DamageColor_Alpha_255.0
 Toggle_2DESP_false
 ModeSetting_2DESP_Mode_Theme
-Toggle_Enchant_false
+Toggle_Enchant_true
 NumberSetting_Enchant_Strength_2.0
 BooleanSetting_Enchant_Rainbow_false
 NumberSetting_Enchant_Hue_119.99999821186069
-Toggle_DeathEffects_false
-ModeSetting_DeathEffects_Mode_Blood
+Toggle_DeathEffects_true
+ModeSetting_DeathEffects_Mode_Lightning
 NumberSetting_DeathEffects_Amount_10.0
 BooleanSetting_DeathEffects_Sound_true
 Toggle_Fullbright_true
