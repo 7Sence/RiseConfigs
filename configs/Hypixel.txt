@@ -281,7 +281,7 @@ BooleanSetting_Fly_Damage_false
 BooleanSetting_Fly_Disable on World Change_true
 NumberSetting_Fly_View Bobbing_0.1
 Toggle_Speed_false
-ModeSetting_Speed_Mode_Hypixel
+ModeSetting_Speed_Mode_Hypixel2
 ModeSetting_Speed_Value_1
 ModeSetting_Speed_Vape Mode_AntiCheat A
 NumberSetting_Speed_Vape Steps_36.4
