@@ -1,8 +1,8 @@
 Rise_Version_5.97
 MainMenuTheme_DARKMODE
-ClientName_Fata
+ClientName_Bind timer to fly
 Toggle_Interface_true
-ModeSetting_Interface_Theme_Rice
+ModeSetting_Interface_Theme_Rise Blaze
 ModeSetting_Interface_List Animation_Rise
 NumberSetting_Interface_Red_255.0
 NumberSetting_Interface_Green_0.0
@@ -29,7 +29,7 @@ NumberSetting_AutoHead_Max Delay_1000.0000223517422
 Toggle_Aura_false
 ModeSetting_Aura_Mode_Multi
 ModeSetting_Aura_Rotation Mode_Sin Wave
-ModeSetting_Aura_Block Mode_Fake
+ModeSetting_Aura_Block Mode_Hypixel
 ModeSetting_Aura_Sorting Mode_Hurttime
 NumberSetting_Aura_Range_4.2
 NumberSetting_Aura_Rotation Range_4.2
@@ -157,9 +157,9 @@ BooleanSetting_AntiBot_Distance Check_false
 BooleanSetting_AntiBot_Ping Check_false
 Toggle_WTap_false
 BooleanSetting_WTap_Legit_true
-Toggle_Criticals_false
+Toggle_Criticals_true
 ModeSetting_Criticals_Mode_Hypixel
-NumberSetting_Criticals_Delay_375.00000838190334
+NumberSetting_Criticals_Delay_275.0000061467291
 Toggle_ComboOneHit_false
 NumberSetting_ComboOneHit_Packets_25.00000055879356
 Toggle_Regen_false
@@ -204,7 +204,7 @@ Toggle_Scaffold_false
 ModeSetting_Scaffold_Rotations_Hypixel
 ModeSetting_Scaffold_Tower_None
 ModeSetting_Scaffold_Movement Fix_None
-ModeSetting_Scaffold_Sprint_Hypixel
+ModeSetting_Scaffold_Sprint_None
 ModeSetting_Scaffold_Block Counter_MC
 NumberSetting_Scaffold_Timer_1.0
 NumberSetting_Scaffold_Tower Timer_1.0
@@ -257,7 +257,7 @@ BooleanSetting_Sprint_Silent_true
 Toggle_Sneak_false
 ModeSetting_Sneak_Mode_NCP
 Toggle_ResetVL_false
-NumberSetting_ResetVL_Timer_2.0
+NumberSetting_ResetVL_Timer_2.25
 Toggle_Fly_false
 ModeSetting_Fly_Fly Mode_Hypixel
 ModeSetting_Fly_Value_3
@@ -331,9 +331,9 @@ NumberSetting_Speed_How Often_22.805
 NumberSetting_Speed_Distance_62.39
 BooleanSetting_Speed_Disable on flag_false
 BooleanSetting_Speed_Stop on Disable_false
-BooleanSetting_Speed_Disable on World Change_true
-NumberSetting_Speed_Hypixel Timer_1.8
-NumberSetting_Speed_Hypixel Combat Timer_1.4
+BooleanSetting_Speed_Disable on World Change_false
+NumberSetting_Speed_Hypixel Timer_1.75
+NumberSetting_Speed_Hypixel Combat Timer_1.25
 Toggle_No0.03_false
 Toggle_Strafe_false
 BooleanSetting_Strafe_Only On Ground_true
@@ -450,10 +450,10 @@ BooleanSetting_Keystrokes_Chroma Keys_false
 BooleanSetting_Keystrokes_Replace Keys With Arrows_false
 Toggle_Freelook_false
 BooleanSetting_Freelook_Invert Pitch_false
-Toggle_AutoHypixel_false
+Toggle_AutoHypixel_true
 BooleanSetting_AutoHypixel_Auto Rejoin_false
-BooleanSetting_AutoHypixel_Auto Play_false
-BooleanSetting_AutoHypixel_Auto GG_true
+BooleanSetting_AutoHypixel_Auto Play_true
+BooleanSetting_AutoHypixel_Auto GG_false
 NumberSetting_AutoHypixel_Send Delay_0.0
 BooleanSetting_AutoHypixel_Win Only_false
 ModeSetting_AutoHypixel_Play Mode_Skywars
@@ -527,7 +527,7 @@ BooleanSetting_Nuker_Instant Only_false
 BooleanSetting_Nuker_Scatter_true
 BooleanSetting_Nuker_Swing_true
 Toggle_Timer_false
-NumberSetting_Timer_Timer Speed_1.4
+NumberSetting_Timer_Timer Speed_1.0
 ModeSetting_Timer_Mode_Vanilla
 BooleanSetting_Timer_Disable on World Change_true
 Toggle_Spammer_false
@@ -596,7 +596,7 @@ NumberSetting_Hitmarkers_Pitch_1.0
 BooleanSetting_Hitmarkers_Random Pitch_false
 Toggle_SimsESP_false
 Toggle_ClickGui_false
-ModeSetting_ClickGui_Theme_Deep Blue Rise
+ModeSetting_ClickGui_Theme_Disco
 BooleanSetting_ClickGui_Dark Mode_true
 BooleanSetting_ClickGui_Transparency_false
 BooleanSetting_ClickGui_Shadow_true
@@ -625,7 +625,7 @@ NumberSetting_Chams_Alpha Hidden_255.0
 Toggle_BrightPlayers_true
 Toggle_ESP_false
 Toggle_Animations_true
-ModeSetting_Animations_Animation_Smooth
+ModeSetting_Animations_Animation_Slide
 NumberSetting_Animations_Slow_13.5
 NumberSetting_Animations_Spin Speed_13.0
 NumberSetting_Animations_X_0.0
@@ -636,17 +636,17 @@ BooleanSetting_Animations_Old Damage_false
 BooleanSetting_Animations_Smooth Swing_false
 BooleanSetting_Animations_Reset Position_false
 BooleanSetting_Animations_Always Show_false
-Toggle_Ambiance_true
+Toggle_Ambiance_false
 NumberSetting_Ambiance_Time_0.0
 NumberSetting_Ambiance_Time Speed_0.0
-Toggle_AttackEffects_true
+Toggle_AttackEffects_false
 ModeSetting_AttackEffects_Mode_Blood
 NumberSetting_AttackEffects_Amount_3.0
 BooleanSetting_AttackEffects_Sound_true
 Toggle_TargetHud_true
-ModeSetting_TargetHud_Mode_Tecnio
-BooleanSetting_TargetHud_Background_true
-Toggle_DamageColor_true
+ModeSetting_TargetHud_Mode_FpsEater3000
+BooleanSetting_TargetHud_Background_false
+Toggle_DamageColor_false
 NumberSetting_DamageColor_Red_255.0
 NumberSetting_DamageColor_Green_0.0
 NumberSetting_DamageColor_Blue_0.0
