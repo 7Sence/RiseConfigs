@@ -339,7 +339,7 @@ NumberSetting_Speed_Distance_62.39
 BooleanSetting_Speed_Disable on flag_false
 BooleanSetting_Speed_Stop on Disable_false
 BooleanSetting_Speed_Disable on World Change_true
-BooleanSetting_Speed_Damage Boost_true
+BooleanSetting_Speed_Damage Boost_false
 NumberSetting_Speed_Hypixel Timer_1.2
 NumberSetting_Speed_Hypixel Combat Timer_1.2
 Toggle_No0.03_false
