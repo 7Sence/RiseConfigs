@@ -2,7 +2,7 @@ Rise_Version_5.98
 MainMenuTheme_DARKMODE
 ClientName_Fata
 Toggle_Interface_true
-ModeSetting_Interface_Theme_Rise Sea
+ModeSetting_Interface_Theme_Rise Blaze
 ModeSetting_Interface_List Animation_Rise
 NumberSetting_Interface_Red_0.0
 NumberSetting_Interface_Green_122.0
@@ -176,7 +176,7 @@ BooleanSetting_Derp_Twerk_false
 BooleanSetting_Derp_Down_false
 Toggle_ChestAura_false
 NumberSetting_ChestAura_Range_3.0
-Toggle_Stealer_true
+Toggle_Stealer_false
 NumberSetting_Stealer_Min Delay_50.00000111758712
 NumberSetting_Stealer_Max Delay_50.00000111758712
 BooleanSetting_Stealer_Steal trash items_false
@@ -231,12 +231,14 @@ ModeSetting_Scaffold_Ray Cast_Off
 ModeSetting_Scaffold_Place on_Post
 BooleanSetting_Scaffold_Drag Click_false
 BooleanSetting_Scaffold_Jitter_false
-BooleanSetting_Scaffold_Auto Jump_false
-BooleanSetting_Scaffold_C08_false
+BooleanSetting_Scaffold_Telly_false
+ModeSetting_Scaffold_Telly Mode_Legit
+NumberSetting_Scaffold_Custom Vertical Amount_0.42
+NumberSetting_Scaffold_Custom Horizontal Amount_0.35
 BooleanSetting_Scaffold_Hide Jumps_false
 Toggle_FastBreak_false
 NumberSetting_FastBreak_Speed_0.5
-Toggle_Manager_true
+Toggle_Manager_false
 ModeSetting_Manager_Mode_None
 NumberSetting_Manager_Min Delay_50.00000111758712
 NumberSetting_Manager_Max Delay_50.00000111758712
@@ -259,9 +261,9 @@ BooleanSetting_Sprint_Silent_true
 Toggle_Sneak_false
 ModeSetting_Sneak_Mode_NCP
 Toggle_ResetVL_false
-NumberSetting_ResetVL_Timer_2.0
+NumberSetting_ResetVL_Timer_2.25
 Toggle_Fly_false
-ModeSetting_Fly_Fly Mode_AirWalk
+ModeSetting_Fly_Fly Mode_Vanilla
 ModeSetting_Fly_Value_3
 ModeSetting_Fly_Mode_Stable
 NumberSetting_Fly_Fly Speed_0.2
@@ -270,22 +272,25 @@ NumberSetting_Fly_H Boost first tick_0.4
 NumberSetting_Fly_V Boost first tick_0.5
 NumberSetting_Fly_H Boost second tick_0.7
 NumberSetting_Fly_V Boost second tick_0.0
-NumberSetting_Fly_MultiplierInAir_1.1
+NumberSetting_Fly_Multiplier In Air_1.08
 NumberSetting_Fly_Glide_0.03
 NumberSetting_Fly_Timer Speed_1.0
 BooleanSetting_Fly_Strafe_false
-BooleanSetting_Fly_Inf_false
+BooleanSetting_Fly_Sprint_true
+BooleanSetting_Fly_Infinite_false
 ModeSetting_Fly_Vanilla Kick Bypass_Off
 BooleanSetting_Fly_Delay Kick Bypass_false
 BooleanSetting_Fly_Fake Damage_true
 BooleanSetting_Fly_Sigma Fast Fly_false
 BooleanSetting_Fly_Smooth Camera_false
-BooleanSetting_Fly_GroundSpoof_false
+BooleanSetting_Fly_Ground Spoof_false
 BooleanSetting_Fly_Damage_false
 BooleanSetting_Fly_Disable on World Change_true
 NumberSetting_Fly_View Bobbing_0.10000000149011612
 Toggle_Speed_false
-ModeSetting_Speed_Mode_Hypixel
+ModeSetting_Speed_Mode_Hypixel2
+BooleanSetting_Speed_Timer_false
+BooleanSetting_Speed_Strafe_false
 ModeSetting_Speed_Value_1
 ModeSetting_Speed_Vape Mode_AntiCheat A
 NumberSetting_Speed_Vape Steps_36.4
@@ -302,7 +307,7 @@ NumberSetting_Speed_Timer_1.0
 NumberSetting_Speed_Timer Random_0.0
 NumberSetting_Speed_GroundSpoof Ticks_10.0
 NumberSetting_Speed_Teleport Distance_0.05
-BooleanSetting_Speed_Strafe_true
+BooleanSetting_Speed_Strafe_false
 BooleanSetting_Speed_MMC VL Abuse_false
 BooleanSetting_Speed_Abide Friciton_false
 BooleanSetting_Speed_Only Strafe On Ground_false
@@ -334,8 +339,9 @@ NumberSetting_Speed_Distance_62.39
 BooleanSetting_Speed_Disable on flag_false
 BooleanSetting_Speed_Stop on Disable_false
 BooleanSetting_Speed_Disable on World Change_true
-NumberSetting_Speed_Hypixel Timer_1.6
-NumberSetting_Speed_Hypixel Combat Timer_1.4
+BooleanSetting_Speed_Damage Boost_true
+NumberSetting_Speed_Hypixel Timer_1.2
+NumberSetting_Speed_Hypixel Combat Timer_1.2
 Toggle_No0.03_false
 Toggle_Strafe_false
 BooleanSetting_Strafe_Only On Ground_true
@@ -354,7 +360,7 @@ NumberSetting_HighJump_Horizontal Motion_0.25
 BooleanSetting_HighJump_Smooth Camera_false
 BooleanSetting_HighJump_Auto Disable_true
 Toggle_LongJump_false
-ModeSetting_LongJump_Mode_Hypixel
+ModeSetting_LongJump_Mode_Redesky
 ModeSetting_LongJump_NCP Mode_Normal
 BooleanSetting_LongJump_Smooth Camera_false
 BooleanSetting_LongJump_Auto Disable_true
@@ -495,7 +501,7 @@ BooleanSetting_Disabler_Reverse Covert Moving Packets_false
 BooleanSetting_Disabler_Funcraft_false
 BooleanSetting_Disabler_Oxygen_false
 BooleanSetting_Disabler_PacketInput_false
-BooleanSetting_Disabler_ConfirmTransaction_true
+BooleanSetting_Disabler_ConfirmTransaction_false
 BooleanSetting_Disabler_PacketKeepAlive_false
 BooleanSetting_Disabler_PacketPlayerBlockPlacement_false
 BooleanSetting_Disabler_PacketPlayerAbilities_false
