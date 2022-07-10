@@ -1,8 +1,8 @@
-Rise_Version_5.98
+Rise_Version_5.99
 MainMenuTheme_LIGHTMODE
 ClientName_watchdog airlines
 Toggle_Interface_true
-ModeSetting_Interface_Theme_Rise Sea
+ModeSetting_Interface_Theme_Minecraft Rainbow
 ModeSetting_Interface_List Animation_Slide
 NumberSetting_Interface_Red_0.0
 NumberSetting_Interface_Green_255.0
@@ -27,12 +27,12 @@ NumberSetting_AutoHead_Health_6.0
 NumberSetting_AutoHead_Min Delay_200.00000447034847
 NumberSetting_AutoHead_Max Delay_100.00000223517424
 Toggle_Aura_false
-ModeSetting_Aura_Mode_Multi
+ModeSetting_Aura_Mode_Switch
 ModeSetting_Aura_Rotation Mode_Custom Advanced
 ModeSetting_Aura_Block Mode_Hypixel
 ModeSetting_Aura_Sorting Mode_Distance
-NumberSetting_Aura_Range_4.4
-NumberSetting_Aura_Rotation Range_4.8
+NumberSetting_Aura_Range_5.0
+NumberSetting_Aura_Rotation Range_6.7
 NumberSetting_Aura_Extended Range_12.0
 BooleanSetting_Aura_Extended Range_false
 NumberSetting_Aura_Min CPS_13.0
@@ -61,7 +61,7 @@ BooleanSetting_Aura_1.9 Delay_false
 BooleanSetting_Aura_1.9 Swing_false
 BooleanSetting_Aura_Players_true
 BooleanSetting_Aura_Non Players_false
-BooleanSetting_Aura_Ignore Teammates_false
+BooleanSetting_Aura_Ignore Teammates_true
 BooleanSetting_Aura_Invisibles_true
 BooleanSetting_Aura_Attack Dead_false
 BooleanSetting_Aura_Target ESP_true
@@ -116,14 +116,6 @@ NumberSetting_TargetStrafe_Range_2.0
 BooleanSetting_TargetStrafe_Third Person_false
 BooleanSetting_TargetStrafe_Controllable_true
 BooleanSetting_TargetStrafe_Jump Only_true
-Toggle_FastBow_false
-NumberSetting_FastBow_Targets_4.0
-NumberSetting_FastBow_Packets_20.0
-NumberSetting_FastBow_Range_40.0
-BooleanSetting_FastBow_Timer Bypass_true
-BooleanSetting_FastBow_Invisibles_true
-BooleanSetting_FastBow_Players_true
-BooleanSetting_FastBow_Non Players_true
 Toggle_AutoSoup_false
 NumberSetting_AutoSoup_Health_10.0
 NumberSetting_AutoSoup_Min Delay_300.0
@@ -157,7 +149,7 @@ BooleanSetting_AntiBot_Distance Check_false
 BooleanSetting_AntiBot_Ping Check_false
 Toggle_WTap_false
 BooleanSetting_WTap_Legit_true
-Toggle_Criticals_true
+Toggle_Criticals_false
 ModeSetting_Criticals_Mode_Hypixel
 NumberSetting_Criticals_Delay_425.0000094994905
 Toggle_ComboOneHit_false
@@ -199,16 +191,16 @@ NumberSetting_NoVoid_Fall Distance_3.0
 BooleanSetting_NoVoid_Void Check_true
 BooleanSetting_NoVoid_Show Notifications_false
 Toggle_NoFall_true
-ModeSetting_NoFall_Mode_Tick
+ModeSetting_NoFall_Mode_Ground Spoof
 BooleanSetting_NoFall_Offset_true
 Toggle_Scaffold_false
-ModeSetting_Scaffold_Rotations_Pitch Abuse
+ModeSetting_Scaffold_Rotations_Bruteforce
 ModeSetting_Scaffold_Tower_Hypixel
 ModeSetting_Scaffold_Movement Fix_None
 ModeSetting_Scaffold_Sprint_Hypixel
 ModeSetting_Scaffold_Block Counter_Normal
 NumberSetting_Scaffold_Timer_1.0
-NumberSetting_Scaffold_Tower Timer_2.2
+NumberSetting_Scaffold_Tower Timer_2.0
 BooleanSetting_Scaffold_Tower Move_true
 BooleanSetting_Scaffold_Downwards_true
 BooleanSetting_Scaffold_Safe Walk_true
@@ -227,17 +219,18 @@ NumberSetting_Scaffold_Speed Multiplier_1.0
 NumberSetting_Scaffold_Eagle_15.0
 NumberSetting_Scaffold_Expand_0.0
 BooleanSetting_Scaffold_Ignore Speed_true
-ModeSetting_Scaffold_Ray Cast_Off
+ModeSetting_Scaffold_Ray Cast_Normal
 ModeSetting_Scaffold_Place on_Legit
 BooleanSetting_Scaffold_Drag Click_true
 BooleanSetting_Scaffold_Jitter_false
 BooleanSetting_Scaffold_Telly_false
 ModeSetting_Scaffold_Telly Mode_Legit
+NumberSetting_Scaffold_Teleport Height_0.42
 NumberSetting_Scaffold_Custom Vertical Amount_0.42
 NumberSetting_Scaffold_Custom Horizontal Amount_0.35
 BooleanSetting_Scaffold_Hide Jumps_false
 Toggle_FastBreak_true
-NumberSetting_FastBreak_Speed_0.5
+NumberSetting_FastBreak_Speed_0.4
 Toggle_Manager_false
 ModeSetting_Manager_Mode_None
 NumberSetting_Manager_Min Delay_50.00000111758712
@@ -319,7 +312,7 @@ BooleanSetting_Speed_Cancel C0F_false
 BooleanSetting_Speed_Cancel C00_false
 NumberSetting_Speed_Speed_1.8
 NumberSetting_Speed_Pulse_44.3
-BooleanSetting_Speed_Damage Boost_true
+BooleanSetting_Speed_Damage Boost_false
 NumberSetting_Speed_Speed Multiplier_1.0
 NumberSetting_Speed_Timer Boost_2.0
 NumberSetting_Speed_Tick_5.0
@@ -350,7 +343,7 @@ ModeSetting_Jesus_Mode_Jump
 NumberSetting_Jesus_Motion_0.3
 NumberSetting_Jesus_Speed_0.2
 Toggle_NoSlow_true
-ModeSetting_NoSlow_Mode_Vanilla
+ModeSetting_NoSlow_Mode_Hypixel
 NumberSetting_NoSlow_Slowdown_0.0
 Toggle_HighJump_false
 ModeSetting_HighJump_Mode_Fireball
@@ -485,7 +478,7 @@ BooleanSetting_Disabler_Ghostly_false
 BooleanSetting_Disabler_Lunar_false
 BooleanSetting_Disabler_Position Edit_false
 BooleanSetting_Disabler_Vulcan Reach A_false
-BooleanSetting_Disabler_Verus Combat_true
+BooleanSetting_Disabler_Verus Combat_false
 BooleanSetting_Disabler_Verus_false
 BooleanSetting_Disabler_BlocksMC_false
 BooleanSetting_Disabler_Sentinel_false
@@ -511,7 +504,7 @@ BooleanSetting_Disabler_PacketResourcePacketStatus_false
 Toggle_Plugins_false
 ModeSetting_Plugins_Mode_Bypass
 Toggle_AutoAuthme_false
-Toggle_NoRot_true
+Toggle_NoRot_false
 ModeSetting_NoRot_Mode_Hypixel
 Toggle_Insults_false
 ModeSetting_Insults_Mode_Sigma
@@ -661,7 +654,7 @@ NumberSetting_DamageColor_Green_0.0
 NumberSetting_DamageColor_Blue_0.0
 NumberSetting_DamageColor_Alpha_128.0
 Toggle_2DESP_true
-ModeSetting_2DESP_Mode_Theme
+ModeSetting_2DESP_Mode_White
 Toggle_Enchant_false
 NumberSetting_Enchant_Strength_2.0
 BooleanSetting_Enchant_Rainbow_false
@@ -695,7 +688,7 @@ NumberSetting_Breadcrumbs_Time_150.0
 Toggle_Radar_false
 NumberSetting_Radar_Radar X_325.0
 NumberSetting_Radar_Radar Y_26.0
-Toggle_Blur_true
+Toggle_Blur_false
 Toggle_ChestESP_true
 ModeSetting_ChestESP_Mode_2D
 Toggle_NoHurtCam_true
@@ -721,3 +714,5 @@ BooleanSetting_AutoPot_Randomise Rotations_true
 BooleanSetting_AutoPot_Extra Packet_false
 BooleanSetting_AutoPot_Jump_false
 Toggle_SelfDestruct_false
+Toggle_UHCTeleport_false
+Toggle_LightingTracker_true
