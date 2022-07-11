@@ -2,7 +2,7 @@ Rise_Version_5.99
 MainMenuTheme_LIGHTMODE
 ClientName_watchdog airlines
 Toggle_Interface_true
-ModeSetting_Interface_Theme_Minecraft Rainbow
+ModeSetting_Interface_Theme_Rise Rainbow
 ModeSetting_Interface_List Animation_Slide
 NumberSetting_Interface_Red_0.0
 NumberSetting_Interface_Green_255.0
@@ -17,6 +17,7 @@ BooleanSetting_Interface_Transparent Chat_true
 BooleanSetting_Interface_Custom Chat Font_false
 BooleanSetting_Interface_Show Notifications on Toggle_false
 BooleanSetting_Interface_Blocks Per Second Counter_true
+BooleanSetting_Interface_Lower Case_true
 ModeSetting_Interface_Cape_Electric Sky
 Toggle_TabGui_false
 Toggle_AutoGap_false
@@ -26,7 +27,7 @@ Toggle_AutoHead_true
 NumberSetting_AutoHead_Health_6.0
 NumberSetting_AutoHead_Min Delay_200.00000447034847
 NumberSetting_AutoHead_Max Delay_100.00000223517424
-Toggle_Aura_false
+Toggle_Aura_true
 ModeSetting_Aura_Mode_Switch
 ModeSetting_Aura_Rotation Mode_Custom Advanced
 ModeSetting_Aura_Block Mode_Hypixel
@@ -61,7 +62,7 @@ BooleanSetting_Aura_1.9 Delay_false
 BooleanSetting_Aura_1.9 Swing_false
 BooleanSetting_Aura_Players_true
 BooleanSetting_Aura_Non Players_false
-BooleanSetting_Aura_Ignore Teammates_true
+BooleanSetting_Aura_Ignore Teammates_false
 BooleanSetting_Aura_Invisibles_true
 BooleanSetting_Aura_Attack Dead_false
 BooleanSetting_Aura_Target ESP_true
@@ -168,7 +169,7 @@ BooleanSetting_Derp_Twerk_false
 BooleanSetting_Derp_Down_false
 Toggle_ChestAura_false
 NumberSetting_ChestAura_Range_6.0
-Toggle_Stealer_false
+Toggle_Stealer_true
 NumberSetting_Stealer_Min Delay_50.00000111758712
 NumberSetting_Stealer_Max Delay_75.00000167638068
 BooleanSetting_Stealer_Steal trash items_false
@@ -185,9 +186,9 @@ BooleanSetting_FastPlace_Randomize_true
 Toggle_FastEat_false
 ModeSetting_FastEat_Mode_Normal
 NumberSetting_FastEat_Speed_100.0
-Toggle_NoVoid_false
-ModeSetting_NoVoid_Mode_Hypixel
-NumberSetting_NoVoid_Fall Distance_3.0
+Toggle_NoVoid_true
+ModeSetting_NoVoid_Mode_Blink
+NumberSetting_NoVoid_Fall Distance_5.0
 BooleanSetting_NoVoid_Void Check_true
 BooleanSetting_NoVoid_Show Notifications_false
 Toggle_NoFall_true
@@ -224,14 +225,10 @@ ModeSetting_Scaffold_Place on_Legit
 BooleanSetting_Scaffold_Drag Click_true
 BooleanSetting_Scaffold_Jitter_false
 BooleanSetting_Scaffold_Telly_false
-ModeSetting_Scaffold_Telly Mode_Legit
-NumberSetting_Scaffold_Teleport Height_0.42
-NumberSetting_Scaffold_Custom Vertical Amount_0.42
-NumberSetting_Scaffold_Custom Horizontal Amount_0.35
 BooleanSetting_Scaffold_Hide Jumps_false
 Toggle_FastBreak_true
 NumberSetting_FastBreak_Speed_0.4
-Toggle_Manager_false
+Toggle_Manager_true
 ModeSetting_Manager_Mode_None
 NumberSetting_Manager_Min Delay_50.00000111758712
 NumberSetting_Manager_Max Delay_100.00000223517424
@@ -269,7 +266,6 @@ NumberSetting_Fly_Multiplier In Air_1.08
 NumberSetting_Fly_Glide_0.03
 NumberSetting_Fly_Timer Speed_2.0
 BooleanSetting_Fly_Strafe_false
-BooleanSetting_Fly_Sprint_true
 BooleanSetting_Fly_Infinite_false
 ModeSetting_Fly_Vanilla Kick Bypass_Off
 BooleanSetting_Fly_Delay Kick Bypass_false
@@ -282,8 +278,6 @@ BooleanSetting_Fly_Disable on World Change_false
 NumberSetting_Fly_View Bobbing_0.1
 Toggle_Speed_false
 ModeSetting_Speed_Mode_Hypixel2
-BooleanSetting_Speed_Timer_false
-BooleanSetting_Speed_Strafe_false
 ModeSetting_Speed_Value_1
 ModeSetting_Speed_Vape Mode_AntiCheat A
 NumberSetting_Speed_Vape Steps_43.5
@@ -312,7 +306,7 @@ BooleanSetting_Speed_Cancel C0F_false
 BooleanSetting_Speed_Cancel C00_false
 NumberSetting_Speed_Speed_1.8
 NumberSetting_Speed_Pulse_44.3
-BooleanSetting_Speed_Damage Boost_false
+BooleanSetting_Speed_Damage Boost_true
 NumberSetting_Speed_Speed Multiplier_1.0
 NumberSetting_Speed_Timer Boost_2.0
 NumberSetting_Speed_Tick_5.0
@@ -332,7 +326,7 @@ NumberSetting_Speed_Distance_62.39
 BooleanSetting_Speed_Disable on flag_false
 BooleanSetting_Speed_Stop on Disable_false
 BooleanSetting_Speed_Disable on World Change_false
-BooleanSetting_Speed_Damage Boost_false
+BooleanSetting_Speed_Damage Boost_true
 NumberSetting_Speed_Hypixel Timer_1.2
 NumberSetting_Speed_Hypixel Combat Timer_1.2
 Toggle_No0.03_false
@@ -362,6 +356,10 @@ NumberSetting_LongJump_Off Ground Speed_2.5
 NumberSetting_LongJump_Timer_1.0
 NumberSetting_LongJump_View Bobbing_0.1
 NumberSetting_LongJump_Hypixel Timer_1.0
+NumberSetting_LongJump_Off Ground Speed_1.0
+NumberSetting_LongJump_Damage Boost_2.0
+NumberSetting_LongJump_MotionY_0.8
+NumberSetting_LongJump_Amount Of Glide_27.0
 Toggle_InvMove_true
 NumberSetting_InvMove_Slow Down_1.0
 BooleanSetting_InvMove_Packet_false
@@ -468,6 +466,7 @@ BooleanSetting_AutoHypixel_Disconnect on velocity test_true
 ModeSetting_AutoHypixel_Disconnect Method_Limbo
 Toggle_Disabler_true
 BooleanSetting_Disabler_Hypixel_true
+BooleanSetting_Disabler_Hypixel Ban Wave_false
 BooleanSetting_Disabler_Mineland_false
 BooleanSetting_Disabler_Minemenclub Keepsprint Check_false
 BooleanSetting_Disabler_Minemenclub Reach Semi_false
@@ -695,9 +694,8 @@ Toggle_NoHurtCam_true
 Toggle_CameraClip_false
 Toggle_ItemPhysics_false
 Toggle_MotionGraph_false
-NumberSetting_MotionGraph_Width_140.0
-NumberSetting_MotionGraph_Height_5.0
 NumberSetting_MotionGraph_Y Offset_-180.0
+NumberSetting_MotionGraph_X Offset_-210.0
 Toggle_NoAchievements_false
 Toggle_ImageESP_false
 ModeSetting_ImageESP_Image_Dream
@@ -715,4 +713,4 @@ BooleanSetting_AutoPot_Extra Packet_false
 BooleanSetting_AutoPot_Jump_false
 Toggle_SelfDestruct_false
 Toggle_UHCTeleport_false
-Toggle_LightingTracker_true
+Toggle_LightningTracker_false 
