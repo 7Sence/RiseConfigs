@@ -2,7 +2,7 @@ Rise_Version_5.99
 MainMenuTheme_LIGHTMODE
 ClientName_watchdog airlines
 Toggle_Interface_true
-ModeSetting_Interface_Theme_Rise Rainbow
+ModeSetting_Interface_Theme_Minecraft Rainbow
 ModeSetting_Interface_List Animation_Slide
 NumberSetting_Interface_Red_0.0
 NumberSetting_Interface_Green_255.0
@@ -17,7 +17,6 @@ BooleanSetting_Interface_Transparent Chat_true
 BooleanSetting_Interface_Custom Chat Font_false
 BooleanSetting_Interface_Show Notifications on Toggle_false
 BooleanSetting_Interface_Blocks Per Second Counter_true
-BooleanSetting_Interface_Lower Case_true
 ModeSetting_Interface_Cape_Electric Sky
 Toggle_TabGui_false
 Toggle_AutoGap_false
@@ -27,7 +26,7 @@ Toggle_AutoHead_true
 NumberSetting_AutoHead_Health_6.0
 NumberSetting_AutoHead_Min Delay_200.00000447034847
 NumberSetting_AutoHead_Max Delay_100.00000223517424
-Toggle_Aura_true
+Toggle_Aura_false
 ModeSetting_Aura_Mode_Switch
 ModeSetting_Aura_Rotation Mode_Custom Advanced
 ModeSetting_Aura_Block Mode_Hypixel
@@ -186,8 +185,8 @@ BooleanSetting_FastPlace_Randomize_true
 Toggle_FastEat_false
 ModeSetting_FastEat_Mode_Normal
 NumberSetting_FastEat_Speed_100.0
-Toggle_NoVoid_true
-ModeSetting_NoVoid_Mode_Blink
+Toggle_NoVoid_false
+ModeSetting_NoVoid_Mode_Hypixel
 NumberSetting_NoVoid_Fall Distance_5.0
 BooleanSetting_NoVoid_Void Check_true
 BooleanSetting_NoVoid_Show Notifications_false
@@ -306,7 +305,7 @@ BooleanSetting_Speed_Cancel C0F_false
 BooleanSetting_Speed_Cancel C00_false
 NumberSetting_Speed_Speed_1.8
 NumberSetting_Speed_Pulse_44.3
-BooleanSetting_Speed_Damage Boost_true
+BooleanSetting_Speed_Damage Boost_false
 NumberSetting_Speed_Speed Multiplier_1.0
 NumberSetting_Speed_Timer Boost_2.0
 NumberSetting_Speed_Tick_5.0
@@ -356,10 +355,6 @@ NumberSetting_LongJump_Off Ground Speed_2.5
 NumberSetting_LongJump_Timer_1.0
 NumberSetting_LongJump_View Bobbing_0.1
 NumberSetting_LongJump_Hypixel Timer_1.0
-NumberSetting_LongJump_Off Ground Speed_1.0
-NumberSetting_LongJump_Damage Boost_2.0
-NumberSetting_LongJump_MotionY_0.8
-NumberSetting_LongJump_Amount Of Glide_27.0
 Toggle_InvMove_true
 NumberSetting_InvMove_Slow Down_1.0
 BooleanSetting_InvMove_Packet_false
@@ -713,4 +708,4 @@ BooleanSetting_AutoPot_Extra Packet_false
 BooleanSetting_AutoPot_Jump_false
 Toggle_SelfDestruct_false
 Toggle_UHCTeleport_false
-Toggle_LightningTracker_false 
+Toggle_LightningTracker_false
