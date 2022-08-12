@@ -1,6 +1,6 @@
 Rise_Version_5.96
 MainMenuTheme_LIGHTMODE
-ClientName_morgan anticheat
+ClientName_morgan anticheat | DISABLER+FLY SAME KEY
 Toggle_Interface_true
 ModeSetting_Interface_Theme_Rise Cotton Candy
 ModeSetting_Interface_List Animation_Slide
