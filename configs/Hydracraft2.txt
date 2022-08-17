@@ -1,6 +1,6 @@
 Rise_Version_5.100
 MainMenuTheme_LIGHTMODE
-ClientName_celluzz loves verus | cellu#4330
+ClientName_by cellu#4330 and lilylikinnq#2859
 Toggle_Interface_true
 ModeSetting_Interface_Theme_Rise Blend
 ModeSetting_Interface_List Animation_Rise
