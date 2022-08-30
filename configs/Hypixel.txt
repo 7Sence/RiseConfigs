@@ -217,7 +217,7 @@ NumberSetting_Scaffold_Rotation Speed_359.999994635582
 NumberSetting_Scaffold_Randomisation_0.0
 NumberSetting_Scaffold_Place Delay_0.0
 BooleanSetting_Scaffold_Randomise Place Delay_false
-NumberSetting_Scaffold_Speed Multiplier_0.95
+NumberSetting_Scaffold_Speed Multiplier_0.9
 NumberSetting_Scaffold_Eagle_15.0
 NumberSetting_Scaffold_Expand_0.0
 BooleanSetting_Scaffold_Ignore Speed_true
